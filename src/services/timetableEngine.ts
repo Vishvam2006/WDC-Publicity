@@ -1,4 +1,4 @@
-import type { TimetableEntry } from '../db/db';
+import type { TimetableEntry } from './api';
 
 export function timeToMinutes(timeStr: string): number {
   if (!timeStr) return 0;

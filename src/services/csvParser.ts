@@ -110,9 +110,12 @@ export function parseMatrixCsv(csvText: string, targetSubGroup?: string): Promis
           // Stop parsing when we hit the Faculty Abbr. section
           if (row[0] && row[0].includes('Faculty Abbr')) break;
 
-          const dayCell = row[0] ? row[0].trim() : '';
-          if (dayCell && ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'].includes(dayCell)) {
-            currentDay = dayCell;
+          const dayCellRaw = row[0] ? row[0].trim() : '';
+          const dayCellLower = dayCellRaw.toLowerCase();
+          const validDays = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'];
+          if (dayCellRaw && validDays.includes(dayCellLower)) {
+            // Capitalize first letter
+            currentDay = dayCellLower.charAt(0).toUpperCase() + dayCellLower.slice(1);
           }
 
           if (!currentDay) continue;
@@ -121,20 +124,21 @@ export function parseMatrixCsv(csvText: string, targetSubGroup?: string): Promis
             const cell = row[j] ? row[j].trim() : '';
             const timeSlot = timeSlots[j - 1];
 
-            if (!cell || !timeSlot || cell.includes('BREAK') || cell === 'MINOR') {
+            if (!cell || !timeSlot || cell.toUpperCase().includes('BREAK') || cell.toUpperCase() === 'MINOR') {
               continue;
             }
 
             // Target format: "G1G2 (24CS203T) F-503, ADSH-L"
-            const cellRegex = /^([^\s]+)\s*\(([^)]+)\)\s*([^,]+),\s*([^-]+)-(\w)$/;
+            // Make regex looser: comma optional, spaces optional
+            const cellRegex = /^([^\s]+)\s*\(([^)]+)\)\s*([^,]+),?\s*([^-]+)-?(\w)?$/;
             const match = cell.match(cellRegex);
             
             if (match) {
               const groups = match[1]; // G1G2 or G1
               const subjectCode = match[2];
-              const room = match[3];
-              const faculty = match[4];
-              const type = match[5];
+              const room = match[3] ? match[3].trim() : '';
+              const faculty = match[4] ? match[4].trim() : '';
+              const type = match[5] || '';
 
               // Filter sub-group if provided
               if (targetSubGroup && targetSubGroup.trim() !== '') {
@@ -149,7 +153,7 @@ export function parseMatrixCsv(csvText: string, targetSubGroup?: string): Promis
                 day: currentDay,
                 start_time: timeSlot.start,
                 end_time: timeSlot.end,
-                subject: `${subjectCode} (${type})`, // Using code as subject for now
+                subject: `${subjectCode}${type ? ` (${type})` : ''}`, 
                 teacher: faculty,
                 room: room,
                 notes: groups,

@@ -1,15 +1,12 @@
-import { useLiveQuery } from 'dexie-react-hooks';
-import { db } from '../db/db';
+import { useEffect, useState } from 'react';
+import { api } from '../services/api';
 
 export default function Dashboard() {
-  const stats = useLiveQuery(async () => {
-    return {
-      masterClasses: await db.timetable_entries.where('timetable_id').equals(1).count(),
-      publicGroups: await db.timetables.where('type').equals('public').count(),
-      trackedPending: await db.tracked_activities.where('status').equals('Planned').count(),
-      trackedCompleted: await db.tracked_activities.where('status').equals('Completed').count(),
-    };
-  });
+  const [stats, setStats] = useState<any>(null);
+
+  useEffect(() => {
+    api.getStats().then(setStats).catch(console.error);
+  }, []);
 
   return (
     <div>

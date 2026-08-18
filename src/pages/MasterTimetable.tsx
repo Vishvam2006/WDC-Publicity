@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { db } from '../db/db';
+import { api } from '../services/api';
 import { parseCsvText, parseMatrixCsv, validateTimetableRows } from '../services/csvParser';
 import { timeToMinutes } from '../services/timetableEngine';
 
@@ -30,7 +30,7 @@ export default function MasterTimetable() {
       }
 
       setStatus('Saving to database...');
-      await db.timetables.put({
+      await api.saveTimetable({
         id: 1, // Fix to 1 for MVP master
         owner_id: 1,
         name: 'My Master Timetable',
@@ -45,7 +45,7 @@ export default function MasterTimetable() {
         updated_at: new Date().toISOString()
       });
 
-      await db.timetable_entries.where('timetable_id').equals(1).delete();
+      await api.deleteTimetableEntries(1);
 
       const entries = validRows.map(r => ({
         timetable_id: 1,
@@ -64,8 +64,7 @@ export default function MasterTimetable() {
         updated_at: new Date().toISOString()
       }));
 
-      // @ts-ignore
-      await db.timetable_entries.bulkAdd(entries);
+      await api.bulkAddTimetableEntries(entries);
       setStatus(`Successfully imported ${entries.length} master classes!`);
       setCsvText('');
     } catch (e: any) {

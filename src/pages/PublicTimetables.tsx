@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { db } from '../db/db';
+import { api } from '../services/api';
 import { parseCsvText, parseMatrixCsv, validateTimetableRows } from '../services/csvParser';
 import { timeToMinutes } from '../services/timetableEngine';
 
@@ -37,24 +37,24 @@ export default function PublicTimetables() {
       }
 
       setStatus('Saving to database...');
-      
+
       // Ensure group hierarchy exists
-      let dept: any = await db.departments.where('name').equals(department).first();
-      if (!dept) dept = await db.departments.add({ name: department, code: department, created_at: new Date().toISOString(), updated_at: new Date().toISOString() } as any);
-      const deptId = typeof dept === 'number' ? dept : dept.id;
+      let dept: any = await api.getDepartmentByName(department);
+      if (!dept) dept = await api.addDepartment({ name: department, code: department, created_at: new Date().toISOString(), updated_at: new Date().toISOString() });
+      const deptId = dept.id;
 
-      let btc: any = await db.batches.where({ department_id: deptId, name: batch }).first();
-      if (!btc) btc = await db.batches.add({ department_id: deptId, name: batch, academic_year: '2026-2027', created_at: new Date().toISOString(), updated_at: new Date().toISOString() } as any);
-      const batchId = typeof btc === 'number' ? btc : btc.id;
+      let btc: any = await api.getBatchByNameAndDept(batch, deptId);
+      if (!btc) btc = await api.addBatch({ department_id: deptId, name: batch, academic_year: '2026-2027', created_at: new Date().toISOString(), updated_at: new Date().toISOString() });
+      const batchId = btc.id;
 
-      let div: any = await db.divisions.where({ batch_id: batchId, name: division }).first();
-      if (!div) div = await db.divisions.add({ batch_id: batchId, name: division, display_name: division, created_at: new Date().toISOString(), updated_at: new Date().toISOString() } as any);
-      const divId = typeof div === 'number' ? div : div.id;
+      let div: any = await api.getDivisionByNameAndBatch(division, batchId);
+      if (!div) div = await api.addDivision({ batch_id: batchId, name: division, display_name: division, created_at: new Date().toISOString(), updated_at: new Date().toISOString() });
+      const divId = div.id;
 
       const groupName = `${department} ${batch} ${division}`;
 
       // Create a new public timetable entry
-      const timetableId = await db.timetables.add({
+      const { id: timetableId } = await api.saveTimetable({
         owner_id: 1,
         name: `${groupName} Timetable`,
         type: 'public',
@@ -88,8 +88,7 @@ export default function PublicTimetables() {
         updated_at: new Date().toISOString()
       }));
 
-      // @ts-ignore
-      await db.timetable_entries.bulkAdd(entries);
+      await api.bulkAddTimetableEntries(entries);
       setStatus(`Successfully imported ${entries.length} classes for ${groupName}!`);
       setCsvText('');
     } catch (e: any) {
@@ -103,12 +102,12 @@ export default function PublicTimetables() {
     <div>
       <h1 style={{ marginBottom: '1rem' }}>Import Public Timetable</h1>
       <p style={{ marginBottom: '2rem' }}>Paste a public timetable CSV to compare against your free slots.</p>
-      
+
       <div className="card" style={{ marginBottom: '2rem' }}>
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '1rem', marginBottom: '1rem' }}>
           <div className="form-group">
             <label>Department</label>
-            <input className="form-control" value={department} onChange={e => setDepartment(e.target.value)} placeholder="e.g. CAC" />
+            <input className="form-control" value={department} onChange={e => setDepartment(e.target.value)} placeholder="e.g. CSE" />
           </div>
           <div className="form-group">
             <label>Batch</label>
@@ -131,10 +130,10 @@ export default function PublicTimetables() {
           {format === 'matrix' && (
             <div className="form-group">
               <label>Sub-Group (Optional, e.g. G1)</label>
-              <input 
-                className="form-control" 
-                value={subGroup} 
-                onChange={e => setSubGroup(e.target.value)} 
+              <input
+                className="form-control"
+                value={subGroup}
+                onChange={e => setSubGroup(e.target.value)}
                 placeholder="G1"
               />
             </div>
@@ -143,8 +142,8 @@ export default function PublicTimetables() {
 
         <div className="form-group">
           <label>CSV Data</label>
-          <textarea 
-            className="form-control" 
+          <textarea
+            className="form-control"
             value={csvText}
             onChange={(e) => setCsvText(e.target.value)}
             placeholder={format === 'matrix' ? 'Paste the full PDEU matrix here...' : 'day,start_time,end_time,subject,teacher,room\nMonday,10:00,11:00,Physics,Prof. Y,Room 102'}

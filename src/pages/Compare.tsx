@@ -1,32 +1,40 @@
-import { useState, useMemo } from 'react';
-import { useLiveQuery } from 'dexie-react-hooks';
-import { db, type TimetableEntry } from '../db/db';
+import { useState, useMemo, useEffect } from 'react';
+import { api, type TimetableEntry } from '../services/api';
 import { detectMasterFreeIntervals, findOverlappingPublicClasses, minutesToTime } from '../services/timetableEngine';
 
 export default function Compare() {
   const [selectedDay, setSelectedDay] = useState('Monday');
+  const [data, setData] = useState<any>(null);
 
-  const data = useLiveQuery(async () => {
-    const masterEntries = await db.timetable_entries.where('timetable_id').equals(1).toArray();
-    const publicTimetables = await db.timetables.where('type').equals('public').toArray();
-    const publicTimetableIds = publicTimetables.map(t => t.id);
-    
-    // @ts-ignore
-    const publicEntries = await db.timetable_entries.where('timetable_id').anyOf(publicTimetableIds).toArray();
-    
-    // Also fetch tracked activities to show status
-    const tracked = await db.tracked_activities.toArray();
+  const loadData = async () => {
+    try {
+      const masterEntries = await api.getTimetableEntries(1);
+      const publicTimetables = await api.getTimetables('public');
+      const publicTimetableIds = publicTimetables.map((t: any) => t.id);
+      
+      let publicEntries: any[] = [];
+      if (publicTimetableIds.length > 0) {
+        publicEntries = await api.getTimetableEntries(publicTimetableIds);
+      }
+      
+      const tracked = await api.getTrackedActivities();
+      setData({ masterEntries, publicEntries, publicTimetables, tracked });
+    } catch (e) {
+      console.error(e);
+    }
+  };
 
-    return { masterEntries, publicEntries, publicTimetables, tracked };
-  });
+  useEffect(() => {
+    loadData();
+  }, []);
 
   const comparison = useMemo(() => {
     if (!data) return null;
     const { masterEntries, publicEntries, publicTimetables, tracked } = data;
 
     // Filter by day
-    const dayMaster = masterEntries.filter(e => e.day_of_week === selectedDay);
-    const dayPublic = publicEntries.filter(e => e.day_of_week === selectedDay);
+    const dayMaster = masterEntries.filter((e: any) => e.day_of_week === selectedDay);
+    const dayPublic = publicEntries.filter((e: any) => e.day_of_week === selectedDay);
 
     const freeIntervals = detectMasterFreeIntervals(dayMaster);
     const overlaps = findOverlappingPublicClasses(freeIntervals, dayPublic);
@@ -36,24 +44,25 @@ export default function Compare() {
 
   const handleTrackActivity = async (entry: TimetableEntry) => {
     try {
-      // Check if already tracked today
       const today = new Date().toISOString().split('T')[0];
-      const existing = await db.tracked_activities.where({
-        master_timetable_id: 1,
-        source_entry_id: entry.id,
-        activity_date: today
-      }).first();
+      const allTracked = await api.getTrackedActivities();
+      const existing = allTracked.find((t: any) => 
+        t.master_timetable_id === 1 && 
+        t.source_entry_id === entry.id && 
+        t.activity_date === today
+      );
 
       if (!existing) {
-        await db.tracked_activities.add({
+        await api.addTrackedActivity({
           master_timetable_id: 1,
           source_timetable_id: entry.timetable_id,
-          source_entry_id: entry.id,
+          source_entry_id: entry.id!,
           activity_date: today,
           status: 'Planned',
           created_at: new Date().toISOString(),
           updated_at: new Date().toISOString()
         });
+        loadData();
       }
     } catch(e) {
       console.error(e);
@@ -76,7 +85,7 @@ export default function Compare() {
         <h2 style={{ marginBottom: '1rem' }}>My Classes ({selectedDay})</h2>
         {comparison?.dayMaster.length === 0 ? <p>No classes.</p> : (
           <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', marginBottom: '2rem' }}>
-            {comparison?.dayMaster.map(e => (
+            {comparison?.dayMaster.map((e: any) => (
               <div key={e.id} className="slot-my-class">
                 <strong>{e.start_time} - {e.end_time}</strong>: {e.subject} ({e.room || 'No Room'})
               </div>
@@ -94,9 +103,9 @@ export default function Compare() {
                 </div>
                 
                 <div style={{ marginTop: '0.5rem', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-                  {overlap.overlappingEntries.map(pubEntry => {
-                    const timetable = comparison.publicTimetables.find(t => t.id === pubEntry.timetable_id);
-                    const isTracked = comparison.tracked.some(t => t.source_entry_id === pubEntry.id);
+                  {overlap.overlappingEntries.map((pubEntry: any) => {
+                    const timetable = comparison.publicTimetables.find((t: any) => t.id === pubEntry.timetable_id);
+                    const isTracked = comparison.tracked.some((t: any) => t.source_entry_id === pubEntry.id);
                     
                     return (
                       <div key={pubEntry.id} className="slot-other-class" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>

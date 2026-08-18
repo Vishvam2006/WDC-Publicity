@@ -1,7 +1,5 @@
-import { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
 import { LayoutDashboard, Calendar, CalendarDays, GitCompare, CheckSquare, Users } from 'lucide-react';
-import { seedDatabase } from './db/seed';
 
 // Placeholders for pages
 import Dashboard from './pages/Dashboard';
@@ -12,9 +10,6 @@ import Tracker from './pages/Tracker';
 import GroupManagement from './pages/GroupManagement';
 
 function App() {
-  useEffect(() => {
-    seedDatabase().catch(console.error);
-  }, []);
 
   return (
     <Router>
