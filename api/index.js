@@ -3,7 +3,7 @@ const cors = require('cors');
 const { neon } = require('@neondatabase/serverless');
 
 const app = express();
-app.use(cors());
+app.use(cors({ origin: true, credentials: true }));
 app.use(express.json({ limit: '5mb' }));
 
 // ─── Database helper ───
@@ -419,6 +419,11 @@ app.post('/api/time_slots/bulk', async (req, res) => {
     }
     res.json({ success: true });
   } catch (e) { res.status(500).json({ error: e.message }); }
+});
+
+// ─── Health Check ───
+app.get('/api/health', (req, res) => {
+  res.json({ status: 'ok' });
 });
 
 module.exports = app;

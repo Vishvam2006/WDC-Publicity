@@ -244,5 +244,9 @@ router.get('/divisions/:id', async (req, res) => {
   res.json(result);
 });
 
+// -- Health Check --
+router.get('/health', (req, res) => {
+  res.json({ status: 'ok' });
+});
 
 module.exports = router;
