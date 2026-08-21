@@ -1,103 +1,106 @@
-import { useEffect, useState } from 'react';
-import { api } from '../services/api';
+import { useState, useEffect } from 'react';
+import timetableData from '../data/timetable.json';
 
-export default function Tracker() {
-  const [data, setData] = useState<any[]>([]);
-
-  const loadData = async () => {
-    try {
-      const activities = await api.getTrackedActivities();
-      
-      const resolved = await Promise.all(activities.map(async (act: any) => {
-        const entry = await api.getTimetableEntry(act.source_entry_id);
-        let timetable = null;
-        if (entry && entry.timetable_id) {
-          timetable = await api.getTimetable(entry.timetable_id);
-        }
-        
-        return {
-          ...act,
-          subject: entry?.subject || 'Unknown',
-          time: `${entry?.start_time || ''} - ${entry?.end_time || ''}`,
-          group: timetable?.name || 'Unknown'
-        };
-      }));
-      setData(resolved);
-    } catch (e) {
-      console.error(e);
-    }
-  };
+export default function Tracker({ profile }: { profile: any }) {
+  const [completedClasses, setCompletedClasses] = useState<Record<string, boolean>>({});
+  const [currentDay, setCurrentDay] = useState('');
+  const [currentDateString, setCurrentDateString] = useState('');
 
   useEffect(() => {
-    loadData();
+    const date = new Date();
+    const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    const dayName = days[date.getDay()];
+    
+    // Set to Monday if it's Sunday
+    const displayDay = dayName === 'Sunday' ? 'Monday' : dayName;
+    setCurrentDay(displayDay);
+
+    const dateStr = date.toISOString().split('T')[0];
+    setCurrentDateString(dateStr);
+
+    const saved = localStorage.getItem('pdpu_tracked_classes');
+    if (saved) {
+      try {
+        const parsed = JSON.parse(saved);
+        if (parsed.date === dateStr) {
+          setCompletedClasses(parsed.classes || {});
+        } else {
+          // Clear if it's a new day
+          setCompletedClasses({});
+          localStorage.setItem('pdpu_tracked_classes', JSON.stringify({ date: dateStr, classes: {} }));
+        }
+      } catch (e) {
+        console.error(e);
+      }
+    } else {
+      localStorage.setItem('pdpu_tracked_classes', JSON.stringify({ date: dateStr, classes: {} }));
+    }
   }, []);
 
-  const handleStatusChange = async (id: number, newStatus: string) => {
-    await api.updateTrackedActivity(id, { 
-      status: newStatus as any,
-      completed_at: newStatus === 'Completed' ? new Date().toISOString() : undefined,
-      updated_at: new Date().toISOString()
-    });
-    loadData();
+  const handleToggle = (id: string) => {
+    const updated = { ...completedClasses, [id]: !completedClasses[id] };
+    setCompletedClasses(updated);
+    localStorage.setItem('pdpu_tracked_classes', JSON.stringify({ date: currentDateString, classes: updated }));
   };
 
-  const handleDelete = async (id: number) => {
-    await api.deleteTrackedActivity(id);
-    loadData();
-  };
+  const myClasses = timetableData.filter((c: any) => {
+    if (profile.department && c.department !== profile.department) return false;
+    if (profile.year && c.year !== profile.year) return false;
+    if (profile.division && c.division !== profile.division) return false;
+    if (c.day !== currentDay) return false;
+    return true;
+  }).sort((a, b) => a.startTime.localeCompare(b.startTime));
 
   return (
     <div>
-      <h1 style={{ marginBottom: '2rem' }}>Activity Tracker</h1>
+      <h1 style={{ marginBottom: '1rem' }}>Activity Tracker</h1>
+      <p style={{ marginBottom: '2rem', color: '#666' }}>
+        Track your classes for today ({currentDay}, {currentDateString}).
+      </p>
       
       <div className="card">
-        {data && data.length > 0 ? (
-          <div className="table-responsive">
-            <table>
-              <thead>
-                <tr>
-                  <th>Date</th>
-                  <th>Group</th>
-                  <th>Subject</th>
-                  <th>Time</th>
-                  <th>Status</th>
-                  <th>Actions</th>
-                </tr>
-              </thead>
-              <tbody>
-                {data.map(act => (
-                  <tr key={act.id}>
-                    <td>{act.activity_date}</td>
-                    <td>{act.group}</td>
-                    <td>{act.subject}</td>
-                    <td>{act.time}</td>
-                    <td>
-                      <span className={`badge ${act.status === 'Completed' ? 'badge-success' : 'badge-warning'}`}>
-                        {act.status}
-                      </span>
-                    </td>
-                    <td>
-                      {act.status !== 'Completed' && (
-                        <button className="btn btn-primary" style={{ marginRight: '0.5rem', padding: '0.25rem 0.5rem' }} onClick={() => handleStatusChange(act.id, 'Completed')}>
-                          Complete
-                        </button>
-                      )}
-                      {act.status === 'Completed' && (
-                        <button className="btn" style={{ marginRight: '0.5rem', padding: '0.25rem 0.5rem' }} onClick={() => handleStatusChange(act.id, 'Planned')}>
-                          Undo
-                        </button>
-                      )}
-                      <button className="btn" style={{ backgroundColor: 'var(--danger)', color: 'white', padding: '0.25rem 0.5rem' }} onClick={() => handleDelete(act.id)}>
-                        Delete
-                      </button>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
+        {myClasses.length > 0 ? (
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            {myClasses.map((c: any) => (
+              <div 
+                key={c.id} 
+                style={{ 
+                  display: 'flex', 
+                  alignItems: 'center', 
+                  padding: '1rem', 
+                  border: '1px solid #eee', 
+                  borderRadius: '8px',
+                  backgroundColor: completedClasses[c.id] ? '#f8fff8' : 'white',
+                  opacity: completedClasses[c.id] ? 0.7 : 1,
+                  transition: 'all 0.2s'
+                }}
+              >
+                <div style={{ marginRight: '1rem' }}>
+                  <input 
+                    type="checkbox" 
+                    checked={completedClasses[c.id] || false} 
+                    onChange={() => handleToggle(c.id)}
+                    style={{ width: '20px', height: '20px', cursor: 'pointer' }}
+                  />
+                </div>
+                <div style={{ flex: 1 }}>
+                  <h3 style={{ margin: 0, textDecoration: completedClasses[c.id] ? 'line-through' : 'none' }}>
+                    {c.subject}
+                  </h3>
+                  <div style={{ color: '#666', fontSize: '0.9rem', marginTop: '0.25rem' }}>
+                    {c.faculty} • {c.room} • {c.type}
+                  </div>
+                </div>
+                <div style={{ textAlign: 'right', fontWeight: 'bold' }}>
+                  {c.startTime} - {c.endTime}
+                </div>
+              </div>
+            ))}
           </div>
         ) : (
-          <p>No activities tracked yet. Go to Compare to track some!</p>
+          <div style={{ textAlign: 'center', padding: '2rem', color: '#666' }}>
+            No classes scheduled for today!
+          </div>
         )}
       </div>
     </div>

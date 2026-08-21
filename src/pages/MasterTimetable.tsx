@@ -1,120 +1,57 @@
-import { useState } from 'react';
-import { api } from '../services/api';
-import { parseCsvText, parseMatrixCsv, validateTimetableRows } from '../services/csvParser';
-import { timeToMinutes } from '../services/timetableEngine';
+import timetableData from '../data/timetable.json';
 
-export default function MasterTimetable() {
-  const [format, setFormat] = useState('list');
-  const [subGroup, setSubGroup] = useState('');
-  const [csvText, setCsvText] = useState('');
-  const [loading, setLoading] = useState(false);
-  const [status, setStatus] = useState('');
+export default function MasterTimetable({ profile }: { profile: any }) {
+  // Filter the pre-loaded JSON data based on user profile
+  const myClasses = timetableData.filter((c: any) => {
+    if (profile.department && c.department !== profile.department) return false;
+    if (profile.year && c.year !== profile.year) return false;
+    if (profile.division && c.division !== profile.division) return false;
+    return true;
+  });
 
-  const handleImport = async () => {
-    setLoading(true);
-    setStatus('Parsing CSV...');
-    try {
-      let rows;
-      if (format === 'matrix') {
-        rows = await parseMatrixCsv(csvText, subGroup);
-      } else {
-        rows = await parseCsvText(csvText);
-      }
-      
-      const { validRows, invalidRows } = validateTimetableRows(rows);
-
-      if (invalidRows.length > 0) {
-        setStatus(`Found ${invalidRows.length} invalid rows. Example error: ${invalidRows[0].errors.join(', ')}`);
-        setLoading(false);
-        return;
-      }
-
-      setStatus('Saving to database...');
-      await api.saveTimetable({
-        id: 1, // Fix to 1 for MVP master
-        owner_id: 1,
-        name: 'My Master Timetable',
-        type: 'master',
-        academic_year: '2026-2027',
-        semester: '1',
-        effective_from: new Date().toISOString(),
-        effective_to: new Date().toISOString(),
-        version: 1,
-        status: 'active',
-        created_at: new Date().toISOString(),
-        updated_at: new Date().toISOString()
-      });
-
-      await api.deleteTimetableEntries(1);
-
-      const entries = validRows.map(r => ({
-        timetable_id: 1,
-        day_of_week: r.day,
-        specific_date: r.date,
-        start_time: r.start_time!,
-        end_time: r.end_time!,
-        start_minutes: timeToMinutes(r.start_time!),
-        end_minutes: timeToMinutes(r.end_time!),
-        subject: r.subject!,
-        teacher: r.teacher,
-        room: r.room,
-        notes: r.notes,
-        source_row_number: r._source_row_number,
-        created_at: new Date().toISOString(),
-        updated_at: new Date().toISOString()
-      }));
-
-      await api.bulkAddTimetableEntries(entries);
-      setStatus(`Successfully imported ${entries.length} master classes!`);
-      setCsvText('');
-    } catch (e: any) {
-      setStatus(`Error: ${e.message}`);
-    } finally {
-      setLoading(false);
-    }
-  };
+  const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
   return (
     <div>
-      <h1 style={{ marginBottom: '1rem' }}>My Master Timetable</h1>
-      <p style={{ marginBottom: '2rem' }}>Paste your master timetable CSV here to update your free slots.</p>
+      <h1 style={{ marginBottom: '1rem' }}>My Timetable</h1>
+      <p style={{ marginBottom: '2rem', color: '#666' }}>
+        Your full weekly schedule for {profile.year} {profile.department} Div {profile.division}
+      </p>
       
-      <div className="card" style={{ marginBottom: '2rem' }}>
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem', marginBottom: '1rem' }}>
-          <div className="form-group">
-            <label>CSV Format</label>
-            <select className="form-control" value={format} onChange={e => setFormat(e.target.value)}>
-              <option value="list">Standard List Format</option>
-              <option value="matrix">PDEU Matrix Format</option>
-            </select>
-          </div>
-          {format === 'matrix' && (
-            <div className="form-group">
-              <label>My Sub-Group (Optional, e.g. G1)</label>
-              <input 
-                className="form-control" 
-                value={subGroup} 
-                onChange={e => setSubGroup(e.target.value)} 
-                placeholder="G1"
-              />
-            </div>
-          )}
-        </div>
+      {days.map(day => {
+        const dayClasses = myClasses.filter(c => c.day === day).sort((a, b) => a.startTime.localeCompare(b.startTime));
+        
+        if (dayClasses.length === 0) return null;
 
-        <div className="form-group">
-          <label>CSV Data</label>
-          <textarea 
-            className="form-control" 
-            value={csvText}
-            onChange={(e) => setCsvText(e.target.value)}
-            placeholder={format === 'matrix' ? 'Paste the full PDEU matrix here...' : 'day,start_time,end_time,subject,teacher,room\nMonday,09:00,10:00,Mathematics,Prof. X,Room 101'}
-          />
+        return (
+          <div key={day} style={{ marginBottom: '2rem' }}>
+            <h2 style={{ marginBottom: '1rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem' }}>{day}</h2>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '1rem' }}>
+              {dayClasses.map((c: any, index) => (
+                <div key={index} className="card" style={{ borderTop: '4px solid var(--secondary)' }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.5rem' }}>
+                    <span style={{ fontWeight: 'bold' }}>{c.startTime} - {c.endTime}</span>
+                    <span style={{ backgroundColor: '#eee', padding: '0.1rem 0.5rem', borderRadius: '4px', fontSize: '0.8rem' }}>
+                      {c.type}
+                    </span>
+                  </div>
+                  <h4 style={{ marginBottom: '0.5rem' }}>{c.subject}</h4>
+                  <div style={{ color: '#666', fontSize: '0.9rem' }}>
+                    <div>Faculty: {c.faculty}</div>
+                    <div>Room: {c.room}</div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )
+      })}
+
+      {myClasses.length === 0 && (
+        <div className="card" style={{ textAlign: 'center', padding: '3rem', color: '#666' }}>
+          No classes found for your profile. Please check your settings.
         </div>
-        <button className="btn btn-primary" onClick={handleImport} disabled={loading || !csvText}>
-          {loading ? 'Importing...' : 'Import Master Timetable'}
-        </button>
-        {status && <div style={{ marginTop: '1rem', fontWeight: 500, color: status.includes('Error') || status.includes('invalid') ? 'var(--danger)' : 'var(--success)' }}>{status}</div>}
-      </div>
+      )}
     </div>
   );
 }
