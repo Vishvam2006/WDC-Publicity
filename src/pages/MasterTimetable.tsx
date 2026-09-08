@@ -1,21 +1,15 @@
 import timetableData from '../data/timetable.json';
 
-export default function MasterTimetable({ profile }: { profile: any }) {
-  // Filter the pre-loaded JSON data based on user profile
-  const myClasses = timetableData.filter((c: any) => {
-    if (profile.department && c.department !== profile.department) return false;
-    if (profile.year && c.year !== profile.year) return false;
-    if (profile.division && c.division !== profile.division) return false;
-    return true;
-  });
+export default function MasterTimetable() {
+  const myClasses = timetableData;
 
   const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
   return (
     <div>
-      <h1 style={{ marginBottom: '1rem' }}>My Timetable</h1>
+      <h1 style={{ marginBottom: '1rem' }}>Master Timetable</h1>
       <p style={{ marginBottom: '2rem', color: '#666' }}>
-        Your full weekly schedule for {profile.year} {profile.department} Div {profile.division}
+        Full weekly schedule for all classes
       </p>
       
       {days.map(day => {
@@ -37,6 +31,7 @@ export default function MasterTimetable({ profile }: { profile: any }) {
                   </div>
                   <h4 style={{ marginBottom: '0.5rem' }}>{c.subject}</h4>
                   <div style={{ color: '#666', fontSize: '0.9rem' }}>
+                    <div>Class: {c.year} • {c.department} • Div {c.division}</div>
                     <div>Faculty: {c.faculty}</div>
                     <div>Room: {c.room}</div>
                   </div>

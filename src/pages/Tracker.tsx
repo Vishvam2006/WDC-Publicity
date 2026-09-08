@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import timetableData from '../data/timetable.json';
 
-export default function Tracker({ profile }: { profile: any }) {
+export default function Tracker() {
   const [completedClasses, setCompletedClasses] = useState<Record<string, boolean>>({});
   const [currentDay, setCurrentDay] = useState('');
   const [currentDateString, setCurrentDateString] = useState('');
@@ -44,9 +44,6 @@ export default function Tracker({ profile }: { profile: any }) {
   };
 
   const myClasses = timetableData.filter((c: any) => {
-    if (profile.department && c.department !== profile.department) return false;
-    if (profile.year && c.year !== profile.year) return false;
-    if (profile.division && c.division !== profile.division) return false;
     if (c.day !== currentDay) return false;
     return true;
   }).sort((a, b) => a.startTime.localeCompare(b.startTime));
@@ -88,7 +85,7 @@ export default function Tracker({ profile }: { profile: any }) {
                     {c.subject}
                   </h3>
                   <div style={{ color: '#666', fontSize: '0.9rem', marginTop: '0.25rem' }}>
-                    {c.faculty} • {c.room} • {c.type}
+                    {c.year} • {c.department} • Div {c.division} • {c.faculty} • {c.room} • {c.type}
                   </div>
                 </div>
                 <div style={{ textAlign: 'right', fontWeight: 'bold' }}>

@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import timetableData from '../data/timetable.json';
 
-export default function Dashboard({ profile }: { profile: any }) {
+export default function Dashboard() {
   const [dayFilter, setDayFilter] = useState('');
   
   useEffect(() => {
@@ -15,9 +15,6 @@ export default function Dashboard({ profile }: { profile: any }) {
 
   // Filter the pre-loaded JSON data
   const filteredClasses = timetableData.filter((c: any) => {
-    if (profile.department && c.department !== profile.department) return false;
-    if (profile.year && c.year !== profile.year) return false;
-    if (profile.division && c.division !== profile.division) return false;
     if (dayFilter && c.day !== dayFilter) return false;
     
     if (timeFilter) {
@@ -75,7 +72,7 @@ export default function Dashboard({ profile }: { profile: any }) {
               <div>
                 <h3 style={{ marginBottom: '0.25rem' }}>{c.subject}</h3>
                 <div style={{ color: '#666', fontSize: '0.9rem' }}>
-                  {c.faculty} • {c.room} • {c.type === 'L' ? 'Lecture' : c.type === 'P' ? 'Practical' : c.type === 'T' ? 'Tutorial' : c.type}
+                  {c.year} • {c.department} • Div {c.division} • {c.faculty} • {c.room} • {c.type === 'L' ? 'Lecture' : c.type === 'P' ? 'Practical' : c.type === 'T' ? 'Tutorial' : c.type}
                 </div>
               </div>
               <div style={{ textAlign: 'right' }}>
