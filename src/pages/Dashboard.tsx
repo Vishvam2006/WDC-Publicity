@@ -18,10 +18,28 @@ export default function Dashboard() {
     if (dayFilter && c.day !== dayFilter) return false;
     
     if (timeFilter) {
-      // Very basic time filtering (matches start time hour)
-      if (!c.startTime.startsWith(timeFilter)) return false;
+      const hourStr = c.startTime.split(/[:.]/)[0];
+      let hour = parseInt(hourStr, 10);
+      
+      // Times in the JSON are sometimes 13, sometimes 2, 3, 4, 5
+      if (hour >= 1 && hour <= 7) {
+        hour += 12;
+      }
+      
+      if (hour !== parseInt(timeFilter, 10)) {
+        return false;
+      }
     }
     return true;
+  }).sort((a: any, b: any) => {
+    const parseTime = (t: string) => {
+      if (!t) return 0;
+      const parts = t.split(/[:.]/);
+      let h = parseInt(parts[0], 10);
+      if (h >= 1 && h <= 7) h += 12; // PM adjustment
+      return h * 60 + parseInt(parts[1] || '0', 10);
+    };
+    return parseTime(a.startTime) - parseTime(b.startTime);
   });
 
   return (

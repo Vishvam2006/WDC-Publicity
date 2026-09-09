@@ -13,7 +13,16 @@ export default function MasterTimetable() {
       </p>
       
       {days.map(day => {
-        const dayClasses = myClasses.filter(c => c.day === day).sort((a, b) => a.startTime.localeCompare(b.startTime));
+        const dayClasses = myClasses.filter(c => c.day === day).sort((a, b) => {
+          const parseTime = (t: string) => {
+            if (!t) return 0;
+            const parts = t.split(/[:.]/);
+            let h = parseInt(parts[0], 10);
+            if (h >= 1 && h <= 7) h += 12; // PM adjustment
+            return h * 60 + parseInt(parts[1] || '0', 10);
+          };
+          return parseTime(a.startTime) - parseTime(b.startTime);
+        });
         
         if (dayClasses.length === 0) return null;
 
