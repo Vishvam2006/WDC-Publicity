@@ -18,15 +18,25 @@ export default function Dashboard() {
     if (dayFilter && c.day !== dayFilter) return false;
     
     if (timeFilter) {
-      const hourStr = c.startTime.split(/[:.]/)[0];
-      let hour = parseInt(hourStr, 10);
+      const filterHour = parseInt(timeFilter, 10);
       
-      // Times in the JSON are sometimes 13, sometimes 2, 3, 4, 5
-      if (hour >= 1 && hour <= 7) {
-        hour += 12;
+      const getHour = (t: string) => {
+        if (!t) return 0;
+        let h = parseInt(t.split(/[:.]/)[0], 10);
+        if (h >= 1 && h <= 7) h += 12;
+        return h;
+      };
+
+      const startHour = getHour(c.startTime);
+      let endHour = getHour(c.endTime);
+      
+      // If end hour is the same as start hour (e.g., 09:00 to 09:55), the class falls in that hour.
+      // For practicals (P), assume they span at least 2 hours if endHour == startHour.
+      if (c.type === 'P' && endHour === startHour) {
+        endHour = startHour + 1;
       }
-      
-      if (hour !== parseInt(timeFilter, 10)) {
+
+      if (filterHour < startHour || filterHour > endHour) {
         return false;
       }
     }
