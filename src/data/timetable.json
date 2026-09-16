@@ -1,6 +1,1140 @@
 [
   {
-    "id": "ce-div1-monday-900-14wnxq",
+    "id": "ict-div1-monday-0900-w8yr7b",
+    "department": "ICT",
+    "division": "1",
+    "year": "1st Year",
+    "day": "Monday",
+    "startTime": "09:00",
+    "endTime": "09:55",
+    "subject": "English Communication",
+    "room": "C201/2",
+    "faculty": "Mary Hepzibah",
+    "type": "L",
+    "originalText": "H1H2 (24HS101T) C201/2, MAH-L"
+  },
+  {
+    "id": "ict-div1-monday-1000-visrkg",
+    "department": "ICT",
+    "division": "1",
+    "year": "1st Year",
+    "day": "Monday",
+    "startTime": "10:00",
+    "endTime": "10.55",
+    "subject": "Mathematics - I",
+    "room": "C201/2",
+    "faculty": "Punit Jain",
+    "type": "L",
+    "originalText": "H1H2 (24MA101T) C201/2, PUJ-L"
+  },
+  {
+    "id": "ict-div1-monday-1055-ec0vvc",
+    "department": "ICT",
+    "division": "1",
+    "year": "1st Year",
+    "day": "Monday",
+    "startTime": "10.55",
+    "endTime": "11.10",
+    "subject": "Short Break",
+    "room": "Unknown",
+    "faculty": "Unknown",
+    "type": "L",
+    "originalText": "Short Break"
+  },
+  {
+    "id": "ict-div1-monday-1110-m0hbs",
+    "department": "ICT",
+    "division": "1",
+    "year": "1st Year",
+    "day": "Monday",
+    "startTime": "11:10",
+    "endTime": "12:05",
+    "subject": "Computer Programming - I Laboratory",
+    "room": "C008",
+    "faculty": "Gaurav Bhargava",
+    "type": "P",
+    "originalText": "H2 (24CP101P) C008, GAUR-P"
+  },
+  {
+    "id": "ict-div1-monday-1305-v5adgg",
+    "department": "ICT",
+    "division": "1",
+    "year": "1st Year",
+    "day": "Monday",
+    "startTime": "13:05",
+    "endTime": "14:10",
+    "subject": "Lunch",
+    "room": "Unknown",
+    "faculty": "Unknown",
+    "type": "L",
+    "originalText": "Lunch"
+  },
+  {
+    "id": "ict-div1-monday-1410-vmj281",
+    "department": "ICT",
+    "division": "1",
+    "year": "1st Year",
+    "day": "Monday",
+    "startTime": "14:10",
+    "endTime": "15:05",
+    "subject": "Computer Programming - I",
+    "room": "C201/2",
+    "faculty": "Prashant Dwivedy",
+    "type": "L",
+    "originalText": "H1H2 (24CP101T) C201/2, PRAS-L"
+  },
+  {
+    "id": "ict-div1-monday-1605-9gtlla",
+    "department": "ICT",
+    "division": "1",
+    "year": "1st Year",
+    "day": "Monday",
+    "startTime": "16.05",
+    "endTime": "16.15",
+    "subject": "Short Break",
+    "room": "Unknown",
+    "faculty": "Unknown",
+    "type": "L",
+    "originalText": "Short Break"
+  },
+  {
+    "id": "ict-div1-monday-1110-pxizjt",
+    "department": "ICT",
+    "division": "1",
+    "year": "1st Year",
+    "day": "Monday",
+    "startTime": "11:10",
+    "endTime": "12:05",
+    "subject": "Computer Programming - I Laboratory",
+    "room": "C008",
+    "faculty": "Bhoomi Bangoria",
+    "type": "P",
+    "originalText": "H1 (24CP101P) C008, BHB-P"
+  },
+  {
+    "id": "ict-div1-tuesday-0900-0xoij0x",
+    "department": "ICT",
+    "division": "1",
+    "year": "1st Year",
+    "day": "Tuesday",
+    "startTime": "09:00",
+    "endTime": "09:55",
+    "subject": "Elements of Electrical and Electronics Engineering",
+    "room": "C201/2",
+    "faculty": "EC_FAC",
+    "type": "L",
+    "originalText": "H1H2 (24EE101T) C201/2, ECFA-L"
+  },
+  {
+    "id": "ict-div1-tuesday-1000-9omrrq",
+    "department": "ICT",
+    "division": "1",
+    "year": "1st Year",
+    "day": "Tuesday",
+    "startTime": "10:00",
+    "endTime": "10.55",
+    "subject": "English Communication",
+    "room": "C201/2",
+    "faculty": "Mary Hepzibah",
+    "type": "L",
+    "originalText": "H1H2 (24HS101T) C201/2, MAH-L"
+  },
+  {
+    "id": "ict-div1-tuesday-1110-64cy2l",
+    "department": "ICT",
+    "division": "1",
+    "year": "1st Year",
+    "day": "Tuesday",
+    "startTime": "11:10",
+    "endTime": "12:05",
+    "subject": "Workshop Practices",
+    "room": "C014A",
+    "faculty": "Pavan Kumar Gurrala",
+    "type": "P",
+    "originalText": "H2 (24ME101T) C014A, PVG-P"
+  },
+  {
+    "id": "ict-div1-tuesday-1410-qxzg4",
+    "department": "ICT",
+    "division": "1",
+    "year": "1st Year",
+    "day": "Tuesday",
+    "startTime": "14:10",
+    "endTime": "15:05",
+    "subject": "Biological Systems for Engineers",
+    "room": "C201/2",
+    "faculty": "Shubhank",
+    "type": "L",
+    "originalText": "H1H2 (24BT101T) C201/2, SHU-L"
+  },
+  {
+    "id": "ict-div1-tuesday-1110-4w6ck",
+    "department": "ICT",
+    "division": "1",
+    "year": "1st Year",
+    "day": "Tuesday",
+    "startTime": "11:10",
+    "endTime": "12:05",
+    "subject": "Engineering Chemistry Lab",
+    "room": "C108",
+    "faculty": "Anirban Das",
+    "type": "P",
+    "originalText": "H1 (24CH101P) C108, ANR-P"
+  },
+  {
+    "id": "ict-div1-wednesday-0900-y06iag",
+    "department": "ICT",
+    "division": "1",
+    "year": "1st Year",
+    "day": "Wednesday",
+    "startTime": "09:00",
+    "endTime": "09:55",
+    "subject": "Engineering Chemistry",
+    "room": "C201/2",
+    "faculty": "Anu Manhas",
+    "type": "L",
+    "originalText": "H1H2 (24CH101T) C201/2, ANMA-L"
+  },
+  {
+    "id": "ict-div1-wednesday-1000-qpeog",
+    "department": "ICT",
+    "division": "1",
+    "year": "1st Year",
+    "day": "Wednesday",
+    "startTime": "10:00",
+    "endTime": "10.55",
+    "subject": "Elements of Electrical and Electronics Engineering",
+    "room": "C201/2",
+    "faculty": "EC_FAC",
+    "type": "L",
+    "originalText": "H1H2 (24EE101T) C201/2, ECFA-L"
+  },
+  {
+    "id": "ict-div1-wednesday-1110-ah7997",
+    "department": "ICT",
+    "division": "1",
+    "year": "1st Year",
+    "day": "Wednesday",
+    "startTime": "11:10",
+    "endTime": "12:05",
+    "subject": "Elements of Electrical and Electronics Engineering Lab",
+    "room": "F-102",
+    "faculty": "Rajendra Kumar",
+    "type": "P",
+    "originalText": "H2 (24EE101P) F-102, RJK-P"
+  },
+  {
+    "id": "ict-div1-wednesday-1410-j5oi2t",
+    "department": "ICT",
+    "division": "1",
+    "year": "1st Year",
+    "day": "Wednesday",
+    "startTime": "14:10",
+    "endTime": "15:05",
+    "subject": "Mathematics - I",
+    "room": "C201/2",
+    "faculty": "Punit Jain",
+    "type": "L",
+    "originalText": "H1H2 (24MA101T) C201/2, PUJ-L"
+  },
+  {
+    "id": "ict-div1-wednesday-1110-5oxgt9",
+    "department": "ICT",
+    "division": "1",
+    "year": "1st Year",
+    "day": "Wednesday",
+    "startTime": "11:10",
+    "endTime": "12:05",
+    "subject": "Workshop Practices",
+    "room": "C014A",
+    "faculty": "Pravesh Kumar",
+    "type": "P",
+    "originalText": "H1 (24ME101T) C014A, PVK-P"
+  },
+  {
+    "id": "ict-div1-thursday-0900-6ua3w5",
+    "department": "ICT",
+    "division": "1",
+    "year": "1st Year",
+    "day": "Thursday",
+    "startTime": "09:00",
+    "endTime": "09:55",
+    "subject": "Mathematics - I",
+    "room": "C201/2",
+    "faculty": "Punit Jain",
+    "type": "L",
+    "originalText": "H1H2 (24MA101T) C201/2, PUJ-L"
+  },
+  {
+    "id": "ict-div1-thursday-1000-9mih28",
+    "department": "ICT",
+    "division": "1",
+    "year": "1st Year",
+    "day": "Thursday",
+    "startTime": "10:00",
+    "endTime": "10.55",
+    "subject": "Engineering Chemistry",
+    "room": "C201/2",
+    "faculty": "Anu Manhas",
+    "type": "L",
+    "originalText": "H1H2 (24CH101T) C201/2, ANMA-L"
+  },
+  {
+    "id": "ict-div1-thursday-1110-ty0yp4",
+    "department": "ICT",
+    "division": "1",
+    "year": "1st Year",
+    "day": "Thursday",
+    "startTime": "11:10",
+    "endTime": "12:05",
+    "subject": "Elements of Electrical and Electronics Engineering Lab",
+    "room": "F-102",
+    "faculty": "Rajendra Kumar",
+    "type": "P",
+    "originalText": "H1 (24EE101P) F-102, RJK-P"
+  },
+  {
+    "id": "ict-div1-thursday-1410-jltori",
+    "department": "ICT",
+    "division": "1",
+    "year": "1st Year",
+    "day": "Thursday",
+    "startTime": "14:10",
+    "endTime": "15:05",
+    "subject": "Elements of Electrical and Electronics Engineering",
+    "room": "C201/2",
+    "faculty": "EC_FAC",
+    "type": "L",
+    "originalText": "H1H2 (24EE101T) C201/2, ECFA-L"
+  },
+  {
+    "id": "ict-div1-thursday-1110-um1nhk",
+    "department": "ICT",
+    "division": "1",
+    "year": "1st Year",
+    "day": "Thursday",
+    "startTime": "11:10",
+    "endTime": "12:05",
+    "subject": "Engineering Chemistry Lab",
+    "room": "C108",
+    "faculty": "Anu Manhas",
+    "type": "P",
+    "originalText": "H2 (24CH101P) C108, ANMA-P"
+  },
+  {
+    "id": "ict-div1-friday-0900-cwqsdc",
+    "department": "ICT",
+    "division": "1",
+    "year": "1st Year",
+    "day": "Friday",
+    "startTime": "09:00",
+    "endTime": "09:55",
+    "subject": "Mathematics - I",
+    "room": "C201/2",
+    "faculty": "Punit Jain",
+    "type": "T",
+    "originalText": "H1H2 (24MA101T) C201/2, PUJ-T"
+  },
+  {
+    "id": "ict-div1-friday-1000-7syol",
+    "department": "ICT",
+    "division": "1",
+    "year": "1st Year",
+    "day": "Friday",
+    "startTime": "10:00",
+    "endTime": "10.55",
+    "subject": "Engineering Chemistry",
+    "room": "C201/2",
+    "faculty": "Anu Manhas",
+    "type": "L",
+    "originalText": "H1H2 (24CH101T) C201/2, ANMA-L"
+  },
+  {
+    "id": "ict-div1-friday-1110-v9y7hw",
+    "department": "ICT",
+    "division": "1",
+    "year": "1st Year",
+    "day": "Friday",
+    "startTime": "11:10",
+    "endTime": "12:05",
+    "subject": "Yoga, Health and Hygiene",
+    "room": "Sports Ground",
+    "faculty": "Milan Bhatt",
+    "type": "P",
+    "originalText": "H1H2 (24PH101T) Sports Ground, MBH-P"
+  },
+  {
+    "id": "ict-div1-friday-1410-t91eqe",
+    "department": "ICT",
+    "division": "1",
+    "year": "1st Year",
+    "day": "Friday",
+    "startTime": "14:10",
+    "endTime": "15:05",
+    "subject": "Biological Systems for Engineers",
+    "room": "C201/2",
+    "faculty": "Shubhank",
+    "type": "L",
+    "originalText": "H1H2 (24BT101T) C201/2, SHU-L"
+  },
+  {
+    "id": "ict-div2-monday-0900-le9fp",
+    "department": "ICT",
+    "division": "2",
+    "year": "1st Year",
+    "day": "Monday",
+    "startTime": "09:00",
+    "endTime": "09:55",
+    "subject": "Yoga, Health and Hygiene",
+    "room": "Sports Ground",
+    "faculty": "Milan Bhatt",
+    "type": "P",
+    "originalText": "H3H4 (24PH101T) Sports Ground, MBH-P"
+  },
+  {
+    "id": "ict-div2-monday-1055-b85gbx",
+    "department": "ICT",
+    "division": "2",
+    "year": "1st Year",
+    "day": "Monday",
+    "startTime": "10.55",
+    "endTime": "11.10",
+    "subject": "Short Break",
+    "room": "Unknown",
+    "faculty": "Unknown",
+    "type": "L",
+    "originalText": "Short Break"
+  },
+  {
+    "id": "ict-div2-monday-1110-8jr0ou",
+    "department": "ICT",
+    "division": "2",
+    "year": "1st Year",
+    "day": "Monday",
+    "startTime": "11:10",
+    "endTime": "12:05",
+    "subject": "English Communication",
+    "room": "C201/2",
+    "faculty": "Aswathi Prakash",
+    "type": "L",
+    "originalText": "H3H4 (24HS101T) C201/2, AP-L"
+  },
+  {
+    "id": "ict-div2-monday-1210-jn6fqs",
+    "department": "ICT",
+    "division": "2",
+    "year": "1st Year",
+    "day": "Monday",
+    "startTime": "12:10",
+    "endTime": "13:05",
+    "subject": "Lunch",
+    "room": "Unknown",
+    "faculty": "Unknown",
+    "type": "L",
+    "originalText": "Lunch"
+  },
+  {
+    "id": "ict-div2-monday-1305-1d4spo",
+    "department": "ICT",
+    "division": "2",
+    "year": "1st Year",
+    "day": "Monday",
+    "startTime": "13:05",
+    "endTime": "14:10",
+    "subject": "Mathematics - I",
+    "room": "C201/1",
+    "faculty": "Punit Jain",
+    "type": "L",
+    "originalText": "H3H4 (24MA101T) C201/1, PUJ-L"
+  },
+  {
+    "id": "ict-div2-monday-1510-3x5h1n",
+    "department": "ICT",
+    "division": "2",
+    "year": "1st Year",
+    "day": "Monday",
+    "startTime": "15:10",
+    "endTime": "16:05",
+    "subject": "Engineering Chemistry",
+    "room": "C201/2",
+    "faculty": "Abhijit Biswas",
+    "type": "L",
+    "originalText": "H3H4 (24CH101T) C201/2, ABW-L"
+  },
+  {
+    "id": "ict-div2-monday-1605-mcb0re",
+    "department": "ICT",
+    "division": "2",
+    "year": "1st Year",
+    "day": "Monday",
+    "startTime": "16.05",
+    "endTime": "16.15",
+    "subject": "Short Break",
+    "room": "Unknown",
+    "faculty": "Unknown",
+    "type": "L",
+    "originalText": "Short Break"
+  },
+  {
+    "id": "ict-div2-monday-1615-usbrco",
+    "department": "ICT",
+    "division": "2",
+    "year": "1st Year",
+    "day": "Monday",
+    "startTime": "16:15",
+    "endTime": "17:10",
+    "subject": "Computer Programming - I Laboratory",
+    "room": "C008",
+    "faculty": "Deepak Sharma",
+    "type": "P",
+    "originalText": "H4 (24CP101P) C008, DESH-P"
+  },
+  {
+    "id": "ict-div2-monday-1615-fo3f8",
+    "department": "ICT",
+    "division": "2",
+    "year": "1st Year",
+    "day": "Monday",
+    "startTime": "16:15",
+    "endTime": "17:10",
+    "subject": "Computer Programming - I Laboratory",
+    "room": "C008",
+    "faculty": "Prashant Dwivedy",
+    "type": "P",
+    "originalText": "H3 (24CP101P) C008, PRAS-P"
+  },
+  {
+    "id": "ict-div2-tuesday-1110-6vjwv",
+    "department": "ICT",
+    "division": "2",
+    "year": "1st Year",
+    "day": "Tuesday",
+    "startTime": "11:10",
+    "endTime": "12:05",
+    "subject": "English Communication",
+    "room": "C201/2",
+    "faculty": "Aswathi Prakash",
+    "type": "L",
+    "originalText": "H3H4 (24HS101T) C201/2, AP-L"
+  },
+  {
+    "id": "ict-div2-tuesday-1305-o7xzk",
+    "department": "ICT",
+    "division": "2",
+    "year": "1st Year",
+    "day": "Tuesday",
+    "startTime": "13:05",
+    "endTime": "14:10",
+    "subject": "Elements of Electrical and Electronics Engineering",
+    "room": "C201/1",
+    "faculty": "EC_FAC",
+    "type": "L",
+    "originalText": "H3H4 (24EE101T) C201/1, ECFA-L"
+  },
+  {
+    "id": "ict-div2-tuesday-1510-dbkzps",
+    "department": "ICT",
+    "division": "2",
+    "year": "1st Year",
+    "day": "Tuesday",
+    "startTime": "15:10",
+    "endTime": "16:05",
+    "subject": "Mathematics - I",
+    "room": "C201/2",
+    "faculty": "Punit Jain",
+    "type": "L",
+    "originalText": "H3H4 (24MA101T) C201/2, PUJ-L"
+  },
+  {
+    "id": "ict-div2-tuesday-1615-d82ezj",
+    "department": "ICT",
+    "division": "2",
+    "year": "1st Year",
+    "day": "Tuesday",
+    "startTime": "16:15",
+    "endTime": "17:10",
+    "subject": "Workshop Practices",
+    "room": "C014A",
+    "faculty": "Abhishek Kumar",
+    "type": "P",
+    "originalText": "H4 (24ME101T) C014A, AKR-P"
+  },
+  {
+    "id": "ict-div2-tuesday-1615-17amvn",
+    "department": "ICT",
+    "division": "2",
+    "year": "1st Year",
+    "day": "Tuesday",
+    "startTime": "16:15",
+    "endTime": "17:10",
+    "subject": "Engineering Chemistry Lab",
+    "room": "C108",
+    "faculty": "Abhijit Biswas",
+    "type": "P",
+    "originalText": "H3 (24CH101P) C108, ABW-P"
+  },
+  {
+    "id": "ict-div2-wednesday-1110-4xl0l",
+    "department": "ICT",
+    "division": "2",
+    "year": "1st Year",
+    "day": "Wednesday",
+    "startTime": "11:10",
+    "endTime": "12:05",
+    "subject": "Engineering Chemistry",
+    "room": "C201/2",
+    "faculty": "Abhijit Biswas",
+    "type": "L",
+    "originalText": "H3H4 (24CH101T) C201/2, ABW-L"
+  },
+  {
+    "id": "ict-div2-wednesday-1305-psd4mg",
+    "department": "ICT",
+    "division": "2",
+    "year": "1st Year",
+    "day": "Wednesday",
+    "startTime": "13:05",
+    "endTime": "14:10",
+    "subject": "Computer Programming - I",
+    "room": "C201/1",
+    "faculty": "Archana Nigam",
+    "type": "L",
+    "originalText": "H3H4 (24CP101T) C201/1, ARNI-L"
+  },
+  {
+    "id": "ict-div2-wednesday-1510-eygnif",
+    "department": "ICT",
+    "division": "2",
+    "year": "1st Year",
+    "day": "Wednesday",
+    "startTime": "15:10",
+    "endTime": "16:05",
+    "subject": "Biological Systems for Engineers",
+    "room": "C201/2",
+    "faculty": "NF 1 SPT",
+    "type": "L",
+    "originalText": "H3H4 (24BT101T) C201/2, PNF1-L"
+  },
+  {
+    "id": "ict-div2-wednesday-1615-buw3gi",
+    "department": "ICT",
+    "division": "2",
+    "year": "1st Year",
+    "day": "Wednesday",
+    "startTime": "16:15",
+    "endTime": "17:10",
+    "subject": "Elements of Electrical and Electronics Engineering Lab",
+    "room": "F-102",
+    "faculty": "Jitendra Jamnani",
+    "type": "P",
+    "originalText": "H4 (24EE101P) F-102, JGJ-P"
+  },
+  {
+    "id": "ict-div2-wednesday-1615-scpfux",
+    "department": "ICT",
+    "division": "2",
+    "year": "1st Year",
+    "day": "Wednesday",
+    "startTime": "16:15",
+    "endTime": "17:10",
+    "subject": "Workshop Practices",
+    "room": "C014A",
+    "faculty": "Salman Md Khan",
+    "type": "P",
+    "originalText": "H3 (24ME101T) C014A, SKH-P"
+  },
+  {
+    "id": "ict-div2-thursday-1110-3cn2g8",
+    "department": "ICT",
+    "division": "2",
+    "year": "1st Year",
+    "day": "Thursday",
+    "startTime": "11:10",
+    "endTime": "12:05",
+    "subject": "Biological Systems for Engineers",
+    "room": "C201/2",
+    "faculty": "NF 1 SPT",
+    "type": "L",
+    "originalText": "H3H4 (24BT101T) C201/2, PNF1-L"
+  },
+  {
+    "id": "ict-div2-thursday-1305-aexucr",
+    "department": "ICT",
+    "division": "2",
+    "year": "1st Year",
+    "day": "Thursday",
+    "startTime": "13:05",
+    "endTime": "14:10",
+    "subject": "Mathematics - I",
+    "room": "C201/1",
+    "faculty": "Punit Jain",
+    "type": "L",
+    "originalText": "H3H4 (24MA101T) C201/1, PUJ-L"
+  },
+  {
+    "id": "ict-div2-thursday-1510-5wko28",
+    "department": "ICT",
+    "division": "2",
+    "year": "1st Year",
+    "day": "Thursday",
+    "startTime": "15:10",
+    "endTime": "16:05",
+    "subject": "Elements of Electrical and Electronics Engineering",
+    "room": "C201/2",
+    "faculty": "EC_FAC",
+    "type": "L",
+    "originalText": "H3H4 (24EE101T) C201/2, ECFA-L"
+  },
+  {
+    "id": "ict-div2-thursday-1615-195zva",
+    "department": "ICT",
+    "division": "2",
+    "year": "1st Year",
+    "day": "Thursday",
+    "startTime": "16:15",
+    "endTime": "17:10",
+    "subject": "Elements of Electrical and Electronics Engineering Lab",
+    "room": "F-102",
+    "faculty": "Jitendra Jamnani",
+    "type": "P",
+    "originalText": "H3 (24EE101P) F-102, JGJ-P"
+  },
+  {
+    "id": "ict-div2-thursday-1615-txblf",
+    "department": "ICT",
+    "division": "2",
+    "year": "1st Year",
+    "day": "Thursday",
+    "startTime": "16:15",
+    "endTime": "17:10",
+    "subject": "Engineering Chemistry Lab",
+    "room": "C108",
+    "faculty": "Abhijit Biswas",
+    "type": "P",
+    "originalText": "H4 (24CH101P) C108, ABW-P"
+  },
+  {
+    "id": "ict-div2-friday-1110-fam9w",
+    "department": "ICT",
+    "division": "2",
+    "year": "1st Year",
+    "day": "Friday",
+    "startTime": "11:10",
+    "endTime": "12:05",
+    "subject": "Engineering Chemistry",
+    "room": "C201/2",
+    "faculty": "Abhijit Biswas",
+    "type": "L",
+    "originalText": "H3H4 (24CH101T) C201/2, ABW-L"
+  },
+  {
+    "id": "ict-div2-friday-1305-lgemza",
+    "department": "ICT",
+    "division": "2",
+    "year": "1st Year",
+    "day": "Friday",
+    "startTime": "13:05",
+    "endTime": "14:10",
+    "subject": "Mathematics - I",
+    "room": "C201/1",
+    "faculty": "Vishakha Jadaun",
+    "type": "T",
+    "originalText": "H3H4 (24MA101T) C201/1, VJD-T"
+  },
+  {
+    "id": "ict-div2-friday-1510-n3vqg",
+    "department": "ICT",
+    "division": "2",
+    "year": "1st Year",
+    "day": "Friday",
+    "startTime": "15:10",
+    "endTime": "16:05",
+    "subject": "Elements of Electrical and Electronics Engineering",
+    "room": "C201/2",
+    "faculty": "EC_FAC",
+    "type": "L",
+    "originalText": "H3H4 (24EE101T) C201/2, ECFA-L"
+  },
+  {
+    "id": "ict-div3-monday-0900-1iyfi",
+    "department": "ICT",
+    "division": "3",
+    "year": "1st Year",
+    "day": "Monday",
+    "startTime": "09:00",
+    "endTime": "09:55",
+    "subject": "English Communication",
+    "room": "C203",
+    "faculty": "Aswathi Prakash",
+    "type": "L",
+    "originalText": "H5H6 (24HS101T) C203, AP-L"
+  },
+  {
+    "id": "ict-div3-monday-1000-p6b4iq",
+    "department": "ICT",
+    "division": "3",
+    "year": "1st Year",
+    "day": "Monday",
+    "startTime": "10:00",
+    "endTime": "10.55",
+    "subject": "Mathematics - I",
+    "room": "C203",
+    "faculty": "Isha Talati Math",
+    "type": "L",
+    "originalText": "H5H6 (24MA101T) C203, ITT-L"
+  },
+  {
+    "id": "ict-div3-monday-1055-1q6xe",
+    "department": "ICT",
+    "division": "3",
+    "year": "1st Year",
+    "day": "Monday",
+    "startTime": "10.55",
+    "endTime": "11.10",
+    "subject": "Short Break",
+    "room": "Unknown",
+    "faculty": "Unknown",
+    "type": "L",
+    "originalText": "Short Break"
+  },
+  {
+    "id": "ict-div3-monday-1210-ehfedc",
+    "department": "ICT",
+    "division": "3",
+    "year": "1st Year",
+    "day": "Monday",
+    "startTime": "12:10",
+    "endTime": "13:05",
+    "subject": "Elements of Electrical and Electronics Engineering",
+    "room": "C001",
+    "faculty": "EC_FAC",
+    "type": "L",
+    "originalText": "H5H6 (24EE101T) C001, ECFA-L"
+  },
+  {
+    "id": "ict-div3-monday-1305-8za44m",
+    "department": "ICT",
+    "division": "3",
+    "year": "1st Year",
+    "day": "Monday",
+    "startTime": "13:05",
+    "endTime": "14:10",
+    "subject": "Lunch",
+    "room": "Unknown",
+    "faculty": "Unknown",
+    "type": "L",
+    "originalText": "Lunch"
+  },
+  {
+    "id": "ict-div3-monday-1410-7xslg",
+    "department": "ICT",
+    "division": "3",
+    "year": "1st Year",
+    "day": "Monday",
+    "startTime": "14:10",
+    "endTime": "15:05",
+    "subject": "Elements of Electrical and Electronics Engineering Lab",
+    "room": "F-102",
+    "faculty": "Rajendra Kumar",
+    "type": "P",
+    "originalText": "H5 (24EE101P) F-102, RJK-P"
+  },
+  {
+    "id": "ict-div3-monday-1605-jl6e7c",
+    "department": "ICT",
+    "division": "3",
+    "year": "1st Year",
+    "day": "Monday",
+    "startTime": "16.05",
+    "endTime": "16.15",
+    "subject": "Short Break",
+    "room": "Unknown",
+    "faculty": "Unknown",
+    "type": "L",
+    "originalText": "Short Break"
+  },
+  {
+    "id": "ict-div3-tuesday-0900-1h9sl7",
+    "department": "ICT",
+    "division": "3",
+    "year": "1st Year",
+    "day": "Tuesday",
+    "startTime": "09:00",
+    "endTime": "09:55",
+    "subject": "Mathematics - I",
+    "room": "C203",
+    "faculty": "Isha Talati Math",
+    "type": "L",
+    "originalText": "H5H6 (24MA101T) C203, ITT-L"
+  },
+  {
+    "id": "ict-div3-tuesday-1000-uc1ruv",
+    "department": "ICT",
+    "division": "3",
+    "year": "1st Year",
+    "day": "Tuesday",
+    "startTime": "10:00",
+    "endTime": "10.55",
+    "subject": "English Communication",
+    "room": "C203",
+    "faculty": "Aswathi Prakash",
+    "type": "L",
+    "originalText": "H5H6 (24HS101T) C203, AP-L"
+  },
+  {
+    "id": "ict-div3-tuesday-1110-1xeo6o",
+    "department": "ICT",
+    "division": "3",
+    "year": "1st Year",
+    "day": "Tuesday",
+    "startTime": "11:10",
+    "endTime": "12:05",
+    "subject": "Engineering Chemistry",
+    "room": "C202",
+    "faculty": "Amarjyoti Das Mahapatra",
+    "type": "L",
+    "originalText": "H5H6 (24CH101T) C202, ADM-L"
+  },
+  {
+    "id": "ict-div3-tuesday-1210-lcvmyt",
+    "department": "ICT",
+    "division": "3",
+    "year": "1st Year",
+    "day": "Tuesday",
+    "startTime": "12:10",
+    "endTime": "13:05",
+    "subject": "Elements of Electrical and Electronics Engineering",
+    "room": "C202",
+    "faculty": "EC_FAC",
+    "type": "L",
+    "originalText": "H5H6 (24EE101T) C202, ECFA-L"
+  },
+  {
+    "id": "ict-div3-tuesday-1410-anfmfe",
+    "department": "ICT",
+    "division": "3",
+    "year": "1st Year",
+    "day": "Tuesday",
+    "startTime": "14:10",
+    "endTime": "15:05",
+    "subject": "Elements of Electrical and Electronics Engineering Lab",
+    "room": "F-102",
+    "faculty": "Jitendra Jamnani",
+    "type": "P",
+    "originalText": "H6 (24EE101P) F-102, JGJ-P"
+  },
+  {
+    "id": "ict-div3-wednesday-0900-13j4ye",
+    "department": "ICT",
+    "division": "3",
+    "year": "1st Year",
+    "day": "Wednesday",
+    "startTime": "09:00",
+    "endTime": "09:55",
+    "subject": "Mathematics - I",
+    "room": "C203",
+    "faculty": "Isha Talati Math",
+    "type": "L",
+    "originalText": "H5H6 (24MA101T) C203, ITT-L"
+  },
+  {
+    "id": "ict-div3-wednesday-1000-rp5zg",
+    "department": "ICT",
+    "division": "3",
+    "year": "1st Year",
+    "day": "Wednesday",
+    "startTime": "10:00",
+    "endTime": "10.55",
+    "subject": "Computer Programming - I",
+    "room": "C203",
+    "faculty": "Rutvij H Jhaveri",
+    "type": "L",
+    "originalText": "H5H6 (24CP101T) C203, RUZ-L"
+  },
+  {
+    "id": "ict-div3-wednesday-1110-fozrb",
+    "department": "ICT",
+    "division": "3",
+    "year": "1st Year",
+    "day": "Wednesday",
+    "startTime": "11:10",
+    "endTime": "12:05",
+    "subject": "Workshop Practices",
+    "room": "C014B",
+    "faculty": "Salman Md Khan",
+    "type": "P",
+    "originalText": "H6 (24ME101T) C014B, SKH-P"
+  },
+  {
+    "id": "ict-div3-wednesday-1410-q27vhl",
+    "department": "ICT",
+    "division": "3",
+    "year": "1st Year",
+    "day": "Wednesday",
+    "startTime": "14:10",
+    "endTime": "15:05",
+    "subject": "Workshop Practices",
+    "room": "C014B",
+    "faculty": "Salman Md Khan",
+    "type": "P",
+    "originalText": "H5 (24ME101T) C014B, SKH-P"
+  },
+  {
+    "id": "ict-div3-wednesday-1615-4u24f",
+    "department": "ICT",
+    "division": "3",
+    "year": "1st Year",
+    "day": "Wednesday",
+    "startTime": "16:15",
+    "endTime": "17:10",
+    "subject": "Biological Systems for Engineers",
+    "room": "C203",
+    "faculty": "NF 1 SPT",
+    "type": "L",
+    "originalText": "H5H6 (24BT101T) C203, PNF1-L"
+  },
+  {
+    "id": "ict-div3-wednesday-1110-xt0ju",
+    "department": "ICT",
+    "division": "3",
+    "year": "1st Year",
+    "day": "Wednesday",
+    "startTime": "11:10",
+    "endTime": "12:05",
+    "subject": "Engineering Chemistry Lab",
+    "room": "C108",
+    "faculty": "Prakash Chandra",
+    "type": "P",
+    "originalText": "H5 (24CH101P) C108, PRCH-P"
+  },
+  {
+    "id": "ict-div3-wednesday-1410-npypu",
+    "department": "ICT",
+    "division": "3",
+    "year": "1st Year",
+    "day": "Wednesday",
+    "startTime": "14:10",
+    "endTime": "15:05",
+    "subject": "Engineering Chemistry Lab",
+    "room": "C108",
+    "faculty": "Nitin Chaudhari",
+    "type": "P",
+    "originalText": "H6 (24CH101P) C108, NTCH-P"
+  },
+  {
+    "id": "ict-div3-thursday-0900-9oy3f",
+    "department": "ICT",
+    "division": "3",
+    "year": "1st Year",
+    "day": "Thursday",
+    "startTime": "09:00",
+    "endTime": "09:55",
+    "subject": "Engineering Chemistry",
+    "room": "E313",
+    "faculty": "Amarjyoti Das Mahapatra",
+    "type": "L",
+    "originalText": "H5H6 (24CH101T) E313, ADM-L"
+  },
+  {
+    "id": "ict-div3-thursday-1000-lwemqc",
+    "department": "ICT",
+    "division": "3",
+    "year": "1st Year",
+    "day": "Thursday",
+    "startTime": "10:00",
+    "endTime": "10.55",
+    "subject": "Mathematics - I",
+    "room": "E313",
+    "faculty": "Isha Talati Math",
+    "type": "T",
+    "originalText": "H5H6 (24MA101T) E313, ITT-T"
+  },
+  {
+    "id": "ict-div3-thursday-1110-lozlz",
+    "department": "ICT",
+    "division": "3",
+    "year": "1st Year",
+    "day": "Thursday",
+    "startTime": "11:10",
+    "endTime": "12:05",
+    "subject": "Biological Systems for Engineers",
+    "room": "C202",
+    "faculty": "Giftson Senapathy",
+    "type": "L",
+    "originalText": "H5H6 (24BT101T) C202, GFTS-L"
+  },
+  {
+    "id": "ict-div3-thursday-1210-hjb6gf",
+    "department": "ICT",
+    "division": "3",
+    "year": "1st Year",
+    "day": "Thursday",
+    "startTime": "12:10",
+    "endTime": "13:05",
+    "subject": "Elements of Electrical and Electronics Engineering",
+    "room": "C202",
+    "faculty": "EC_FAC",
+    "type": "L",
+    "originalText": "H5H6 (24EE101T) C202, ECFA-L"
+  },
+  {
+    "id": "ict-div3-thursday-1615-466mww",
+    "department": "ICT",
+    "division": "3",
+    "year": "1st Year",
+    "day": "Thursday",
+    "startTime": "16:15",
+    "endTime": "17:10",
+    "subject": "Yoga, Health and Hygiene",
+    "room": "Sports Ground",
+    "faculty": "Milan Bhatt",
+    "type": "P",
+    "originalText": "H5H6 (24PH101T) Sports Ground, MBH-P"
+  },
+  {
+    "id": "ict-div3-friday-0900-oa5l2k",
+    "department": "ICT",
+    "division": "3",
+    "year": "1st Year",
+    "day": "Friday",
+    "startTime": "09:00",
+    "endTime": "09:55",
+    "subject": "Engineering Chemistry",
+    "room": "C202",
+    "faculty": "Amarjyoti Das Mahapatra",
+    "type": "L",
+    "originalText": "H5H6 (24CH101T) C202, ADM-L"
+  },
+  {
+    "id": "ict-div3-friday-1110-p9j04x",
+    "department": "ICT",
+    "division": "3",
+    "year": "1st Year",
+    "day": "Friday",
+    "startTime": "11:10",
+    "endTime": "12:05",
+    "subject": "Computer Programming - I Laboratory",
+    "room": "C008",
+    "faculty": "Prashant Dwivedy",
+    "type": "P",
+    "originalText": "H6 (24CP101P) C008, PRAS-P"
+  },
+  {
+    "id": "ict-div3-friday-1110-ohgj8v",
+    "department": "ICT",
+    "division": "3",
+    "year": "1st Year",
+    "day": "Friday",
+    "startTime": "11:10",
+    "endTime": "12:05",
+    "subject": "Computer Programming - I Laboratory",
+    "room": "C008",
+    "faculty": "Rutvij H Jhaveri",
+    "type": "P",
+    "originalText": "H5 (24CP101P) C008, RUZ-P"
+  },
+  {
+    "id": "ce-div1-monday-900-gyugc8",
     "department": "CE",
     "division": "1",
     "year": "3rd Year",
@@ -14,7 +1148,7 @@
     "originalText": "G1G2 (24CS301T) F1-304, RAGUP-L"
   },
   {
-    "id": "ce-div1-monday-1000-t1j59",
+    "id": "ce-div1-monday-1000-dw6by4",
     "department": "CE",
     "division": "1",
     "year": "3rd Year",
@@ -28,7 +1162,7 @@
     "originalText": "G1G2 (24CS335T) F1-304, NIP-L"
   },
   {
-    "id": "ce-div1-monday-1110-2mg39s",
+    "id": "ce-div1-monday-1110-uor24",
     "department": "CE",
     "division": "1",
     "year": "3rd Year",
@@ -42,7 +1176,7 @@
     "originalText": "G1 (24CS304P) F-103, SHPA-P"
   },
   {
-    "id": "ce-div1-monday-210-eudta",
+    "id": "ce-div1-monday-210-e9j9d3",
     "department": "CE",
     "division": "1",
     "year": "3rd Year",
@@ -56,7 +1190,7 @@
     "originalText": "G1 (24CS302P) F-202, MAPL-P"
   },
   {
-    "id": "ce-div1-monday-1000-ybdj16",
+    "id": "ce-div1-monday-1000-byx6d",
     "department": "CE",
     "division": "1",
     "year": "3rd Year",
@@ -70,7 +1204,7 @@
     "originalText": "G1G2 (24CS331T) E203, BHB-L"
   },
   {
-    "id": "ce-div1-monday-1110-t6j9wm",
+    "id": "ce-div1-monday-1110-gkspbw",
     "department": "CE",
     "division": "1",
     "year": "3rd Year",
@@ -84,7 +1218,7 @@
     "originalText": "G2 (24CS302P) F-104, MAPL-P"
   },
   {
-    "id": "ce-div1-monday-210-6g71kf",
+    "id": "ce-div1-monday-210-71sk4k",
     "department": "CE",
     "division": "1",
     "year": "3rd Year",
@@ -98,7 +1232,7 @@
     "originalText": "G2 (24CS303P) E216, SMP-P"
   },
   {
-    "id": "ce-div1-monday-1000-fymh03",
+    "id": "ce-div1-monday-1000-i7jg9",
     "department": "CE",
     "division": "1",
     "year": "3rd Year",
@@ -112,7 +1246,7 @@
     "originalText": "G1G2 (24CS333T) F1-303, SVS-L"
   },
   {
-    "id": "ce-div1-tuesday-900-ookg6k",
+    "id": "ce-div1-tuesday-900-etl38b",
     "department": "CE",
     "division": "1",
     "year": "3rd Year",
@@ -126,7 +1260,7 @@
     "originalText": "G1G2 (24CS301T) F1-304, RAGUP-L"
   },
   {
-    "id": "ce-div1-tuesday-1000-m11nwk",
+    "id": "ce-div1-tuesday-1000-gtc0g",
     "department": "CE",
     "division": "1",
     "year": "3rd Year",
@@ -140,7 +1274,7 @@
     "originalText": "G1G2 (24CS302T) F1-304, MAPL-L"
   },
   {
-    "id": "ce-div1-tuesday-1110-nnff4l",
+    "id": "ce-div1-tuesday-1110-nb06ut",
     "department": "CE",
     "division": "1",
     "year": "3rd Year",
@@ -154,7 +1288,7 @@
     "originalText": "G1G2 (24CS303T) E310, SMP-L"
   },
   {
-    "id": "ce-div1-tuesday-1210-d6tq3",
+    "id": "ce-div1-tuesday-1210-kcpozq",
     "department": "CE",
     "division": "1",
     "year": "3rd Year",
@@ -168,7 +1302,7 @@
     "originalText": "G1G2 (24HS301T) E310, HIBA-L"
   },
   {
-    "id": "ce-div1-wednesday-900-7pfc7h",
+    "id": "ce-div1-wednesday-900-fii6x",
     "department": "CE",
     "division": "1",
     "year": "3rd Year",
@@ -182,7 +1316,7 @@
     "originalText": "G2 (24CS304P) F-104, SHPA-P"
   },
   {
-    "id": "ce-div1-wednesday-1110-70do8f",
+    "id": "ce-div1-wednesday-1110-qozaq",
     "department": "CE",
     "division": "1",
     "year": "3rd Year",
@@ -196,7 +1330,7 @@
     "originalText": "G1G2 (24HS301T) E310, HIBA-L"
   },
   {
-    "id": "ce-div1-wednesday-1210-uzs6",
+    "id": "ce-div1-wednesday-1210-o1cqy",
     "department": "CE",
     "division": "1",
     "year": "3rd Year",
@@ -210,7 +1344,7 @@
     "originalText": "G1G2 (24CS304T) E310, SHPA-L"
   },
   {
-    "id": "ce-div1-wednesday-210-aksy7o",
+    "id": "ce-div1-wednesday-210-2zcc9l",
     "department": "CE",
     "division": "1",
     "year": "3rd Year",
@@ -224,7 +1358,7 @@
     "originalText": "G1G2 (24CS303T) F1-303, SMP-L"
   },
   {
-    "id": "ce-div1-wednesday-900-dm65na",
+    "id": "ce-div1-wednesday-900-2kl3xd",
     "department": "CE",
     "division": "1",
     "year": "3rd Year",
@@ -238,7 +1372,7 @@
     "originalText": "G1 (24CS303P) F-103, SMP-P"
   },
   {
-    "id": "ce-div1-thursday-900-h20pq9",
+    "id": "ce-div1-thursday-900-kil02",
     "department": "CE",
     "division": "1",
     "year": "3rd Year",
@@ -252,7 +1386,7 @@
     "originalText": "G1G2 (24CS301T) F1-304, RAGUP-L"
   },
   {
-    "id": "ce-div1-thursday-1000-lqnql",
+    "id": "ce-div1-thursday-1000-rhrqnh",
     "department": "CE",
     "division": "1",
     "year": "3rd Year",
@@ -266,7 +1400,7 @@
     "originalText": "G1G2 (24CS335T) F1-304, NIP-L"
   },
   {
-    "id": "ce-div1-thursday-1110-8eqwf4",
+    "id": "ce-div1-thursday-1110-eqak5h",
     "department": "CE",
     "division": "1",
     "year": "3rd Year",
@@ -280,7 +1414,7 @@
     "originalText": "G1G2 (24CS302T) E306, MAPL-L"
   },
   {
-    "id": "ce-div1-thursday-1210-ae6v1c",
+    "id": "ce-div1-thursday-1210-65kd39",
     "department": "CE",
     "division": "1",
     "year": "3rd Year",
@@ -294,7 +1428,7 @@
     "originalText": "G1G2 (24CS303T) E306, SMP-L"
   },
   {
-    "id": "ce-div1-thursday-210-ya5mrn",
+    "id": "ce-div1-thursday-210-yvxsta",
     "department": "CE",
     "division": "1",
     "year": "3rd Year",
@@ -308,7 +1442,7 @@
     "originalText": "G1G2 (24CS304T) F1-302, SHPA-L"
   },
   {
-    "id": "ce-div1-thursday-310-3c6b2o",
+    "id": "ce-div1-thursday-310-tnmomc",
     "department": "CE",
     "division": "1",
     "year": "3rd Year",
@@ -322,7 +1456,7 @@
     "originalText": "G1G2 (CDC) F1-303, CDCT-L"
   },
   {
-    "id": "ce-div1-thursday-1000-jvr8pd",
+    "id": "ce-div1-thursday-1000-29u2br",
     "department": "CE",
     "division": "1",
     "year": "3rd Year",
@@ -336,7 +1470,7 @@
     "originalText": "G1G2 (24CS333T) F1-303, SVS-L"
   },
   {
-    "id": "ce-div1-thursday-1000-1tbb4w",
+    "id": "ce-div1-thursday-1000-cbmg1t",
     "department": "CE",
     "division": "1",
     "year": "3rd Year",
@@ -350,7 +1484,7 @@
     "originalText": "G1G2 (24CS331T) E203, BHB-L"
   },
   {
-    "id": "ce-div1-friday-900-kh73nr",
+    "id": "ce-div1-friday-900-ksi7qj",
     "department": "CE",
     "division": "1",
     "year": "3rd Year",
@@ -364,7 +1498,7 @@
     "originalText": "G1G2 (24CS335T) F1-304, NIP-L"
   },
   {
-    "id": "ce-div1-friday-1000-jeuyji",
+    "id": "ce-div1-friday-1000-csxsae",
     "department": "CE",
     "division": "1",
     "year": "3rd Year",
@@ -378,7 +1512,7 @@
     "originalText": "G1G2 (24CS302T) F1-304, MAPL-L"
   },
   {
-    "id": "ce-div1-friday-1110-ziyu9",
+    "id": "ce-div1-friday-1110-x581zg",
     "department": "CE",
     "division": "1",
     "year": "3rd Year",
@@ -392,7 +1526,7 @@
     "originalText": "G1G2 (24HS301T) E310, HIBA-L"
   },
   {
-    "id": "ce-div1-friday-1210-vfvsss",
+    "id": "ce-div1-friday-1210-01qrzv",
     "department": "CE",
     "division": "1",
     "year": "3rd Year",
@@ -406,7 +1540,7 @@
     "originalText": "G1G2 (24CS304T) E310, SHPA-L"
   },
   {
-    "id": "ce-div1-friday-210-4mq7k",
+    "id": "ce-div1-friday-210-1re5ng",
     "department": "CE",
     "division": "1",
     "year": "3rd Year",
@@ -420,7 +1554,7 @@
     "originalText": "G1G2 (CDC) E204, CDCT-L"
   },
   {
-    "id": "ce-div1-friday-900-3vvuha",
+    "id": "ce-div1-friday-900-l8vbxr",
     "department": "CE",
     "division": "1",
     "year": "3rd Year",
@@ -434,7 +1568,7 @@
     "originalText": "G1G2 (24CS333T) F1-303, SVS-L"
   },
   {
-    "id": "ce-div1-friday-900-266u2",
+    "id": "ce-div1-friday-900-2jnkjk",
     "department": "CE",
     "division": "1",
     "year": "3rd Year",
@@ -448,7 +1582,7 @@
     "originalText": "G1G2 (24CS331T) E203, BHB-L"
   },
   {
-    "id": "ce-div2-monday-900-49rilr",
+    "id": "ce-div2-monday-900-pfp5u",
     "department": "CE",
     "division": "2",
     "year": "3rd Year",
@@ -462,7 +1596,7 @@
     "originalText": "G3G4 (24HS301T) E309, DHM-L"
   },
   {
-    "id": "ce-div2-monday-1000-b9t97",
+    "id": "ce-div2-monday-1000-kb6zhf",
     "department": "CE",
     "division": "2",
     "year": "3rd Year",
@@ -476,7 +1610,7 @@
     "originalText": "G3G4 (24CS335T) F1-304, NIP-L"
   },
   {
-    "id": "ce-div2-monday-1110-hdliw8",
+    "id": "ce-div2-monday-1110-yel8oc",
     "department": "CE",
     "division": "2",
     "year": "3rd Year",
@@ -490,7 +1624,7 @@
     "originalText": "G3 (24CS303P) F-202, SVS-P"
   },
   {
-    "id": "ce-div2-monday-210-0m3lud",
+    "id": "ce-div2-monday-210-nodn1",
     "department": "CE",
     "division": "2",
     "year": "3rd Year",
@@ -504,7 +1638,7 @@
     "originalText": "G3G4 (24CS301T) F1-304, RAGUP-L"
   },
   {
-    "id": "ce-div2-monday-310-czeev4",
+    "id": "ce-div2-monday-310-vskrd",
     "department": "CE",
     "division": "2",
     "year": "3rd Year",
@@ -518,7 +1652,7 @@
     "originalText": "G3G4 (24CS302T) F1-304, SKB-L"
   },
   {
-    "id": "ce-div2-monday-415-fr5zmc",
+    "id": "ce-div2-monday-415-k1zi5",
     "department": "CE",
     "division": "2",
     "year": "3rd Year",
@@ -532,7 +1666,7 @@
     "originalText": "G3G4 (24CS304T) E204, HITH-L"
   },
   {
-    "id": "ce-div2-monday-1000-ymie30r",
+    "id": "ce-div2-monday-1000-mzlgw",
     "department": "CE",
     "division": "2",
     "year": "3rd Year",
@@ -546,7 +1680,7 @@
     "originalText": "G3G4 (24CS333T) F1-303, SVS-L"
   },
   {
-    "id": "ce-div2-monday-1110-j9485l",
+    "id": "ce-div2-monday-1110-k5e13",
     "department": "CE",
     "division": "2",
     "year": "3rd Year",
@@ -560,7 +1694,7 @@
     "originalText": "G4 (24CS304P) F-203, HITH-P"
   },
   {
-    "id": "ce-div2-tuesday-900-73jhk9",
+    "id": "ce-div2-tuesday-900-hn2n8m",
     "department": "CE",
     "division": "2",
     "year": "3rd Year",
@@ -574,7 +1708,7 @@
     "originalText": "G3 (24CS304P) F-203, HITH-P"
   },
   {
-    "id": "ce-div2-tuesday-1310-clwgpp",
+    "id": "ce-div2-tuesday-1310-5c00bu",
     "department": "CE",
     "division": "2",
     "year": "3rd Year",
@@ -588,7 +1722,7 @@
     "originalText": "G3G4 (24CS331T) E203, BHB-L"
   },
   {
-    "id": "ce-div2-tuesday-210-gbv43a",
+    "id": "ce-div2-tuesday-210-buepo9",
     "department": "CE",
     "division": "2",
     "year": "3rd Year",
@@ -602,7 +1736,7 @@
     "originalText": "G3G4 (24CS301T) F1-304, RAGUP-L"
   },
   {
-    "id": "ce-div2-tuesday-310-zv0wn3",
+    "id": "ce-div2-tuesday-310-zr6uws",
     "department": "CE",
     "division": "2",
     "year": "3rd Year",
@@ -616,7 +1750,7 @@
     "originalText": "G3G4 (24CS303T) F1-304, SVS-L"
   },
   {
-    "id": "ce-div2-wednesday-900-8pthko",
+    "id": "ce-div2-wednesday-900-v4c1mp",
     "department": "CE",
     "division": "2",
     "year": "3rd Year",
@@ -630,7 +1764,7 @@
     "originalText": "G4 (24CS303P) F-202, SVS-P"
   },
   {
-    "id": "ce-div2-wednesday-1310-64vikc",
+    "id": "ce-div2-wednesday-1310-cqgivn",
     "department": "CE",
     "division": "2",
     "year": "3rd Year",
@@ -644,7 +1778,7 @@
     "originalText": "G3G4 (24CS331T) E203, BHB-L"
   },
   {
-    "id": "ce-div2-wednesday-210-t0gfz",
+    "id": "ce-div2-wednesday-210-h1o8j9",
     "department": "CE",
     "division": "2",
     "year": "3rd Year",
@@ -658,7 +1792,7 @@
     "originalText": "G3G4 (CDC) E203, CDCT-L"
   },
   {
-    "id": "ce-div2-wednesday-310-7k7an",
+    "id": "ce-div2-wednesday-310-s891mse",
     "department": "CE",
     "division": "2",
     "year": "3rd Year",
@@ -672,7 +1806,7 @@
     "originalText": "G3G4 (24CS303T) E203, SVS-L"
   },
   {
-    "id": "ce-div2-wednesday-415-wbj4yj",
+    "id": "ce-div2-wednesday-415-pej2uq",
     "department": "CE",
     "division": "2",
     "year": "3rd Year",
@@ -686,7 +1820,7 @@
     "originalText": "G3G4 (24HS301T) E203, DHM-L"
   },
   {
-    "id": "ce-div2-thursday-900-kk29t",
+    "id": "ce-div2-thursday-900-u8aqus",
     "department": "CE",
     "division": "2",
     "year": "3rd Year",
@@ -700,7 +1834,7 @@
     "originalText": "G3G4 (24CS302T) E309, SKB-L"
   },
   {
-    "id": "ce-div2-thursday-1000-y8tqic",
+    "id": "ce-div2-thursday-1000-hceeo8",
     "department": "CE",
     "division": "2",
     "year": "3rd Year",
@@ -714,7 +1848,7 @@
     "originalText": "G3G4 (24CS335T) F1-304, NIP-L"
   },
   {
-    "id": "ce-div2-thursday-1110-cm37wd",
+    "id": "ce-div2-thursday-1110-bvihej",
     "department": "CE",
     "division": "2",
     "year": "3rd Year",
@@ -728,7 +1862,7 @@
     "originalText": "G3G4 (24CS301T) E310, RAGUP-L"
   },
   {
-    "id": "ce-div2-thursday-1310-ns2d4s",
+    "id": "ce-div2-thursday-1310-l6aypw",
     "department": "CE",
     "division": "2",
     "year": "3rd Year",
@@ -742,7 +1876,7 @@
     "originalText": "G3G4 (24CS331T) E203, BHB-L"
   },
   {
-    "id": "ce-div2-thursday-210-dtr9wk",
+    "id": "ce-div2-thursday-210-rn998r",
     "department": "CE",
     "division": "2",
     "year": "3rd Year",
@@ -756,7 +1890,7 @@
     "originalText": "G3G4 (24CS303T) F1-304, SVS-L"
   },
   {
-    "id": "ce-div2-thursday-310-u7ka64",
+    "id": "ce-div2-thursday-310-8fv4um",
     "department": "CE",
     "division": "2",
     "year": "3rd Year",
@@ -770,7 +1904,7 @@
     "originalText": "G3G4 (24CS304T) F1-304, HITH-L"
   },
   {
-    "id": "ce-div2-thursday-415-xwqawe",
+    "id": "ce-div2-thursday-415-re7tjj",
     "department": "CE",
     "division": "2",
     "year": "3rd Year",
@@ -784,7 +1918,7 @@
     "originalText": "G3G4 (24HS301T) F1-303, NAIK-L"
   },
   {
-    "id": "ce-div2-thursday-1000-06u28",
+    "id": "ce-div2-thursday-1000-flwqyq",
     "department": "CE",
     "division": "2",
     "year": "3rd Year",
@@ -798,7 +1932,7 @@
     "originalText": "G3G4 (24CS333T) F1-303, SVS-L"
   },
   {
-    "id": "ce-div2-friday-900-ejhchg",
+    "id": "ce-div2-friday-900-2xytg",
     "department": "CE",
     "division": "2",
     "year": "3rd Year",
@@ -812,7 +1946,7 @@
     "originalText": "G3G4 (24CS335T) F1-304, NIP-L"
   },
   {
-    "id": "ce-div2-friday-1000-zo3ecs",
+    "id": "ce-div2-friday-1000-wnttw",
     "department": "CE",
     "division": "2",
     "year": "3rd Year",
@@ -826,7 +1960,7 @@
     "originalText": "G3G4 (24CS302T) E309, SKB-L"
   },
   {
-    "id": "ce-div2-friday-1110-0l7ftp",
+    "id": "ce-div2-friday-1110-yt454",
     "department": "CE",
     "division": "2",
     "year": "3rd Year",
@@ -840,7 +1974,7 @@
     "originalText": "G4 (24CS302P) E308, LKM-P"
   },
   {
-    "id": "ce-div2-friday-210-j0il1i",
+    "id": "ce-div2-friday-210-771alr",
     "department": "CE",
     "division": "2",
     "year": "3rd Year",
@@ -854,7 +1988,7 @@
     "originalText": "G3G4 (24CS304T) F1-304, HITH-L"
   },
   {
-    "id": "ce-div2-friday-310-sxl4oa",
+    "id": "ce-div2-friday-310-0m7vuo",
     "department": "CE",
     "division": "2",
     "year": "3rd Year",
@@ -868,7 +2002,7 @@
     "originalText": "G3G4 (CDC) F1-304, CDCT-L"
   },
   {
-    "id": "ce-div2-friday-900-z00g62",
+    "id": "ce-div2-friday-900-4mbzh9",
     "department": "CE",
     "division": "2",
     "year": "3rd Year",
@@ -882,7 +2016,7 @@
     "originalText": "G3G4 (24CS333T) F1-303, SVS-L"
   },
   {
-    "id": "ce-div2-friday-1110-f2usu",
+    "id": "ce-div2-friday-1110-0p4x1",
     "department": "CE",
     "division": "2",
     "year": "3rd Year",
@@ -896,7 +2030,7 @@
     "originalText": "G3 (24CS302P) E308, SKB-P"
   },
   {
-    "id": "ce-div3-monday-900-c47vzo",
+    "id": "ce-div3-monday-900-3pwp9i",
     "department": "CE",
     "division": "3",
     "year": "3rd Year",
@@ -910,7 +2044,7 @@
     "originalText": "G5G6 (24CS304T) F1-302, HMGA-L"
   },
   {
-    "id": "ce-div3-monday-1000-9d3qoe",
+    "id": "ce-div3-monday-1000-59789r",
     "department": "CE",
     "division": "3",
     "year": "3rd Year",
@@ -924,7 +2058,7 @@
     "originalText": "G5G6 (24CS335T) F1-304, NIP-L"
   },
   {
-    "id": "ce-div3-monday-1210-ovxkk",
+    "id": "ce-div3-monday-1210-zy0cke",
     "department": "CE",
     "division": "3",
     "year": "3rd Year",
@@ -938,7 +2072,7 @@
     "originalText": "G5G6 (CDC) F1-302, CDCT-L"
   },
   {
-    "id": "ce-div3-monday-210-ou3s5",
+    "id": "ce-div3-monday-210-d2orc",
     "department": "CE",
     "division": "3",
     "year": "3rd Year",
@@ -952,7 +2086,7 @@
     "originalText": "G5G6 (24CS302T) E204, SKB-L"
   },
   {
-    "id": "ce-div3-monday-310-8y2uj",
+    "id": "ce-div3-monday-310-v5cg8m",
     "department": "CE",
     "division": "3",
     "year": "3rd Year",
@@ -966,7 +2100,7 @@
     "originalText": "G5G6 (24HS301T) E204, NAIK-L"
   },
   {
-    "id": "ce-div3-monday-1000-ficwga",
+    "id": "ce-div3-monday-1000-wyyktq",
     "department": "CE",
     "division": "3",
     "year": "3rd Year",
@@ -980,7 +2114,7 @@
     "originalText": "G5G6 (24CS333T) F1-303, SVS-L"
   },
   {
-    "id": "ce-div3-monday-1000-wkvgn5",
+    "id": "ce-div3-monday-1000-gktmkq",
     "department": "CE",
     "division": "3",
     "year": "3rd Year",
@@ -994,7 +2128,7 @@
     "originalText": "G5G6 (24CS331T) E203, BHB-L"
   },
   {
-    "id": "ce-div3-tuesday-900-lpy8m1",
+    "id": "ce-div3-tuesday-900-vhsgb",
     "department": "CE",
     "division": "3",
     "year": "3rd Year",
@@ -1008,7 +2142,7 @@
     "originalText": "G6 (24CS304P) E309, HMGA-P"
   },
   {
-    "id": "ce-div3-tuesday-1210-6z5x9",
+    "id": "ce-div3-tuesday-1210-5cqops",
     "department": "CE",
     "division": "3",
     "year": "3rd Year",
@@ -1022,7 +2156,7 @@
     "originalText": "G5G6 (24CS301T) E309, AMC-L"
   },
   {
-    "id": "ce-div3-tuesday-210-i5dja6",
+    "id": "ce-div3-tuesday-210-xlsf39",
     "department": "CE",
     "division": "3",
     "year": "3rd Year",
@@ -1036,7 +2170,7 @@
     "originalText": "G5G6 (24CS303T) E203, SVS-L"
   },
   {
-    "id": "ce-div3-tuesday-310-5hr3px",
+    "id": "ce-div3-tuesday-310-3yqzm9",
     "department": "CE",
     "division": "3",
     "year": "3rd Year",
@@ -1050,7 +2184,7 @@
     "originalText": "G5G6 (24HS301T) E203, NAIK-L"
   },
   {
-    "id": "ce-div3-tuesday-900-yy238l5",
+    "id": "ce-div3-tuesday-900-mywoyf",
     "department": "CE",
     "division": "3",
     "year": "3rd Year",
@@ -1064,7 +2198,7 @@
     "originalText": "G5 (24CS303P) E307, SMP-P"
   },
   {
-    "id": "ce-div3-wednesday-900-h8c7v6",
+    "id": "ce-div3-wednesday-900-oe3dnj",
     "department": "CE",
     "division": "3",
     "year": "3rd Year",
@@ -1078,7 +2212,7 @@
     "originalText": "G5G6 (24CS302T) E310, SKB-L"
   },
   {
-    "id": "ce-div3-wednesday-1000-msys58",
+    "id": "ce-div3-wednesday-1000-6yojq",
     "department": "CE",
     "division": "3",
     "year": "3rd Year",
@@ -1092,7 +2226,7 @@
     "originalText": "G5G6 (24CS304T) E310, HMGA-L"
   },
   {
-    "id": "ce-div3-wednesday-1110-pww6ec",
+    "id": "ce-div3-wednesday-1110-mthko",
     "department": "CE",
     "division": "3",
     "year": "3rd Year",
@@ -1106,7 +2240,7 @@
     "originalText": "G5 (24CS302P) E309, LKM-P"
   },
   {
-    "id": "ce-div3-wednesday-210-4s9nkp",
+    "id": "ce-div3-wednesday-210-eq35in",
     "department": "CE",
     "division": "3",
     "year": "3rd Year",
@@ -1120,7 +2254,7 @@
     "originalText": "G5G6 (24CS303T) E310, SVS-L"
   },
   {
-    "id": "ce-div3-wednesday-310-9c74nb",
+    "id": "ce-div3-wednesday-310-eog4dh",
     "department": "CE",
     "division": "3",
     "year": "3rd Year",
@@ -1134,7 +2268,7 @@
     "originalText": "G5G6 (CDC) E310, CDCT-L"
   },
   {
-    "id": "ce-div3-wednesday-415-h0rgkr",
+    "id": "ce-div3-wednesday-415-nxj0pp",
     "department": "CE",
     "division": "3",
     "year": "3rd Year",
@@ -1148,7 +2282,7 @@
     "originalText": "G5G6 (24HS301T) E310, NAIK-L"
   },
   {
-    "id": "ce-div3-wednesday-1110-xuj4j9",
+    "id": "ce-div3-wednesday-1110-ld67gs",
     "department": "CE",
     "division": "3",
     "year": "3rd Year",
@@ -1162,7 +2296,7 @@
     "originalText": "G6 (24CS302P) E309, SKB-P"
   },
   {
-    "id": "ce-div3-thursday-900-q5fkn",
+    "id": "ce-div3-thursday-900-jjspto",
     "department": "CE",
     "division": "3",
     "year": "3rd Year",
@@ -1176,7 +2310,7 @@
     "originalText": "G5G6 (24CS303T) E310, SVS-L"
   },
   {
-    "id": "ce-div3-thursday-1000-w5coqo",
+    "id": "ce-div3-thursday-1000-gxhas",
     "department": "CE",
     "division": "3",
     "year": "3rd Year",
@@ -1190,7 +2324,7 @@
     "originalText": "G5G6 (24CS335T) F1-304, NIP-L"
   },
   {
-    "id": "ce-div3-thursday-1110-ve6j",
+    "id": "ce-div3-thursday-1110-p1mlzb",
     "department": "CE",
     "division": "3",
     "year": "3rd Year",
@@ -1204,7 +2338,7 @@
     "originalText": "G5 (24CS303P) E308, SVS-P"
   },
   {
-    "id": "ce-div3-thursday-210-04gtb",
+    "id": "ce-div3-thursday-210-sv73zm",
     "department": "CE",
     "division": "3",
     "year": "3rd Year",
@@ -1218,7 +2352,7 @@
     "originalText": "G5G6 (24CS301T) F1-303, AMC-L"
   },
   {
-    "id": "ce-div3-thursday-1000-8oi4j76",
+    "id": "ce-div3-thursday-1000-9dxbl",
     "department": "CE",
     "division": "3",
     "year": "3rd Year",
@@ -1232,7 +2366,7 @@
     "originalText": "G5G6 (24CS333T) F1-303, SVS-L"
   },
   {
-    "id": "ce-div3-thursday-1110-xw9nv2",
+    "id": "ce-div3-thursday-1110-izbk2s",
     "department": "CE",
     "division": "3",
     "year": "3rd Year",
@@ -1246,7 +2380,7 @@
     "originalText": "G5 (24CS304P) E309, HMGA-P"
   },
   {
-    "id": "ce-div3-thursday-1000-c0m58j",
+    "id": "ce-div3-thursday-1000-43imvg",
     "department": "CE",
     "division": "3",
     "year": "3rd Year",
@@ -1260,7 +2394,7 @@
     "originalText": "G5G6 (24CS331T) E203, BHB-L"
   },
   {
-    "id": "ce-div3-friday-900-qywkz1",
+    "id": "ce-div3-friday-900-sekvk",
     "department": "CE",
     "division": "3",
     "year": "3rd Year",
@@ -1274,7 +2408,7 @@
     "originalText": "G5G6 (24CS333T) F1-303, SVS-L"
   },
   {
-    "id": "ce-div3-friday-1000-6pf5a",
+    "id": "ce-div3-friday-1000-xivlte",
     "department": "CE",
     "division": "3",
     "year": "3rd Year",
@@ -1288,7 +2422,7 @@
     "originalText": "G5G6 (24CS304T) F1-302, HMGA-L"
   },
   {
-    "id": "ce-div3-friday-1210-mdrbxj",
+    "id": "ce-div3-friday-1210-tvxso",
     "department": "CE",
     "division": "3",
     "year": "3rd Year",
@@ -1302,7 +2436,7 @@
     "originalText": "G5G6 (24CS301T) F1-302, AMC-L"
   },
   {
-    "id": "ce-div3-friday-210-yagb2h",
+    "id": "ce-div3-friday-210-otxzmpg",
     "department": "CE",
     "division": "3",
     "year": "3rd Year",
@@ -1316,7 +2450,7 @@
     "originalText": "G5G6 (24CS302T) E309, SKB-L"
   },
   {
-    "id": "ce-div3-friday-900-sqi68j",
+    "id": "ce-div3-friday-900-dbuzw8",
     "department": "CE",
     "division": "3",
     "year": "3rd Year",
@@ -1330,7 +2464,7 @@
     "originalText": "G5G6 (24CS335T) F1-304, NIP-L"
   },
   {
-    "id": "ce-div3-friday-900-f5vb2",
+    "id": "ce-div3-friday-900-ifwllj",
     "department": "CE",
     "division": "3",
     "year": "3rd Year",
@@ -1344,7 +2478,7 @@
     "originalText": "G5G6 (24CS331T) E203, BHB-L"
   },
   {
-    "id": "ce-div4-monday-1000-aeo88p",
+    "id": "ce-div4-monday-1000-2k1a6",
     "department": "CE",
     "division": "4",
     "year": "3rd Year",
@@ -1358,7 +2492,7 @@
     "originalText": "G7G8 (24CS335T) F1-304, NIP-L"
   },
   {
-    "id": "ce-div4-monday-1110-65uh6e",
+    "id": "ce-div4-monday-1110-hvz0wh",
     "department": "CE",
     "division": "4",
     "year": "3rd Year",
@@ -1372,7 +2506,7 @@
     "originalText": "G7 (24CS304P) E215, ARNI-P"
   },
   {
-    "id": "ce-div4-monday-210-iu0qmx",
+    "id": "ce-div4-monday-210-805rv",
     "department": "CE",
     "division": "4",
     "year": "3rd Year",
@@ -1386,7 +2520,7 @@
     "originalText": "G7G8 (24CS304T) F1-303, ARNI-L"
   },
   {
-    "id": "ce-div4-monday-310-ccravl",
+    "id": "ce-div4-monday-310-fharkq",
     "department": "CE",
     "division": "4",
     "year": "3rd Year",
@@ -1400,7 +2534,7 @@
     "originalText": "G7G8 (CDC) F1-303, CDCT-L"
   },
   {
-    "id": "ce-div4-monday-415-mngt2q",
+    "id": "ce-div4-monday-415-gtpr2e",
     "department": "CE",
     "division": "4",
     "year": "3rd Year",
@@ -1414,7 +2548,7 @@
     "originalText": "G7G8 (24CS302T) E306, SJD-L"
   },
   {
-    "id": "ce-div4-monday-1000-n4chss",
+    "id": "ce-div4-monday-1000-f74vhq",
     "department": "CE",
     "division": "4",
     "year": "3rd Year",
@@ -1428,7 +2562,7 @@
     "originalText": "G7G8 (24CS333T) F1-303, SVS-L"
   },
   {
-    "id": "ce-div4-monday-1110-zhy7ne",
+    "id": "ce-div4-monday-1110-rwb79r",
     "department": "CE",
     "division": "4",
     "year": "3rd Year",
@@ -1442,7 +2576,7 @@
     "originalText": "G8 (24CS303P) E213, APT-P"
   },
   {
-    "id": "ce-div4-monday-1000-uzjujd",
+    "id": "ce-div4-monday-1000-ixu69",
     "department": "CE",
     "division": "4",
     "year": "3rd Year",
@@ -1456,7 +2590,7 @@
     "originalText": "G7G8 (24CS331T) E307, KALG-L"
   },
   {
-    "id": "ce-div4-tuesday-900-t132w",
+    "id": "ce-div4-tuesday-900-oa3bri",
     "department": "CE",
     "division": "4",
     "year": "3rd Year",
@@ -1470,7 +2604,7 @@
     "originalText": "G7G8 (24CS301T) F1-303, TRP-L"
   },
   {
-    "id": "ce-div4-tuesday-1000-l5ln6l",
+    "id": "ce-div4-tuesday-1000-5hxxzrq",
     "department": "CE",
     "division": "4",
     "year": "3rd Year",
@@ -1484,7 +2618,7 @@
     "originalText": "G7G8 (CDC) F1-303, CDCT-L"
   },
   {
-    "id": "ce-div4-tuesday-1310-9kxa8",
+    "id": "ce-div4-tuesday-1310-i4pvxn",
     "department": "CE",
     "division": "4",
     "year": "3rd Year",
@@ -1498,7 +2632,7 @@
     "originalText": "G7G8 (24CS303T) F1-303, APT-L"
   },
   {
-    "id": "ce-div4-tuesday-210-nu9arj",
+    "id": "ce-div4-tuesday-210-hru7p",
     "department": "CE",
     "division": "4",
     "year": "3rd Year",
@@ -1512,7 +2646,7 @@
     "originalText": "G7 (24CS302P) E213, SKB-P"
   },
   {
-    "id": "ce-div4-tuesday-415-fvbbs",
+    "id": "ce-div4-tuesday-415-zzkzmg",
     "department": "CE",
     "division": "4",
     "year": "3rd Year",
@@ -1526,7 +2660,7 @@
     "originalText": "G7G8 (24CS304T) F1-302, ARNI-L"
   },
   {
-    "id": "ce-div4-tuesday-210-dttub",
+    "id": "ce-div4-tuesday-210-8o3xu9",
     "department": "CE",
     "division": "4",
     "year": "3rd Year",
@@ -1540,7 +2674,7 @@
     "originalText": "G8 (24CS302P) E215, MAPL-P"
   },
   {
-    "id": "ce-div4-wednesday-900-ks9z1g",
+    "id": "ce-div4-wednesday-900-ksycerv",
     "department": "CE",
     "division": "4",
     "year": "3rd Year",
@@ -1554,7 +2688,7 @@
     "originalText": "G7G8 (24CS301T) F1-303, TRP-L"
   },
   {
-    "id": "ce-div4-wednesday-1000-pcryfr",
+    "id": "ce-div4-wednesday-1000-xtmdsd",
     "department": "CE",
     "division": "4",
     "year": "3rd Year",
@@ -1568,7 +2702,7 @@
     "originalText": "G7G8 (24CS302T) F1-303, SJD-L"
   },
   {
-    "id": "ce-div4-wednesday-1310-9uqt1s",
+    "id": "ce-div4-wednesday-1310-wpgf6r",
     "department": "CE",
     "division": "4",
     "year": "3rd Year",
@@ -1582,7 +2716,7 @@
     "originalText": "G7G8 (24CS303T) F1-303, APT-L"
   },
   {
-    "id": "ce-div4-wednesday-210-n1tbh2",
+    "id": "ce-div4-wednesday-210-iw18vz",
     "department": "CE",
     "division": "4",
     "year": "3rd Year",
@@ -1596,7 +2730,7 @@
     "originalText": "G7G8 (24HS301T) F1-302, HIBA-L"
   },
   {
-    "id": "ce-div4-wednesday-310-051yk4",
+    "id": "ce-div4-wednesday-310-29agi",
     "department": "CE",
     "division": "4",
     "year": "3rd Year",
@@ -1610,7 +2744,7 @@
     "originalText": "G7G8 (24CS304T) F1-204, ARNI-L"
   },
   {
-    "id": "ce-div4-thursday-900-0b0crk",
+    "id": "ce-div4-thursday-900-1fpy38",
     "department": "CE",
     "division": "4",
     "year": "3rd Year",
@@ -1624,7 +2758,7 @@
     "originalText": "G7G8 (24HS301T) F1-303, HIBA-L"
   },
   {
-    "id": "ce-div4-thursday-1000-5gwrc",
+    "id": "ce-div4-thursday-1000-ndokq",
     "department": "CE",
     "division": "4",
     "year": "3rd Year",
@@ -1638,7 +2772,7 @@
     "originalText": "G7G8 (24CS333T) F1-303, SVS-L"
   },
   {
-    "id": "ce-div4-thursday-1310-0rmocc",
+    "id": "ce-div4-thursday-1310-lscn4s",
     "department": "CE",
     "division": "4",
     "year": "3rd Year",
@@ -1652,7 +2786,7 @@
     "originalText": "G7G8 (24CS302T) F1-204, SJD-L"
   },
   {
-    "id": "ce-div4-thursday-310-w2n47",
+    "id": "ce-div4-thursday-310-5gt8ka",
     "department": "CE",
     "division": "4",
     "year": "3rd Year",
@@ -1666,7 +2800,7 @@
     "originalText": "G7G8 (24HS301T) F1-302, HIBA-L"
   },
   {
-    "id": "ce-div4-thursday-415-3xx8pd",
+    "id": "ce-div4-thursday-415-ajggbf",
     "department": "CE",
     "division": "4",
     "year": "3rd Year",
@@ -1680,7 +2814,7 @@
     "originalText": "G7G8 (24CS303T) F1-302, APT-L"
   },
   {
-    "id": "ce-div4-thursday-1000-i8x86",
+    "id": "ce-div4-thursday-1000-69gya",
     "department": "CE",
     "division": "4",
     "year": "3rd Year",
@@ -1694,7 +2828,7 @@
     "originalText": "G7G8 (24CS335T) F1-304, NIP-L"
   },
   {
-    "id": "ce-div4-thursday-1000-zenw1",
+    "id": "ce-div4-thursday-1000-79p8zr",
     "department": "CE",
     "division": "4",
     "year": "3rd Year",
@@ -1708,7 +2842,7 @@
     "originalText": "G7G8 (24CS331T) E307, KALG-L"
   },
   {
-    "id": "ce-div4-friday-900-fnd2dt",
+    "id": "ce-div4-friday-900-tpdvb",
     "department": "CE",
     "division": "4",
     "year": "3rd Year",
@@ -1722,7 +2856,7 @@
     "originalText": "G7G8 (24CS333T) F1-303, SVS-L"
   },
   {
-    "id": "ce-div4-friday-1000-1sugqp",
+    "id": "ce-div4-friday-1000-10qmhp",
     "department": "CE",
     "division": "4",
     "year": "3rd Year",
@@ -1736,7 +2870,7 @@
     "originalText": "G7G8 (24CS301T) E307, TRP-L"
   },
   {
-    "id": "ce-div4-friday-1110-zxxspk",
+    "id": "ce-div4-friday-1110-yzi4ai",
     "department": "CE",
     "division": "4",
     "year": "3rd Year",
@@ -1750,7 +2884,7 @@
     "originalText": "G7 (24CS303P) E216, APT-P"
   },
   {
-    "id": "ce-div4-friday-900-ievegb",
+    "id": "ce-div4-friday-900-gckbkq",
     "department": "CE",
     "division": "4",
     "year": "3rd Year",
@@ -1764,7 +2898,7 @@
     "originalText": "G7G8 (24CS335T) F1-304, NIP-L"
   },
   {
-    "id": "ce-div4-friday-1110-12s0p",
+    "id": "ce-div4-friday-1110-mj96g",
     "department": "CE",
     "division": "4",
     "year": "3rd Year",
@@ -1778,7 +2912,7 @@
     "originalText": "G8 (24CS304P) E213, ARNI-P"
   },
   {
-    "id": "ce-div4-friday-900-to3yp",
+    "id": "ce-div4-friday-900-fo7efw",
     "department": "CE",
     "division": "4",
     "year": "3rd Year",
@@ -1792,7 +2926,7 @@
     "originalText": "G7G8 (24CS331T) E307, KALG-L"
   },
   {
-    "id": "ce-div5-monday-900-cuultp",
+    "id": "ce-div5-monday-900-n4enql",
     "department": "CE",
     "division": "5",
     "year": "3rd Year",
@@ -1806,7 +2940,7 @@
     "originalText": "G9G10 (24CS302T) E307, POSA-L"
   },
   {
-    "id": "ce-div5-monday-1000-ys93fn",
+    "id": "ce-div5-monday-1000-ohjme",
     "department": "CE",
     "division": "5",
     "year": "3rd Year",
@@ -1820,7 +2954,7 @@
     "originalText": "G9G10 (24CS335T) F1-304, NIP-L"
   },
   {
-    "id": "ce-div5-monday-1110-3pos4b",
+    "id": "ce-div5-monday-1110-qynf0l",
     "department": "CE",
     "division": "5",
     "year": "3rd Year",
@@ -1834,7 +2968,7 @@
     "originalText": "G9G10 (CDC) E307, CDCT-L"
   },
   {
-    "id": "ce-div5-monday-1210-kq5uxm",
+    "id": "ce-div5-monday-1210-hjoked",
     "department": "CE",
     "division": "5",
     "year": "3rd Year",
@@ -1848,7 +2982,7 @@
     "originalText": "G9G10 (24CS301T) E307, CHG-L"
   },
   {
-    "id": "ce-div5-monday-210-r2fd0c",
+    "id": "ce-div5-monday-210-djzhq8",
     "department": "CE",
     "division": "5",
     "year": "3rd Year",
@@ -1862,7 +2996,7 @@
     "originalText": "G9G10 (24CS303T) F1-302, APT-L"
   },
   {
-    "id": "ce-div5-monday-310-vlw7t",
+    "id": "ce-div5-monday-310-ezqv8",
     "department": "CE",
     "division": "5",
     "year": "3rd Year",
@@ -1876,7 +3010,7 @@
     "originalText": "G9G10 (24CS304T) F1-302, SHPA-L"
   },
   {
-    "id": "ce-div5-monday-415-d7esmn",
+    "id": "ce-div5-monday-415-xsufq",
     "department": "CE",
     "division": "5",
     "year": "3rd Year",
@@ -1890,7 +3024,7 @@
     "originalText": "G9G10 (24HS301T) E308, NAIK-L"
   },
   {
-    "id": "ce-div5-monday-1000-7uxuh",
+    "id": "ce-div5-monday-1000-dtt7q6",
     "department": "CE",
     "division": "5",
     "year": "3rd Year",
@@ -1904,7 +3038,7 @@
     "originalText": "G9G10 (24CS333T) F1-303, SVS-L"
   },
   {
-    "id": "ce-div5-tuesday-1000-m4c81",
+    "id": "ce-div5-tuesday-1000-6ts14",
     "department": "CE",
     "division": "5",
     "year": "3rd Year",
@@ -1918,7 +3052,7 @@
     "originalText": "G9G10 (24CS302T) E203, POSA-L"
   },
   {
-    "id": "ce-div5-tuesday-1310-m0kaa",
+    "id": "ce-div5-tuesday-1310-ppj15u",
     "department": "CE",
     "division": "5",
     "year": "3rd Year",
@@ -1932,7 +3066,7 @@
     "originalText": "G9G10 (24CS331T) E203, BHB-L"
   },
   {
-    "id": "ce-div5-tuesday-210-360peo",
+    "id": "ce-div5-tuesday-210-5qfsck",
     "department": "CE",
     "division": "5",
     "year": "3rd Year",
@@ -1946,7 +3080,7 @@
     "originalText": "G9G10 (24CS304T) F1-303, SHPA-L"
   },
   {
-    "id": "ce-div5-wednesday-900-aeklvg",
+    "id": "ce-div5-wednesday-900-hvws",
     "department": "CE",
     "division": "5",
     "year": "3rd Year",
@@ -1960,7 +3094,7 @@
     "originalText": "G9G10 (24HS301T) F1-304, NAIK-L"
   },
   {
-    "id": "ce-div5-wednesday-1000-4xcjgg",
+    "id": "ce-div5-wednesday-1000-ami0d",
     "department": "CE",
     "division": "5",
     "year": "3rd Year",
@@ -1974,7 +3108,7 @@
     "originalText": "G9G10 (24CS301T) F1-304, CHG-L"
   },
   {
-    "id": "ce-div5-wednesday-1310-xwwr6n",
+    "id": "ce-div5-wednesday-1310-suk84t",
     "department": "CE",
     "division": "5",
     "year": "3rd Year",
@@ -1988,7 +3122,7 @@
     "originalText": "G9G10 (24CS331T) E203, BHB-L"
   },
   {
-    "id": "ce-div5-wednesday-210-ez14",
+    "id": "ce-div5-wednesday-210-vqmo9jo",
     "department": "CE",
     "division": "5",
     "year": "3rd Year",
@@ -2002,7 +3136,7 @@
     "originalText": "G9G10 (24CS304T) F-504, SHPA-L"
   },
   {
-    "id": "ce-div5-wednesday-310-vruwzc",
+    "id": "ce-div5-wednesday-310-ysuvtc",
     "department": "CE",
     "division": "5",
     "year": "3rd Year",
@@ -2016,7 +3150,7 @@
     "originalText": "G9G10 (24CS303T) F-504, APT-L"
   },
   {
-    "id": "ce-div5-wednesday-415-ets1n9",
+    "id": "ce-div5-wednesday-415-w64hy3",
     "department": "CE",
     "division": "5",
     "year": "3rd Year",
@@ -2030,7 +3164,7 @@
     "originalText": "G9 (24CS304P) E308, SHPA-P"
   },
   {
-    "id": "ce-div5-wednesday-415-qold5q",
+    "id": "ce-div5-wednesday-415-59mf",
     "department": "CE",
     "division": "5",
     "year": "3rd Year",
@@ -2044,7 +3178,7 @@
     "originalText": "G10 (24CS304P) E309, HITH-P"
   },
   {
-    "id": "ce-div5-thursday-900-e207l",
+    "id": "ce-div5-thursday-900-dkb0v",
     "department": "CE",
     "division": "5",
     "year": "3rd Year",
@@ -2058,7 +3192,7 @@
     "originalText": "G9G10 (24CS303T) E203, APT-L"
   },
   {
-    "id": "ce-div5-thursday-1000-tjljua",
+    "id": "ce-div5-thursday-1000-iuyvq4",
     "department": "CE",
     "division": "5",
     "year": "3rd Year",
@@ -2072,7 +3206,7 @@
     "originalText": "G9G10 (24CS335T) F1-304, NIP-L"
   },
   {
-    "id": "ce-div5-thursday-1110-gb3mnn",
+    "id": "ce-div5-thursday-1110-y1qim",
     "department": "CE",
     "division": "5",
     "year": "3rd Year",
@@ -2086,7 +3220,7 @@
     "originalText": "G9G10 (CDC) E307, CDCT-L"
   },
   {
-    "id": "ce-div5-thursday-1310-2jy2xb",
+    "id": "ce-div5-thursday-1310-ytfn5",
     "department": "CE",
     "division": "5",
     "year": "3rd Year",
@@ -2100,7 +3234,7 @@
     "originalText": "G9G10 (24CS331T) E203, BHB-L"
   },
   {
-    "id": "ce-div5-thursday-210-z2fa6e",
+    "id": "ce-div5-thursday-210-t93qg7",
     "department": "CE",
     "division": "5",
     "year": "3rd Year",
@@ -2114,7 +3248,7 @@
     "originalText": "G10 (24CS302P) E215, POSA-P"
   },
   {
-    "id": "ce-div5-thursday-415-7wmc9d",
+    "id": "ce-div5-thursday-415-01deii",
     "department": "CE",
     "division": "5",
     "year": "3rd Year",
@@ -2128,7 +3262,7 @@
     "originalText": "G9G10 (24CS301T) E203, CHG-L"
   },
   {
-    "id": "ce-div5-thursday-1000-ndg7yc",
+    "id": "ce-div5-thursday-1000-h5sfcd",
     "department": "CE",
     "division": "5",
     "year": "3rd Year",
@@ -2142,7 +3276,7 @@
     "originalText": "G9G10 (24CS333T) F1-303, SVS-L"
   },
   {
-    "id": "ce-div5-thursday-210-xhsrt",
+    "id": "ce-div5-thursday-210-4s36g",
     "department": "CE",
     "division": "5",
     "year": "3rd Year",
@@ -2156,7 +3290,7 @@
     "originalText": "G9 (24CS303P) E213, APT-P"
   },
   {
-    "id": "ce-div5-friday-900-0rvzna",
+    "id": "ce-div5-friday-900-inf9db",
     "department": "CE",
     "division": "5",
     "year": "3rd Year",
@@ -2170,7 +3304,7 @@
     "originalText": "G9G10 (24CS335T) F1-304, NIP-L"
   },
   {
-    "id": "ce-div5-friday-1000-b21q9q",
+    "id": "ce-div5-friday-1000-3kn5pw",
     "department": "CE",
     "division": "5",
     "year": "3rd Year",
@@ -2184,7 +3318,7 @@
     "originalText": "G9G10 (24CS302T) E203, POSA-L"
   },
   {
-    "id": "ce-div5-friday-1310-qvrod",
+    "id": "ce-div5-friday-1310-65j1",
     "department": "CE",
     "division": "5",
     "year": "3rd Year",
@@ -2198,7 +3332,7 @@
     "originalText": "G9G10 (24HS301T) E203, NAIK-L"
   },
   {
-    "id": "ce-div5-friday-210-20i8vd",
+    "id": "ce-div5-friday-210-st23b",
     "department": "CE",
     "division": "5",
     "year": "3rd Year",
@@ -2212,7 +3346,7 @@
     "originalText": "G10 (24CS303P) E310, APT-P"
   },
   {
-    "id": "ce-div5-friday-900-hlj1ua",
+    "id": "ce-div5-friday-900-con187",
     "department": "CE",
     "division": "5",
     "year": "3rd Year",
@@ -2226,7 +3360,7 @@
     "originalText": "G9G10 (24CS333T) F1-303, SVS-L"
   },
   {
-    "id": "ce-div5-friday-210-pk9ege",
+    "id": "ce-div5-friday-210-k8imxs",
     "department": "CE",
     "division": "5",
     "year": "3rd Year",
@@ -2240,7 +3374,7 @@
     "originalText": "G9 (24CS302P) E308, POSA-P"
   },
   {
-    "id": "ce-div6-monday-900-sj224f",
+    "id": "ce-div6-monday-900-5vll5m",
     "department": "CE",
     "division": "6",
     "year": "3rd Year",
@@ -2254,7 +3388,7 @@
     "originalText": "G11G12 (24HS301T) F1-303, NAIK-L"
   },
   {
-    "id": "ce-div6-monday-1000-iz193",
+    "id": "ce-div6-monday-1000-w9b59o",
     "department": "CE",
     "division": "6",
     "year": "3rd Year",
@@ -2268,7 +3402,7 @@
     "originalText": "G11G12 (24CS335T) F1-304, NIP-L"
   },
   {
-    "id": "ce-div6-monday-1110-wtovs",
+    "id": "ce-div6-monday-1110-l6v9",
     "department": "CE",
     "division": "6",
     "year": "3rd Year",
@@ -2282,7 +3416,7 @@
     "originalText": "G12 (24CS303P) E310, MTH-P"
   },
   {
-    "id": "ce-div6-monday-310-9mwj5h",
+    "id": "ce-div6-monday-310-04aop2",
     "department": "CE",
     "division": "6",
     "year": "3rd Year",
@@ -2296,7 +3430,7 @@
     "originalText": "G11G12 (24CS302T) F1-203, KSL-L"
   },
   {
-    "id": "ce-div6-monday-415-ee1nay",
+    "id": "ce-div6-monday-415-8tdq5kn",
     "department": "CE",
     "division": "6",
     "year": "3rd Year",
@@ -2310,7 +3444,7 @@
     "originalText": "G11G12 (24CS303T) F1-303, MTH-L"
   },
   {
-    "id": "ce-div6-monday-1000-mnq5op",
+    "id": "ce-div6-monday-1000-ad2jr",
     "department": "CE",
     "division": "6",
     "year": "3rd Year",
@@ -2324,7 +3458,7 @@
     "originalText": "G11G12 (24CS333T) F1-303, SVS-L"
   },
   {
-    "id": "ce-div6-monday-1110-8pphs",
+    "id": "ce-div6-monday-1110-x337yj",
     "department": "CE",
     "division": "6",
     "year": "3rd Year",
@@ -2338,7 +3472,7 @@
     "originalText": "G11 (24CS302P) E216, KSL-P"
   },
   {
-    "id": "ce-div6-monday-1000-9aspwj",
+    "id": "ce-div6-monday-1000-vh3y4",
     "department": "CE",
     "division": "6",
     "year": "3rd Year",
@@ -2352,7 +3486,7 @@
     "originalText": "G11G12 (24CS331T) E307, KALG-L"
   },
   {
-    "id": "ce-div6-tuesday-900-qsvu5",
+    "id": "ce-div6-tuesday-900-4cezv",
     "department": "CE",
     "division": "6",
     "year": "3rd Year",
@@ -2366,7 +3500,7 @@
     "originalText": "G11 (24CS304P) E310, ARNI-P"
   },
   {
-    "id": "ce-div6-tuesday-1110-ltnevp",
+    "id": "ce-div6-tuesday-1110-8b6w0c",
     "department": "CE",
     "division": "6",
     "year": "3rd Year",
@@ -2380,7 +3514,7 @@
     "originalText": "G11G12 (24CS303T) E203, MTH-L"
   },
   {
-    "id": "ce-div6-tuesday-1310-pzda3",
+    "id": "ce-div6-tuesday-1310-dbhch",
     "department": "CE",
     "division": "6",
     "year": "3rd Year",
@@ -2394,7 +3528,7 @@
     "originalText": "G11G12 (CDC) F1-302, CDCC-L"
   },
   {
-    "id": "ce-div6-tuesday-210-fmxb8u",
+    "id": "ce-div6-tuesday-210-gyr8",
     "department": "CE",
     "division": "6",
     "year": "3rd Year",
@@ -2408,7 +3542,7 @@
     "originalText": "G11G12 (24CS304T) F1-302, ARNI-L"
   },
   {
-    "id": "ce-div6-tuesday-310-nxkp3h",
+    "id": "ce-div6-tuesday-310-f82bl",
     "department": "CE",
     "division": "6",
     "year": "3rd Year",
@@ -2422,7 +3556,7 @@
     "originalText": "G11G12 (24CS301T) F1-302, TRP-L"
   },
   {
-    "id": "ce-div6-wednesday-900-qfesis",
+    "id": "ce-div6-wednesday-900-6zyhyj",
     "department": "CE",
     "division": "6",
     "year": "3rd Year",
@@ -2436,7 +3570,7 @@
     "originalText": "G11G12 (24CS302T) E204, KSL-L"
   },
   {
-    "id": "ce-div6-wednesday-1000-g9jxf9",
+    "id": "ce-div6-wednesday-1000-x0hwv",
     "department": "CE",
     "division": "6",
     "year": "3rd Year",
@@ -2450,7 +3584,7 @@
     "originalText": "G11G12 (24CS304T) E204, ARNI-L"
   },
   {
-    "id": "ce-div6-wednesday-1110-4kw0li",
+    "id": "ce-div6-wednesday-1110-ioxv48",
     "department": "CE",
     "division": "6",
     "year": "3rd Year",
@@ -2464,7 +3598,7 @@
     "originalText": "G12 (24CS303P) E308, MTH-P"
   },
   {
-    "id": "ce-div6-wednesday-210-np80x",
+    "id": "ce-div6-wednesday-210-2ttr4s",
     "department": "CE",
     "division": "6",
     "year": "3rd Year",
@@ -2478,7 +3612,7 @@
     "originalText": "G11G12 (24HS301T) F1-203, NAIK-L"
   },
   {
-    "id": "ce-div6-wednesday-310-dt4fso",
+    "id": "ce-div6-wednesday-310-8fwz5n",
     "department": "CE",
     "division": "6",
     "year": "3rd Year",
@@ -2492,7 +3626,7 @@
     "originalText": "G11G12 (CDC) F1-304, CDCT-L"
   },
   {
-    "id": "ce-div6-wednesday-415-77pfv",
+    "id": "ce-div6-wednesday-415-jn25e",
     "department": "CE",
     "division": "6",
     "year": "3rd Year",
@@ -2506,7 +3640,7 @@
     "originalText": "G11G12 (24CS301T) F1-304, TRP-L"
   },
   {
-    "id": "ce-div6-wednesday-1110-b1khul",
+    "id": "ce-div6-wednesday-1110-fytmpl",
     "department": "CE",
     "division": "6",
     "year": "3rd Year",
@@ -2520,7 +3654,7 @@
     "originalText": "G12 (24CS302P) E216, KSL-P"
   },
   {
-    "id": "ce-div6-thursday-900-4vck98",
+    "id": "ce-div6-thursday-900-sswzl2",
     "department": "CE",
     "division": "6",
     "year": "3rd Year",
@@ -2534,7 +3668,7 @@
     "originalText": "G11G12 (24CS302T) E204, KSL-L"
   },
   {
-    "id": "ce-div6-thursday-1000-clg67j",
+    "id": "ce-div6-thursday-1000-di5ui",
     "department": "CE",
     "division": "6",
     "year": "3rd Year",
@@ -2548,7 +3682,7 @@
     "originalText": "G11G12 (24CS335T) F1-304, NIP-L"
   },
   {
-    "id": "ce-div6-thursday-1310-nflvwp",
+    "id": "ce-div6-thursday-1310-qdkc1p",
     "department": "CE",
     "division": "6",
     "year": "3rd Year",
@@ -2562,7 +3696,7 @@
     "originalText": "G11G12 (24CS304T) E309, ARNI-L"
   },
   {
-    "id": "ce-div6-thursday-210-juus3",
+    "id": "ce-div6-thursday-210-gc3oxs",
     "department": "CE",
     "division": "6",
     "year": "3rd Year",
@@ -2576,7 +3710,7 @@
     "originalText": "G11G12 (24CS303T) E203, MTH-L"
   },
   {
-    "id": "ce-div6-thursday-1000-9gj86w",
+    "id": "ce-div6-thursday-1000-aj8kxi",
     "department": "CE",
     "division": "6",
     "year": "3rd Year",
@@ -2590,7 +3724,7 @@
     "originalText": "G11G12 (24CS331T) E307, KALG-L"
   },
   {
-    "id": "ce-div6-thursday-1000-3tvmag",
+    "id": "ce-div6-thursday-1000-9g4uy",
     "department": "CE",
     "division": "6",
     "year": "3rd Year",
@@ -2604,7 +3738,7 @@
     "originalText": "G11G12 (24CS333T) F1-303, SVS-L"
   },
   {
-    "id": "ce-div6-friday-900-03lcr",
+    "id": "ce-div6-friday-900-n23aer",
     "department": "CE",
     "division": "6",
     "year": "3rd Year",
@@ -2618,7 +3752,7 @@
     "originalText": "G11G12 (24CS335T) F1-304, NIP-L"
   },
   {
-    "id": "ce-div6-friday-1000-43jq9k",
+    "id": "ce-div6-friday-1000-nsptx",
     "department": "CE",
     "division": "6",
     "year": "3rd Year",
@@ -2632,7 +3766,7 @@
     "originalText": "G11G12 (24HS301T) E204, NAIK-L"
   },
   {
-    "id": "ce-div6-friday-1310-u1okv",
+    "id": "ce-div6-friday-1310-uq24if",
     "department": "CE",
     "division": "6",
     "year": "3rd Year",
@@ -2646,7 +3780,7 @@
     "originalText": "G11G12 (24CS301T) E309, TRP-L"
   },
   {
-    "id": "ce-div6-friday-210-u207dm",
+    "id": "ce-div6-friday-210-mmn3lu",
     "department": "CE",
     "division": "6",
     "year": "3rd Year",
@@ -2660,7 +3794,7 @@
     "originalText": "G12 (24CS304P) E213, ARNI-P"
   },
   {
-    "id": "ce-div6-friday-900-im2k0h",
+    "id": "ce-div6-friday-900-352mrq",
     "department": "CE",
     "division": "6",
     "year": "3rd Year",
@@ -2674,7 +3808,7 @@
     "originalText": "G11G12 (24CS331T) E307, KALG-L"
   },
   {
-    "id": "ce-div6-friday-900-fk3ke9",
+    "id": "ce-div6-friday-900-dez7tm",
     "department": "CE",
     "division": "6",
     "year": "3rd Year",
@@ -2688,7 +3822,7 @@
     "originalText": "G11G12 (24CS333T) F1-303, SVS-L"
   },
   {
-    "id": "ce-div1-monday-900-vc02pq",
+    "id": "ce-div1-monday-900-ycclvl",
     "department": "CE",
     "division": "1",
     "year": "2nd Year",
@@ -2702,7 +3836,7 @@
     "originalText": "G1G2 (24CS203T) F-503, ADSH-L"
   },
   {
-    "id": "ce-div1-monday-1000-0mp5x",
+    "id": "ce-div1-monday-1000-jlqpom",
     "department": "CE",
     "division": "1",
     "year": "2nd Year",
@@ -2716,7 +3850,7 @@
     "originalText": "G1G2 (24CS201T) F-503, MAHE-L"
   },
   {
-    "id": "ce-div1-monday-1110-sw824a",
+    "id": "ce-div1-monday-1110-6sftd4",
     "department": "CE",
     "division": "1",
     "year": "2nd Year",
@@ -2730,7 +3864,7 @@
     "originalText": "G1G2 (24MA202T) F-503, ARA-T"
   },
   {
-    "id": "ce-div1-monday-1210-64nta",
+    "id": "ce-div1-monday-1210-bmjpwf",
     "department": "CE",
     "division": "1",
     "year": "2nd Year",
@@ -2744,7 +3878,7 @@
     "originalText": "G1G2 (24CS204T) F-503, PCH-L"
   },
   {
-    "id": "ce-div1-monday-210-bi6ts",
+    "id": "ce-div1-monday-210-tibp1j",
     "department": "CE",
     "division": "1",
     "year": "2nd Year",
@@ -2758,7 +3892,7 @@
     "originalText": "G1 (24CS203P) F-104, ADSH-P"
   },
   {
-    "id": "ce-div1-monday-210-r3ijf4",
+    "id": "ce-div1-monday-210-ykpaz5",
     "department": "CE",
     "division": "1",
     "year": "2nd Year",
@@ -2772,7 +3906,7 @@
     "originalText": "G2 (24CS202P) F-103, AMC-P"
   },
   {
-    "id": "ce-div1-tuesday-1000-d5d3me",
+    "id": "ce-div1-tuesday-1000-n9n9fjt",
     "department": "CE",
     "division": "1",
     "year": "2nd Year",
@@ -2786,7 +3920,7 @@
     "originalText": "G1G2 (24CS201T) F-503, MAHE-L"
   },
   {
-    "id": "ce-div1-tuesday-1110-hub83",
+    "id": "ce-div1-tuesday-1110-95mdqq",
     "department": "CE",
     "division": "1",
     "year": "2nd Year",
@@ -2800,7 +3934,7 @@
     "originalText": "G1G2 (24CS202T) F1-304, AMC-L"
   },
   {
-    "id": "ce-div1-tuesday-1210-ro8o7i",
+    "id": "ce-div1-tuesday-1210-96sfs",
     "department": "CE",
     "division": "1",
     "year": "2nd Year",
@@ -2814,7 +3948,7 @@
     "originalText": "G1G2 (24MA202T) F1-304, ARA-L"
   },
   {
-    "id": "ce-div1-wednesday-900-eycw1h",
+    "id": "ce-div1-wednesday-900-gekst",
     "department": "CE",
     "division": "1",
     "year": "2nd Year",
@@ -2828,7 +3962,7 @@
     "originalText": "G1G2 (24CS201T) F-503, MAHE-L"
   },
   {
-    "id": "ce-div1-wednesday-1000-bj071f",
+    "id": "ce-div1-wednesday-1000-dr20y",
     "department": "CE",
     "division": "1",
     "year": "2nd Year",
@@ -2842,7 +3976,7 @@
     "originalText": "G1G2 (24CS204T) F-503, PCH-L"
   },
   {
-    "id": "ce-div1-wednesday-1110-o74u29",
+    "id": "ce-div1-wednesday-1110-tpn7l",
     "department": "CE",
     "division": "1",
     "year": "2nd Year",
@@ -2856,7 +3990,7 @@
     "originalText": "G1G2 (24MA202T) F-503, ARA-L"
   },
   {
-    "id": "ce-div1-wednesday-1210-o5lg8d",
+    "id": "ce-div1-wednesday-1210-nrg5id",
     "department": "CE",
     "division": "1",
     "year": "2nd Year",
@@ -2870,7 +4004,7 @@
     "originalText": "G1G2 (24CS202T) F-503, AMC-L"
   },
   {
-    "id": "ce-div1-wednesday-210-ckzu7e",
+    "id": "ce-div1-wednesday-210-2uvji",
     "department": "CE",
     "division": "1",
     "year": "2nd Year",
@@ -2884,7 +4018,7 @@
     "originalText": "G2 (24CS204P) E215, PCH-P"
   },
   {
-    "id": "ce-div1-wednesday-210-jw3cpl",
+    "id": "ce-div1-wednesday-210-uxa2x",
     "department": "CE",
     "division": "1",
     "year": "2nd Year",
@@ -2898,7 +4032,7 @@
     "originalText": "G1 (24CS202P) F-103, AMC-P"
   },
   {
-    "id": "ce-div1-thursday-900-xvob8",
+    "id": "ce-div1-thursday-900-kuw7na",
     "department": "CE",
     "division": "1",
     "year": "2nd Year",
@@ -2912,7 +4046,7 @@
     "originalText": "G1G2 (24CS203T) F-503, ADSH-L"
   },
   {
-    "id": "ce-div1-thursday-1000-dfem5c",
+    "id": "ce-div1-thursday-1000-4b0gh",
     "department": "CE",
     "division": "1",
     "year": "2nd Year",
@@ -2926,7 +4060,7 @@
     "originalText": "G1G2 (24CS201T) F-503, MAHE-T"
   },
   {
-    "id": "ce-div1-thursday-1110-lar8sc",
+    "id": "ce-div1-thursday-1110-960q9",
     "department": "CE",
     "division": "1",
     "year": "2nd Year",
@@ -2940,7 +4074,7 @@
     "originalText": "G2 (24CS203P) F-103, ADSH-P"
   },
   {
-    "id": "ce-div1-thursday-1110-2k6wdk",
+    "id": "ce-div1-thursday-1110-y1kbf78",
     "department": "CE",
     "division": "1",
     "year": "2nd Year",
@@ -2954,7 +4088,7 @@
     "originalText": "G1 (24CS204P) E215, PCH-P"
   },
   {
-    "id": "ce-div1-friday-900-7al4w",
+    "id": "ce-div1-friday-900-e0hwnv",
     "department": "CE",
     "division": "1",
     "year": "2nd Year",
@@ -2968,7 +4102,7 @@
     "originalText": "G1G2 (24CS203T) F-503, ADSH-L"
   },
   {
-    "id": "ce-div1-friday-1000-x5vxw",
+    "id": "ce-div1-friday-1000-w4deql",
     "department": "CE",
     "division": "1",
     "year": "2nd Year",
@@ -2982,7 +4116,7 @@
     "originalText": "G1G2 (24CS202T) F-503, AMC-L"
   },
   {
-    "id": "ce-div1-friday-1110-6q0svg",
+    "id": "ce-div1-friday-1110-053og",
     "department": "CE",
     "division": "1",
     "year": "2nd Year",
@@ -2996,7 +4130,7 @@
     "originalText": "G1G2 (24MA202T) F-503, ARA-L"
   },
   {
-    "id": "ce-div1-friday-1210-ojayl",
+    "id": "ce-div1-friday-1210-akcdl",
     "department": "CE",
     "division": "1",
     "year": "2nd Year",
@@ -3010,7 +4144,7 @@
     "originalText": "G1G2 (24CS204T) F-503, PCH-L"
   },
   {
-    "id": "ce-div2-monday-900-yom9m2",
+    "id": "ce-div2-monday-900-h2qr2o",
     "department": "CE",
     "division": "2",
     "year": "2nd Year",
@@ -3024,7 +4158,7 @@
     "originalText": "G3 (24CS202P) E213, HAK-P"
   },
   {
-    "id": "ce-div2-monday-1310-fl8f6kg",
+    "id": "ce-div2-monday-1310-yc7ze",
     "department": "CE",
     "division": "2",
     "year": "2nd Year",
@@ -3038,7 +4172,7 @@
     "originalText": "G3G4 (24MA202T) F-503, PRS-L"
   },
   {
-    "id": "ce-div2-monday-210-pabn1e",
+    "id": "ce-div2-monday-210-4akot9",
     "department": "CE",
     "division": "2",
     "year": "2nd Year",
@@ -3052,7 +4186,7 @@
     "originalText": "G3G4 (24CS201T) F-503, ANAN-L"
   },
   {
-    "id": "ce-div2-monday-310-rhpp94",
+    "id": "ce-div2-monday-310-myau4g",
     "department": "CE",
     "division": "2",
     "year": "2nd Year",
@@ -3066,7 +4200,7 @@
     "originalText": "G3G4 (24CS202T) F-503, HAK-L"
   },
   {
-    "id": "ce-div2-monday-415-bgqe4q",
+    "id": "ce-div2-monday-415-6ffow5",
     "department": "CE",
     "division": "2",
     "year": "2nd Year",
@@ -3080,7 +4214,7 @@
     "originalText": "G3G4 (24CS204T) F-503, PCH-L"
   },
   {
-    "id": "ce-div2-monday-900-evr4n",
+    "id": "ce-div2-monday-900-c5jjzs",
     "department": "CE",
     "division": "2",
     "year": "2nd Year",
@@ -3094,7 +4228,7 @@
     "originalText": "G4 (24CS204P) E215, PCH-P"
   },
   {
-    "id": "ce-div2-tuesday-900-yv27bs",
+    "id": "ce-div2-tuesday-900-nvepz",
     "department": "CE",
     "division": "2",
     "year": "2nd Year",
@@ -3108,7 +4242,7 @@
     "originalText": "G4 (24CS202P) E215, HAK-P"
   },
   {
-    "id": "ce-div2-tuesday-1310-06vtks",
+    "id": "ce-div2-tuesday-1310-sp0q8w",
     "department": "CE",
     "division": "2",
     "year": "2nd Year",
@@ -3122,7 +4256,7 @@
     "originalText": "G3G4 (24CS203T) F-503, MTH-L"
   },
   {
-    "id": "ce-div2-tuesday-210-5v5ktq",
+    "id": "ce-div2-tuesday-210-zhflt",
     "department": "CE",
     "division": "2",
     "year": "2nd Year",
@@ -3136,7 +4270,7 @@
     "originalText": "G3G4 (24MA202T) F-503, PRS-L"
   },
   {
-    "id": "ce-div2-tuesday-310-4luwu",
+    "id": "ce-div2-tuesday-310-p7jhp",
     "department": "CE",
     "division": "2",
     "year": "2nd Year",
@@ -3150,7 +4284,7 @@
     "originalText": "G3G4 (24CS201T) F-503, ANAN-L"
   },
   {
-    "id": "ce-div2-tuesday-900-uue9fp",
+    "id": "ce-div2-tuesday-900-xxket",
     "department": "CE",
     "division": "2",
     "year": "2nd Year",
@@ -3164,7 +4298,7 @@
     "originalText": "G3 (24CS203P) F-103, MTH-P"
   },
   {
-    "id": "ce-div2-wednesday-1310-jnmpaq",
+    "id": "ce-div2-wednesday-1310-bnjp4a",
     "department": "CE",
     "division": "2",
     "year": "2nd Year",
@@ -3178,7 +4312,7 @@
     "originalText": "G3G4 (24CS204T) F-503, PCH-L"
   },
   {
-    "id": "ce-div2-wednesday-210-fzhpch",
+    "id": "ce-div2-wednesday-210-kdlabi",
     "department": "CE",
     "division": "2",
     "year": "2nd Year",
@@ -3192,7 +4326,7 @@
     "originalText": "G3G4 (24MA202T) F-503, PRS-L"
   },
   {
-    "id": "ce-div2-wednesday-310-gsraie",
+    "id": "ce-div2-wednesday-310-6c10g",
     "department": "CE",
     "division": "2",
     "year": "2nd Year",
@@ -3206,7 +4340,7 @@
     "originalText": "G3G4 (24CS201T) F-503, ANAN-L"
   },
   {
-    "id": "ce-div2-thursday-900-veumlr",
+    "id": "ce-div2-thursday-900-62jpv3",
     "department": "CE",
     "division": "2",
     "year": "2nd Year",
@@ -3220,7 +4354,7 @@
     "originalText": "G4 (24CS203P) F-104, MTH-P"
   },
   {
-    "id": "ce-div2-thursday-1310-fu4h",
+    "id": "ce-div2-thursday-1310-eozkxa",
     "department": "CE",
     "division": "2",
     "year": "2nd Year",
@@ -3234,7 +4368,7 @@
     "originalText": "G3G4 (24CS202T) F-503, HAK-L"
   },
   {
-    "id": "ce-div2-thursday-210-tjik",
+    "id": "ce-div2-thursday-210-9avh76",
     "department": "CE",
     "division": "2",
     "year": "2nd Year",
@@ -3248,7 +4382,7 @@
     "originalText": "G3G4 (24CS201T) F-503, ANAN-T"
   },
   {
-    "id": "ce-div2-thursday-310-u1w0f",
+    "id": "ce-div2-thursday-310-e1c2vx",
     "department": "CE",
     "division": "2",
     "year": "2nd Year",
@@ -3262,7 +4396,7 @@
     "originalText": "G3G4 (24CS203T) F-503, MTH-L"
   },
   {
-    "id": "ce-div2-thursday-415-fa9xhfd",
+    "id": "ce-div2-thursday-415-dfta7l",
     "department": "CE",
     "division": "2",
     "year": "2nd Year",
@@ -3276,7 +4410,7 @@
     "originalText": "G3G4 (24CS204T) F-503, PCH-L"
   },
   {
-    "id": "ce-div2-thursday-900-esr16k",
+    "id": "ce-div2-thursday-900-03b8y9",
     "department": "CE",
     "division": "2",
     "year": "2nd Year",
@@ -3290,7 +4424,7 @@
     "originalText": "G3 (24CS204P) F-103, KMS-P"
   },
   {
-    "id": "ce-div2-friday-1310-xowjrc",
+    "id": "ce-div2-friday-1310-8q54z9",
     "department": "CE",
     "division": "2",
     "year": "2nd Year",
@@ -3304,7 +4438,7 @@
     "originalText": "G3G4 (24CS202T) F-503, HAK-L"
   },
   {
-    "id": "ce-div2-friday-210-rqq52n",
+    "id": "ce-div2-friday-210-x4idzr",
     "department": "CE",
     "division": "2",
     "year": "2nd Year",
@@ -3318,7 +4452,7 @@
     "originalText": "G3G4 (24MA202T) F-503, PRS-T"
   },
   {
-    "id": "ce-div2-friday-310-qy9qs",
+    "id": "ce-div2-friday-310-sr8drg",
     "department": "CE",
     "division": "2",
     "year": "2nd Year",
@@ -3332,7 +4466,7 @@
     "originalText": "G3G4 (24CS203T) F-503, MTH-L"
   },
   {
-    "id": "ce-div3-monday-1310-odyaf",
+    "id": "ce-div3-monday-1310-litmjd",
     "department": "CE",
     "division": "3",
     "year": "2nd Year",
@@ -3346,7 +4480,7 @@
     "originalText": "G5G6 (24CS202T) F-504, SONA-L"
   },
   {
-    "id": "ce-div3-monday-210-9mifv",
+    "id": "ce-div3-monday-210-3eepm6",
     "department": "CE",
     "division": "3",
     "year": "2nd Year",
@@ -3360,7 +4494,7 @@
     "originalText": "G5G6 (24CS203T) F-504, HITH-L"
   },
   {
-    "id": "ce-div3-monday-310-moenbr",
+    "id": "ce-div3-monday-310-99oqtn",
     "department": "CE",
     "division": "3",
     "year": "2nd Year",
@@ -3374,7 +4508,7 @@
     "originalText": "G5G6 (24CS201T) F-504, ARSO-T"
   },
   {
-    "id": "ce-div3-monday-415-p765nb",
+    "id": "ce-div3-monday-415-n5sdxl",
     "department": "CE",
     "division": "3",
     "year": "2nd Year",
@@ -3388,7 +4522,7 @@
     "originalText": "G5G6 (24CS204T) F-504, DESW-L"
   },
   {
-    "id": "ce-div3-tuesday-1310-8kuvj",
+    "id": "ce-div3-tuesday-1310-ru7vob",
     "department": "CE",
     "division": "3",
     "year": "2nd Year",
@@ -3402,7 +4536,7 @@
     "originalText": "G5G6 (24CS202T) F-504, SONA-L"
   },
   {
-    "id": "ce-div3-tuesday-210-m6z93",
+    "id": "ce-div3-tuesday-210-61ni54",
     "department": "CE",
     "division": "3",
     "year": "2nd Year",
@@ -3416,7 +4550,7 @@
     "originalText": "G5G6 (24CS203T) F-504, HITH-L"
   },
   {
-    "id": "ce-div3-tuesday-310-hdjnql",
+    "id": "ce-div3-tuesday-310-vpkto",
     "department": "CE",
     "division": "3",
     "year": "2nd Year",
@@ -3430,7 +4564,7 @@
     "originalText": "G5G6 (24CS201T) F-504, PRAS-L"
   },
   {
-    "id": "ce-div3-tuesday-415-tb1rz6k",
+    "id": "ce-div3-tuesday-415-yyj3bq",
     "department": "CE",
     "division": "3",
     "year": "2nd Year",
@@ -3444,7 +4578,7 @@
     "originalText": "G5G6 (24CS204T) F-504, DESW-L"
   },
   {
-    "id": "ce-div3-wednesday-900-29rqae",
+    "id": "ce-div3-wednesday-900-pbh04k",
     "department": "CE",
     "division": "3",
     "year": "2nd Year",
@@ -3458,7 +4592,7 @@
     "originalText": "G5 (24CS203P) E216, HITH-P"
   },
   {
-    "id": "ce-div3-wednesday-1310-kkn9xn",
+    "id": "ce-div3-wednesday-1310-rukx5i",
     "department": "CE",
     "division": "3",
     "year": "2nd Year",
@@ -3472,7 +4606,7 @@
     "originalText": "G5G6 (24CS204T) F-504, DESW-L"
   },
   {
-    "id": "ce-div3-wednesday-210-uhopgk",
+    "id": "ce-div3-wednesday-210-74igm",
     "department": "CE",
     "division": "3",
     "year": "2nd Year",
@@ -3486,7 +4620,7 @@
     "originalText": "G5 (24CS202P) E213, SONA-P"
   },
   {
-    "id": "ce-div3-wednesday-415-sn4ad",
+    "id": "ce-div3-wednesday-415-x9670j",
     "department": "CE",
     "division": "3",
     "year": "2nd Year",
@@ -3500,7 +4634,7 @@
     "originalText": "G5G6 (24MA202T) F-504, KSP-T"
   },
   {
-    "id": "ce-div3-wednesday-900-3c6oy",
+    "id": "ce-div3-wednesday-900-5suttd",
     "department": "CE",
     "division": "3",
     "year": "2nd Year",
@@ -3514,7 +4648,7 @@
     "originalText": "G6 (24CS204P) E213, DESW-P"
   },
   {
-    "id": "ce-div3-wednesday-210-4o62ej",
+    "id": "ce-div3-wednesday-210-k3z8mu",
     "department": "CE",
     "division": "3",
     "year": "2nd Year",
@@ -3528,7 +4662,7 @@
     "originalText": "G6 (24CS203P) E216, HITH-P"
   },
   {
-    "id": "ce-div3-thursday-900-e53o7eb",
+    "id": "ce-div3-thursday-900-563ld",
     "department": "CE",
     "division": "3",
     "year": "2nd Year",
@@ -3542,7 +4676,7 @@
     "originalText": "G6 (24CS202P) F-202, SONA-P"
   },
   {
-    "id": "ce-div3-thursday-1310-5q8h5o",
+    "id": "ce-div3-thursday-1310-kanwvq",
     "department": "CE",
     "division": "3",
     "year": "2nd Year",
@@ -3556,7 +4690,7 @@
     "originalText": "G5G6 (24MA202T) F-504, KSP-L"
   },
   {
-    "id": "ce-div3-thursday-210-axh1h9",
+    "id": "ce-div3-thursday-210-8uinxs",
     "department": "CE",
     "division": "3",
     "year": "2nd Year",
@@ -3570,7 +4704,7 @@
     "originalText": "G5G6 (24CS203T) F-504, HITH-L"
   },
   {
-    "id": "ce-div3-thursday-310-80fwks",
+    "id": "ce-div3-thursday-310-pmhwet",
     "department": "CE",
     "division": "3",
     "year": "2nd Year",
@@ -3584,7 +4718,7 @@
     "originalText": "G5G6 (24CS201T) F-504, PRAS-L"
   },
   {
-    "id": "ce-div3-thursday-415-a7h8a",
+    "id": "ce-div3-thursday-415-4gzce",
     "department": "CE",
     "division": "3",
     "year": "2nd Year",
@@ -3598,7 +4732,7 @@
     "originalText": "G5G6 (24MA202T) F-504, KSP-L"
   },
   {
-    "id": "ce-div3-thursday-900-6dyz9a",
+    "id": "ce-div3-thursday-900-9ivn32",
     "department": "CE",
     "division": "3",
     "year": "2nd Year",
@@ -3612,7 +4746,7 @@
     "originalText": "G5 (24CS204P) E216, DESW-P"
   },
   {
-    "id": "ce-div3-friday-1310-m9wm6m",
+    "id": "ce-div3-friday-1310-ocqjgz",
     "department": "CE",
     "division": "3",
     "year": "2nd Year",
@@ -3626,7 +4760,7 @@
     "originalText": "G5G6 (24MA202T) F-504, KSP-L"
   },
   {
-    "id": "ce-div3-friday-210-rn8rw",
+    "id": "ce-div3-friday-210-pc161j",
     "department": "CE",
     "division": "3",
     "year": "2nd Year",
@@ -3640,7 +4774,7 @@
     "originalText": "G5G6 (24CS202T) F-504, SONA-L"
   },
   {
-    "id": "ce-div3-friday-310-5zlp6c",
+    "id": "ce-div3-friday-310-vaulh8",
     "department": "CE",
     "division": "3",
     "year": "2nd Year",
@@ -3654,7 +4788,7 @@
     "originalText": "G5G6 (24CS201T) F-504, PRAS-L"
   },
   {
-    "id": "ce-div4-monday-900-x4pwm8",
+    "id": "ce-div4-monday-900-xb7myi",
     "department": "CE",
     "division": "4",
     "year": "2nd Year",
@@ -3668,7 +4802,7 @@
     "originalText": "G7G8 (24MA202T) F1-204, PRS-L"
   },
   {
-    "id": "ce-div4-monday-1000-b11hsp",
+    "id": "ce-div4-monday-1000-co2x3",
     "department": "CE",
     "division": "4",
     "year": "2nd Year",
@@ -3682,7 +4816,7 @@
     "originalText": "G7G8 (24CS201T) F1-204, PRAS-L"
   },
   {
-    "id": "ce-div4-monday-1110-qzldal",
+    "id": "ce-div4-monday-1110-ipcxza",
     "department": "CE",
     "division": "4",
     "year": "2nd Year",
@@ -3696,7 +4830,7 @@
     "originalText": "G7G8 (24CS204T) E306, DESW-L"
   },
   {
-    "id": "ce-div4-monday-1210-7pxsgb",
+    "id": "ce-div4-monday-1210-7ywumy",
     "department": "CE",
     "division": "4",
     "year": "2nd Year",
@@ -3710,7 +4844,7 @@
     "originalText": "G7G8 (24CS203T) E306, NDHI-L"
   },
   {
-    "id": "ce-div4-tuesday-900-ew23og",
+    "id": "ce-div4-tuesday-900-zcdxzj",
     "department": "CE",
     "division": "4",
     "year": "2nd Year",
@@ -3724,7 +4858,7 @@
     "originalText": "G7G8 (24CS201T) F1-204, PRAS-L"
   },
   {
-    "id": "ce-div4-tuesday-1000-anwuj2q",
+    "id": "ce-div4-tuesday-1000-mb7z3u",
     "department": "CE",
     "division": "4",
     "year": "2nd Year",
@@ -3738,7 +4872,7 @@
     "originalText": "G7G8 (24CS202T) F1-204, SONA-L"
   },
   {
-    "id": "ce-div4-tuesday-1210-xmam57",
+    "id": "ce-div4-tuesday-1210-3a60a",
     "department": "CE",
     "division": "4",
     "year": "2nd Year",
@@ -3752,7 +4886,7 @@
     "originalText": "G7G8 (24CS204T) F-503, DESW-L"
   },
   {
-    "id": "ce-div4-tuesday-210-9jihe",
+    "id": "ce-div4-tuesday-210-lw16a9",
     "department": "CE",
     "division": "4",
     "year": "2nd Year",
@@ -3766,7 +4900,7 @@
     "originalText": "G8 (24CS202P) F-202, KALG-P"
   },
   {
-    "id": "ce-div4-tuesday-415-dga1z",
+    "id": "ce-div4-tuesday-415-p40bw",
     "department": "CE",
     "division": "4",
     "year": "2nd Year",
@@ -3780,7 +4914,7 @@
     "originalText": "G7G8 (24MA202T) F-503, PRS-L"
   },
   {
-    "id": "ce-div4-tuesday-210-ggmxy",
+    "id": "ce-div4-tuesday-210-9h7xul",
     "department": "CE",
     "division": "4",
     "year": "2nd Year",
@@ -3794,7 +4928,7 @@
     "originalText": "G7 (24CS204P) F-203, DESW-P"
   },
   {
-    "id": "ce-div4-wednesday-900-iwbm8c",
+    "id": "ce-div4-wednesday-900-ou8jbe",
     "department": "CE",
     "division": "4",
     "year": "2nd Year",
@@ -3808,7 +4942,7 @@
     "originalText": "G7G8 (24CS202T) F1-204, SONA-L"
   },
   {
-    "id": "ce-div4-wednesday-1000-13k6cv",
+    "id": "ce-div4-wednesday-1000-0k86gw",
     "department": "CE",
     "division": "4",
     "year": "2nd Year",
@@ -3822,7 +4956,7 @@
     "originalText": "G7G8 (24CS201T) F1-204, PRAS-L"
   },
   {
-    "id": "ce-div4-wednesday-1110-erzrd",
+    "id": "ce-div4-wednesday-1110-msfeq",
     "department": "CE",
     "division": "4",
     "year": "2nd Year",
@@ -3836,7 +4970,7 @@
     "originalText": "G8 (24CS203P) F-203, NDHI-P"
   },
   {
-    "id": "ce-div4-wednesday-210-95fzzn",
+    "id": "ce-div4-wednesday-210-kpf9bd",
     "department": "CE",
     "division": "4",
     "year": "2nd Year",
@@ -3850,7 +4984,7 @@
     "originalText": "G7 (24CS203P) F-203, NDHI-P"
   },
   {
-    "id": "ce-div4-wednesday-415-5r9b3d",
+    "id": "ce-div4-wednesday-415-33411e",
     "department": "CE",
     "division": "4",
     "year": "2nd Year",
@@ -3864,7 +4998,7 @@
     "originalText": "G7G8 (24CS202T) F-503, SONA-L"
   },
   {
-    "id": "ce-div4-wednesday-1110-nc8qqi",
+    "id": "ce-div4-wednesday-1110-zmpvbh",
     "department": "CE",
     "division": "4",
     "year": "2nd Year",
@@ -3878,7 +5012,7 @@
     "originalText": "G7 (24CS202P) F-202, SONA-P"
   },
   {
-    "id": "ce-div4-wednesday-210-4wr1c",
+    "id": "ce-div4-wednesday-210-0bjfzs",
     "department": "CE",
     "division": "4",
     "year": "2nd Year",
@@ -3892,7 +5026,7 @@
     "originalText": "G8 (24CS204P) F-202, RITH-P"
   },
   {
-    "id": "ce-div4-thursday-900-z8c4ap",
+    "id": "ce-div4-thursday-900-qqcn3n",
     "department": "CE",
     "division": "4",
     "year": "2nd Year",
@@ -3906,7 +5040,7 @@
     "originalText": "G7G8 (24CS201T) F1-204, PRAS-T"
   },
   {
-    "id": "ce-div4-thursday-1000-6uu6pb",
+    "id": "ce-div4-thursday-1000-sl1okj",
     "department": "CE",
     "division": "4",
     "year": "2nd Year",
@@ -3920,7 +5054,7 @@
     "originalText": "G7G8 (24CS203T) E306, NDHI-L"
   },
   {
-    "id": "ce-div4-thursday-1110-tqof6a",
+    "id": "ce-div4-thursday-1110-6laav",
     "department": "CE",
     "division": "4",
     "year": "2nd Year",
@@ -3934,7 +5068,7 @@
     "originalText": "G7G8 (24CS204T) F-503, DESW-L"
   },
   {
-    "id": "ce-div4-thursday-1210-b9hfbi",
+    "id": "ce-div4-thursday-1210-8tif3r",
     "department": "CE",
     "division": "4",
     "year": "2nd Year",
@@ -3948,7 +5082,7 @@
     "originalText": "G7G8 (24MA202T) F1-204, PRS-T"
   },
   {
-    "id": "ce-div4-friday-900-60409si",
+    "id": "ce-div4-friday-900-9s3l7e",
     "department": "CE",
     "division": "4",
     "year": "2nd Year",
@@ -3962,7 +5096,7 @@
     "originalText": "G7G8 (24CS203T) F1-204, NDHI-L"
   },
   {
-    "id": "ce-div4-friday-1000-eenqci",
+    "id": "ce-div4-friday-1000-6ifv1p",
     "department": "CE",
     "division": "4",
     "year": "2nd Year",
@@ -3976,7 +5110,7 @@
     "originalText": "G7G8 (24MA202T) F1-204, PRS-T"
   },
   {
-    "id": "ce-div5-monday-1210-tf4cm",
+    "id": "ce-div5-monday-1210-cm85wc",
     "department": "CE",
     "division": "5",
     "year": "2nd Year",
@@ -3990,7 +5124,7 @@
     "originalText": "G9G10 (24CS201T) F1-204, ARSO-L"
   },
   {
-    "id": "ce-div5-monday-210-2voop",
+    "id": "ce-div5-monday-210-qwwpf6",
     "department": "CE",
     "division": "5",
     "year": "2nd Year",
@@ -4004,7 +5138,7 @@
     "originalText": "G9G10 (24CS201T) F1-204, ARSO-T"
   },
   {
-    "id": "ce-div5-monday-310-btnpk",
+    "id": "ce-div5-monday-310-svlbs8",
     "department": "CE",
     "division": "5",
     "year": "2nd Year",
@@ -4018,7 +5152,7 @@
     "originalText": "G9G10 (24MA202T) F1-204, PRS-L"
   },
   {
-    "id": "ce-div5-monday-415-3rdceh",
+    "id": "ce-div5-monday-415-mbn36r",
     "department": "CE",
     "division": "5",
     "year": "2nd Year",
@@ -4032,7 +5166,7 @@
     "originalText": "G9G10 (24CS204T) F1-204, RITH-L"
   },
   {
-    "id": "ce-div5-tuesday-900-jg0asa",
+    "id": "ce-div5-tuesday-900-5i19h",
     "department": "CE",
     "division": "5",
     "year": "2nd Year",
@@ -4046,7 +5180,7 @@
     "originalText": "G10 (24CS203P) E213, DSG-P"
   },
   {
-    "id": "ce-div5-tuesday-1210-9p5mr",
+    "id": "ce-div5-tuesday-1210-que4ea",
     "department": "CE",
     "division": "5",
     "year": "2nd Year",
@@ -4060,7 +5194,7 @@
     "originalText": "G9G10 (24CS204T) F1-204, RITH-L"
   },
   {
-    "id": "ce-div5-tuesday-210-lvdyfn",
+    "id": "ce-div5-tuesday-210-w9ou2",
     "department": "CE",
     "division": "5",
     "year": "2nd Year",
@@ -4074,7 +5208,7 @@
     "originalText": "G9G10 (24CS201T) F1-204, ARSO-L"
   },
   {
-    "id": "ce-div5-tuesday-310-4crfu5",
+    "id": "ce-div5-tuesday-310-ivzkq",
     "department": "CE",
     "division": "5",
     "year": "2nd Year",
@@ -4088,7 +5222,7 @@
     "originalText": "G9G10 (24CS203T) F1-204, DSG-L"
   },
   {
-    "id": "ce-div5-tuesday-415-2qlb9",
+    "id": "ce-div5-tuesday-415-5p17rt",
     "department": "CE",
     "division": "5",
     "year": "2nd Year",
@@ -4102,7 +5236,7 @@
     "originalText": "G9G10 (24CS202T) F1-204, KALG-L"
   },
   {
-    "id": "ce-div5-tuesday-900-a5ddjg",
+    "id": "ce-div5-tuesday-900-p7r0g8",
     "department": "CE",
     "division": "5",
     "year": "2nd Year",
@@ -4116,7 +5250,7 @@
     "originalText": "G9 (24CS204P) E216, RITH-P"
   },
   {
-    "id": "ce-div5-wednesday-900-piikgs",
+    "id": "ce-div5-wednesday-900-l462kn",
     "department": "CE",
     "division": "5",
     "year": "2nd Year",
@@ -4130,7 +5264,7 @@
     "originalText": "G9G10 (24MA202T) F2-302, PRS-L"
   },
   {
-    "id": "ce-div5-wednesday-1000-86bgej",
+    "id": "ce-div5-wednesday-1000-wiq8m6",
     "department": "CE",
     "division": "5",
     "year": "2nd Year",
@@ -4144,7 +5278,7 @@
     "originalText": "G9G10 (24CS203T) F1-302, DSG-L"
   },
   {
-    "id": "ce-div5-wednesday-1110-lu1kfc",
+    "id": "ce-div5-wednesday-1110-8uyw9g",
     "department": "CE",
     "division": "5",
     "year": "2nd Year",
@@ -4158,7 +5292,7 @@
     "originalText": "G10 (24CS202P) E215, KALG-P"
   },
   {
-    "id": "ce-div5-wednesday-1110-ekk6dw",
+    "id": "ce-div5-wednesday-1110-d2cv2f",
     "department": "CE",
     "division": "5",
     "year": "2nd Year",
@@ -4172,7 +5306,7 @@
     "originalText": "G9 (24CS203P) E213, DSG-P"
   },
   {
-    "id": "ce-div5-thursday-1110-x1d8tb",
+    "id": "ce-div5-thursday-1110-xzfzl",
     "department": "CE",
     "division": "5",
     "year": "2nd Year",
@@ -4186,7 +5320,7 @@
     "originalText": "G10 (24CS204P) E213, RITH-P"
   },
   {
-    "id": "ce-div5-thursday-210-p1ucll",
+    "id": "ce-div5-thursday-210-h3tdyd",
     "department": "CE",
     "division": "5",
     "year": "2nd Year",
@@ -4200,7 +5334,7 @@
     "originalText": "G9G10 (24MA202T) F1-204, PRS-L"
   },
   {
-    "id": "ce-div5-thursday-310-66if2",
+    "id": "ce-div5-thursday-310-ret47n",
     "department": "CE",
     "division": "5",
     "year": "2nd Year",
@@ -4214,7 +5348,7 @@
     "originalText": "G9G10 (24CS202T) F1-204, KALG-L"
   },
   {
-    "id": "ce-div5-thursday-415-n6k01",
+    "id": "ce-div5-thursday-415-j9e3q",
     "department": "CE",
     "division": "5",
     "year": "2nd Year",
@@ -4228,7 +5362,7 @@
     "originalText": "G9G10 (24CS203T) F1-204, DSG-L"
   },
   {
-    "id": "ce-div5-thursday-1110-5nrbm",
+    "id": "ce-div5-thursday-1110-5s1vo",
     "department": "CE",
     "division": "5",
     "year": "2nd Year",
@@ -4242,7 +5376,7 @@
     "originalText": "G9 (24CS202P) E216, KALG-P"
   },
   {
-    "id": "ce-div5-friday-1110-1euca9",
+    "id": "ce-div5-friday-1110-dzhnuh",
     "department": "CE",
     "division": "5",
     "year": "2nd Year",
@@ -4256,7 +5390,7 @@
     "originalText": "G9G10 (24CS202T) E306, KALG-L"
   },
   {
-    "id": "ce-div5-friday-1210-ba6nwe",
+    "id": "ce-div5-friday-1210-wmdh6b",
     "department": "CE",
     "division": "5",
     "year": "2nd Year",
@@ -4270,7 +5404,7 @@
     "originalText": "G9G10 (24CS204T) E306, RITH-L"
   },
   {
-    "id": "ce-div5-friday-210-lqs638",
+    "id": "ce-div5-friday-210-wkeb9d",
     "department": "CE",
     "division": "5",
     "year": "2nd Year",
@@ -4284,7 +5418,7 @@
     "originalText": "G9G10 (24CS201T) F1-204, ARSO-L"
   },
   {
-    "id": "ce-div5-friday-310-sq0c1p",
+    "id": "ce-div5-friday-310-ewdpeg",
     "department": "CE",
     "division": "5",
     "year": "2nd Year",
@@ -4296,2343 +5430,5 @@
     "faculty": "Priyanka Singh",
     "type": "T",
     "originalText": "G9G10 (24MA202T) F1-204, PRS-T"
-  },
-  {
-    "id": "csbs-div1-monday-1110-a1b2c3",
-    "department": "CSBS",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Monday",
-    "startTime": "11.10",
-    "endTime": "12.05",
-    "subject": "Design Thinking",
-    "room": "F1-204",
-    "faculty": "Aashka Raval",
-    "type": "L",
-    "originalText": "J1J2 (24CSB306T) F1-204, AAR-L"
-  },
-  {
-    "id": "csbs-div1-monday-1110-x9y8z7",
-    "department": "CSBS",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Monday",
-    "startTime": "11.10",
-    "endTime": "12.05",
-    "subject": "Software Engineering Laboratory",
-    "room": "F-203",
-    "faculty": "Punit Gupta",
-    "type": "P",
-    "originalText": "J2 (24CSB302P) F-203, PUGU-P"
-  },
-  {
-    "id": "csbs-div1-monday-1210-m4n5p6",
-    "department": "CSBS",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Monday",
-    "startTime": "12.10",
-    "endTime": "1.05",
-    "subject": "Design Thinking Laboratory",
-    "room": "E215",
-    "faculty": "Aashka Raval",
-    "type": "P",
-    "originalText": "J1 (24CSB306P) E215, AAR-P"
-  },
-  {
-    "id": "csbs-div1-monday-0210-q1w2e3",
-    "department": "CSBS",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Monday",
-    "startTime": "2.10",
-    "endTime": "3.05",
-    "subject": "Cloud, Microservices and Application / Business Strategy",
-    "room": "F1-302",
-    "faculty": "Darshit Shah",
-    "type": "L",
-    "originalText": "J1J2 (24CSB332T) F1-302, DAS-L"
-  },
-  {
-    "id": "csbs-div1-monday-0310-r4t5y6",
-    "department": "CSBS",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Monday",
-    "startTime": "3.10",
-    "endTime": "4.05",
-    "subject": "Compiler Design + Laboratory",
-    "room": "F1-303",
-    "faculty": "Meera Thapar Khanna",
-    "type": "L",
-    "originalText": "J1J2 (24CSB333T) F1-303, MTH-L"
-  },
-  {
-    "id": "csbs-div1-monday-0415-u7i8o9",
-    "department": "CSBS",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Monday",
-    "startTime": "4.15",
-    "endTime": "5.10",
-    "subject": "Conversational Systems",
-    "room": "F1-304",
-    "faculty": "Tanmay Bhowmik",
-    "type": "L",
-    "originalText": "J1J2 (24CSB331T) F1-304, TABH-L"
-  },
-  {
-    "id": "csbs-div1-tuesday-0900-a1s2d3",
-    "department": "CSBS",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Tuesday",
-    "startTime": "9.00",
-    "endTime": "9.55",
-    "subject": "Compiler Design + Laboratory",
-    "room": "E203",
-    "faculty": "Meera Thapar Khanna",
-    "type": "L",
-    "originalText": "J1J2 (24CSB333T) E203, MTH-L"
-  },
-  {
-    "id": "csbs-div1-tuesday-1000-f4g5h6",
-    "department": "CSBS",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Tuesday",
-    "startTime": "10.00",
-    "endTime": "10.55",
-    "subject": "Software Engineering",
-    "room": "E308",
-    "faculty": "Punit Gupta",
-    "type": "L",
-    "originalText": "J1J2 (24CSB302T) E308, PUGU-L"
-  },
-  {
-    "id": "csbs-div1-tuesday-1110-j7k8l9",
-    "department": "CSBS",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Tuesday",
-    "startTime": "11.10",
-    "endTime": "12.05",
-    "subject": "Conversational Systems",
-    "room": "E309",
-    "faculty": "Tanmay Bhowmik",
-    "type": "L",
-    "originalText": "J1J2 (24CSB331T) E309, TABH-L"
-  },
-  {
-    "id": "csbs-div1-tuesday-1210-z1x2c3",
-    "department": "CSBS",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Tuesday",
-    "startTime": "12.10",
-    "endTime": "1.05",
-    "subject": "Cloud, Microservices and Application / Business Strategy",
-    "room": "E308",
-    "faculty": "Darshit Shah",
-    "type": "L",
-    "originalText": "J1J2 (24CSB332T) E308, DAS-L"
-  },
-  {
-    "id": "csbs-div1-tuesday-1310-v4b5n6",
-    "department": "CSBS",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Tuesday",
-    "startTime": "13.10",
-    "endTime": "14.05",
-    "subject": "Computer Networks",
-    "room": "E204",
-    "faculty": "Sanjeev Dwivedi",
-    "type": "L",
-    "originalText": "J1J2 (24CS302T) E204, SJD-L"
-  },
-  {
-    "id": "csbs-div1-tuesday-0210-m7n8b9",
-    "department": "CSBS",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Tuesday",
-    "startTime": "2.10",
-    "endTime": "3.05",
-    "subject": "Design Thinking Laboratory / Cloud, Microservices and Application",
-    "room": "E204",
-    "faculty": "Riddhi Thakkar",
-    "type": "L",
-    "originalText": "J1J2 (24CSB301T) E204, RITH-L"
-  },
-  {
-    "id": "csbs-div1-wednesday-1210-q1a2z3",
-    "department": "CSBS",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Wednesday",
-    "startTime": "12.10",
-    "endTime": "1.05",
-    "subject": "CD Cell",
-    "room": "E308",
-    "faculty": "CD Cell Trainer",
-    "type": "L",
-    "originalText": "J1J2 (CDC) E308, CDCT-L"
-  },
-  {
-    "id": "csbs-div1-wednesday-1310-w4s5x6",
-    "department": "CSBS",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Wednesday",
-    "startTime": "13.10",
-    "endTime": "14.05",
-    "subject": "Software Engineering",
-    "room": "E204",
-    "faculty": "Punit Gupta",
-    "type": "L",
-    "originalText": "J1J2 (24CSB302T) E204, PUGU-L"
-  },
-  {
-    "id": "csbs-div1-wednesday-0210-e7d8c9",
-    "department": "CSBS",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Wednesday",
-    "startTime": "2.10",
-    "endTime": "3.05",
-    "subject": "Computer Networks",
-    "room": "E204",
-    "faculty": "Sanjeev Dwivedi",
-    "type": "L",
-    "originalText": "J1J2 (24CS302T) E204, SJD-L"
-  },
-  {
-    "id": "csbs-div1-wednesday-0415-r1f2v3",
-    "department": "CSBS",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Wednesday",
-    "startTime": "4.15",
-    "endTime": "5.10",
-    "subject": "Computer Networks Laboratory",
-    "room": "F-104",
-    "faculty": "Sanjeev Dwivedi",
-    "type": "P",
-    "originalText": "J1 (24CS302P) F-104, SJD-P"
-  },
-  {
-    "id": "csbs-div1-wednesday-0515-t4g5b6",
-    "department": "CSBS",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Wednesday",
-    "startTime": "5.15",
-    "endTime": "6.10",
-    "subject": "Design Thinking Laboratory",
-    "room": "F-103",
-    "faculty": "Aashka Raval",
-    "type": "P",
-    "originalText": "J2 (24CSB306P) F-103, AAR-P"
-  },
-  {
-    "id": "csbs-div1-thursday-1110-y7h8n9",
-    "department": "CSBS",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Thursday",
-    "startTime": "11.10",
-    "endTime": "12.05",
-    "subject": "Design Thinking",
-    "room": "E306",
-    "faculty": "Aashka Raval",
-    "type": "L",
-    "originalText": "J1J2 (24CSB306T) E306, AAR-L"
-  },
-  {
-    "id": "csbs-div1-thursday-1210-u1j2m3",
-    "department": "CSBS",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Thursday",
-    "startTime": "12.10",
-    "endTime": "1.05",
-    "subject": "Conversational Systems",
-    "room": "E310",
-    "faculty": "Tanmay Bhowmik",
-    "type": "L",
-    "originalText": "J1J2 (24CSB331T) E310, TABH-L"
-  },
-  {
-    "id": "csbs-div1-thursday-1310-i4k5l6",
-    "department": "CSBS",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Thursday",
-    "startTime": "13.10",
-    "endTime": "14.05",
-    "subject": "Computer Networks",
-    "room": "E306",
-    "faculty": "Sanjeev Dwivedi",
-    "type": "L",
-    "originalText": "J1J2 (24CS302T) E306, SJD-L"
-  },
-  {
-    "id": "csbs-div1-thursday-0210-o7p8p9",
-    "department": "CSBS",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Thursday",
-    "startTime": "2.10",
-    "endTime": "3.05",
-    "subject": "Cloud, Microservices and Application / Business Strategy",
-    "room": "E306",
-    "faculty": "Darshit Shah",
-    "type": "L",
-    "originalText": "J1J2 (24CSB332T) E306, DAS-L"
-  },
-  {
-    "id": "csbs-div1-thursday-0310-p1q2w3",
-    "department": "CSBS",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Thursday",
-    "startTime": "3.10",
-    "endTime": "4.05",
-    "subject": "Compiler Design + Laboratory",
-    "room": "E203",
-    "faculty": "Meera Thapar Khanna",
-    "type": "L",
-    "originalText": "J1J2 (24CSB333T) E203, MTH-L"
-  },
-  {
-    "id": "csbs-div1-thursday-0415-a4s5d6",
-    "department": "CSBS",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Thursday",
-    "startTime": "4.15",
-    "endTime": "5.10",
-    "subject": "Design Thinking Laboratory / Cloud, Microservices and Application",
-    "room": "F1-304",
-    "faculty": "Riddhi Thakkar",
-    "type": "L",
-    "originalText": "J1J2 (24CSB301T) F1-304, RITH-L"
-  },
-  {
-    "id": "csbs-div1-friday-1000-f7g8h9",
-    "department": "CSBS",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Friday",
-    "startTime": "10.00",
-    "endTime": "10.55",
-    "subject": "Design Thinking Laboratory / Cloud, Microservices and Application",
-    "room": "E306",
-    "faculty": "Riddhi Thakkar",
-    "type": "L",
-    "originalText": "J1J2 (24CSB301T) E306, RITH-L"
-  },
-  {
-    "id": "csbs-div1-friday-1110-j1k2l3",
-    "department": "CSBS",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Friday",
-    "startTime": "11.10",
-    "endTime": "12.05",
-    "subject": "Software Engineering",
-    "room": "E309",
-    "faculty": "Punit Gupta",
-    "type": "L",
-    "originalText": "J1J2 (24CSB302T) E309, PUGU-L"
-  },
-  {
-    "id": "csbs-div1-friday-1210-z4x5c6",
-    "department": "CSBS",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Friday",
-    "startTime": "12.10",
-    "endTime": "1.05",
-    "subject": "CD Cell",
-    "room": "E309",
-    "faculty": "CD Cell Trainer",
-    "type": "L",
-    "originalText": "J1J2 (CDC) E309, CDCT-L"
-  },
-  {
-    "id": "csbs-div1-friday-1310-v7b8n9",
-    "department": "CSBS",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Friday",
-    "startTime": "13.10",
-    "endTime": "14.05",
-    "subject": "Software Engineering Laboratory",
-    "room": "F-202",
-    "faculty": "Punit Gupta",
-    "type": "P",
-    "originalText": "J1 (24CSB302P) F-202, PUGU-P"
-  },
-  {
-    "id": "csbs-div1-friday-0210-m1q2w3",
-    "department": "CSBS",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Friday",
-    "startTime": "2.10",
-    "endTime": "3.05",
-    "subject": "Computer Networks Laboratory",
-    "room": "F-104",
-    "faculty": "Sanjeev Dwivedi",
-    "type": "P",
-    "originalText": "J2 (24CS302P) F-104, SJD-P"
-  },
-  {
-    "id": "csbs-div2-monday-1310-a1b2c3",
-    "department": "CSBS",
-    "division": "2",
-    "year": "3rd Year",
-    "day": "Monday",
-    "startTime": "13.10",
-    "endTime": "14.05",
-    "subject": "CD Cell",
-    "room": "E203",
-    "faculty": "CD Cell Trainer",
-    "type": "L",
-    "originalText": "J3J4 (CDC) E203, CDCT-L"
-  },
-  {
-    "id": "csbs-div2-monday-1410-b2c3d4",
-    "department": "CSBS",
-    "division": "2",
-    "year": "3rd Year",
-    "day": "Monday",
-    "startTime": "14.10",
-    "endTime": "15.05",
-    "subject": "Conversational Systems / Cloud, Microservices and Application",
-    "room": "E203",
-    "faculty": "Riddhi Thakkar",
-    "type": "L",
-    "originalText": "J3J4 (24CSB301T) E203, RITH-L"
-  },
-  {
-    "id": "csbs-div2-monday-1510-c3d4e5",
-    "department": "CSBS",
-    "division": "2",
-    "year": "3rd Year",
-    "day": "Monday",
-    "startTime": "15.10",
-    "endTime": "16.05",
-    "subject": "Design Thinking",
-    "room": "E203",
-    "faculty": "Pooja S",
-    "type": "L",
-    "originalText": "J3J4 (24CSB306T) E203, POSA-L"
-  },
-  {
-    "id": "csbs-div2-monday-1615-d4e5f6",
-    "department": "CSBS",
-    "division": "2",
-    "year": "3rd Year",
-    "day": "Monday",
-    "startTime": "16.15",
-    "endTime": "17.10",
-    "subject": "Compiler Design",
-    "room": "F1-303",
-    "faculty": "Meera Thapar Khanna",
-    "type": "L",
-    "originalText": "J3J4 (24CSB333T) F1-303, MTH-L"
-  },
-  {
-    "id": "csbs-div2-monday-1715-e5f6g7",
-    "department": "CSBS",
-    "division": "2",
-    "year": "3rd Year",
-    "day": "Monday",
-    "startTime": "17.15",
-    "endTime": "18.10",
-    "subject": "Computer Networks",
-    "room": "F1-303",
-    "faculty": "Punit Gupta",
-    "type": "L",
-    "originalText": "J3J4 (24CS302T) F1-303, PUGU-L"
-  },
-  {
-    "id": "csbs-div2-tuesday-0900-f6g7h8",
-    "department": "CSBS",
-    "division": "2",
-    "year": "3rd Year",
-    "day": "Tuesday",
-    "startTime": "09.00",
-    "endTime": "09.55",
-    "subject": "Computer Networks Laboratory",
-    "room": "E306",
-    "faculty": "Punit Gupta",
-    "type": "P",
-    "originalText": "J3 (24CS302P) E306, PUGU-P"
-  },
-  {
-    "id": "csbs-div2-tuesday-1110-g7h8i9",
-    "department": "CSBS",
-    "division": "2",
-    "year": "3rd Year",
-    "day": "Tuesday",
-    "startTime": "11.10",
-    "endTime": "12.05",
-    "subject": "Compiler Design",
-    "room": "E203",
-    "faculty": "Meera Thapar Khanna",
-    "type": "L",
-    "originalText": "J3J4 (24CSB333T) E203, MTH-L"
-  },
-  {
-    "id": "csbs-div2-tuesday-1210-h8i9j0",
-    "department": "CSBS",
-    "division": "2",
-    "year": "3rd Year",
-    "day": "Tuesday",
-    "startTime": "12.10",
-    "endTime": "13.05",
-    "subject": "Software Engineering",
-    "room": "E306",
-    "faculty": "Komal Singh",
-    "type": "L",
-    "originalText": "J3J4 (24CSB302T) E306, KMS-L"
-  },
-  {
-    "id": "csbs-div2-tuesday-1410-i9j0k1",
-    "department": "CSBS",
-    "division": "2",
-    "year": "3rd Year",
-    "day": "Tuesday",
-    "startTime": "14.10",
-    "endTime": "15.05",
-    "subject": "Conversational Systems / Business Strategy",
-    "room": "E309",
-    "faculty": "Tanmay Bhowmik",
-    "type": "L",
-    "originalText": "J3J4 (24CSB331T) E309, TABH-L"
-  },
-  {
-    "id": "csbs-div2-tuesday-1510-j0k1l2",
-    "department": "CSBS",
-    "division": "2",
-    "year": "3rd Year",
-    "day": "Tuesday",
-    "startTime": "15.10",
-    "endTime": "16.05",
-    "subject": "Cloud, Microservices and Application / Business Strategy",
-    "room": "E308",
-    "faculty": "Darshit Shah",
-    "type": "L",
-    "originalText": "J3J4 (24CSB332T) E308, DAS-L"
-  },
-  {
-    "id": "csbs-div2-wednesday-0900-k1l2m3",
-    "department": "CSBS",
-    "division": "2",
-    "year": "3rd Year",
-    "day": "Wednesday",
-    "startTime": "09.00",
-    "endTime": "09.55",
-    "subject": "Software Engineering",
-    "room": "E203",
-    "faculty": "Komal Singh",
-    "type": "L",
-    "originalText": "J3J4 (24CSB302T) E203, KMS-L"
-  },
-  {
-    "id": "csbs-div2-wednesday-1000-l2m3n4",
-    "department": "CSBS",
-    "division": "2",
-    "year": "3rd Year",
-    "day": "Wednesday",
-    "startTime": "10.00",
-    "endTime": "10.55",
-    "subject": "Conversational Systems / Cloud, Microservices and Application",
-    "room": "E203",
-    "faculty": "Riddhi Thakkar",
-    "type": "L",
-    "originalText": "J3J4 (24CSB301T) E203, RITH-L"
-  },
-  {
-    "id": "csbs-div2-wednesday-1110-m3n4o5",
-    "department": "CSBS",
-    "division": "2",
-    "year": "3rd Year",
-    "day": "Wednesday",
-    "startTime": "11.10",
-    "endTime": "12.05",
-    "subject": "Design Thinking Laboratory",
-    "room": "F-103",
-    "faculty": "Pooja S",
-    "type": "P",
-    "originalText": "J3 (24CSB306P) F-103, POSA-P"
-  },
-  {
-    "id": "csbs-div2-wednesday-1310-n4o5p6",
-    "department": "CSBS",
-    "division": "2",
-    "year": "3rd Year",
-    "day": "Wednesday",
-    "startTime": "13.10",
-    "endTime": "14.05",
-    "subject": "Software Engineering Laboratory",
-    "room": "E306",
-    "faculty": "Komal Singh",
-    "type": "P",
-    "originalText": "J4 (24CSB302P) E306, KMS-P"
-  },
-  {
-    "id": "csbs-div2-thursday-0900-o5p6q7",
-    "department": "CSBS",
-    "division": "2",
-    "year": "3rd Year",
-    "day": "Thursday",
-    "startTime": "09.00",
-    "endTime": "09.55",
-    "subject": "Design Thinking Laboratory",
-    "room": "E308",
-    "faculty": "Pooja S",
-    "type": "P",
-    "originalText": "J4 (24CSB306P) E308, POSA-P"
-  },
-  {
-    "id": "csbs-div2-thursday-1110-p6q7r8",
-    "department": "CSBS",
-    "division": "2",
-    "year": "3rd Year",
-    "day": "Thursday",
-    "startTime": "11.10",
-    "endTime": "12.05",
-    "subject": "Software Engineering",
-    "room": "E310",
-    "faculty": "Komal Singh",
-    "type": "L",
-    "originalText": "J3J4 (24CSB302T) E310, KMS-L"
-  },
-  {
-    "id": "csbs-div2-thursday-1210-q7r8s9",
-    "department": "CSBS",
-    "division": "2",
-    "year": "3rd Year",
-    "day": "Thursday",
-    "startTime": "12.10",
-    "endTime": "13.05",
-    "subject": "Cloud, Microservices and Application / Business Strategy",
-    "room": "E306",
-    "faculty": "Darshit Shah",
-    "type": "L",
-    "originalText": "J3J4 (24CSB332T) E306, DAS-L"
-  },
-  {
-    "id": "csbs-div2-thursday-1310-r8s9t0",
-    "department": "CSBS",
-    "division": "2",
-    "year": "3rd Year",
-    "day": "Thursday",
-    "startTime": "13.10",
-    "endTime": "14.05",
-    "subject": "Computer Networks",
-    "room": "E310",
-    "faculty": "Punit Gupta",
-    "type": "L",
-    "originalText": "J3J4 (24CS302T) E310, PUGU-L"
-  },
-  {
-    "id": "csbs-div2-thursday-1410-s9t0u1",
-    "department": "CSBS",
-    "division": "2",
-    "year": "3rd Year",
-    "day": "Thursday",
-    "startTime": "14.10",
-    "endTime": "15.05",
-    "subject": "Software Engineering Laboratory",
-    "room": "E306",
-    "faculty": "Komal Singh",
-    "type": "P",
-    "originalText": "J3 (24CSB302P) E306, KMS-P"
-  },
-  {
-    "id": "csbs-div2-thursday-1510-t0u1v2",
-    "department": "CSBS",
-    "division": "2",
-    "year": "3rd Year",
-    "day": "Thursday",
-    "startTime": "15.10",
-    "endTime": "16.05",
-    "subject": "Conversational Systems / Business Strategy",
-    "room": "E310",
-    "faculty": "Tanmay Bhowmik",
-    "type": "L",
-    "originalText": "J3J4 (24CSB331T) E310, TABH-L"
-  },
-  {
-    "id": "csbs-div2-thursday-1615-u1v2w3",
-    "department": "CSBS",
-    "division": "2",
-    "year": "3rd Year",
-    "day": "Thursday",
-    "startTime": "16.15",
-    "endTime": "17.10",
-    "subject": "Computer Networks Laboratory",
-    "room": "E310",
-    "faculty": "Aashka Raval",
-    "type": "P",
-    "originalText": "J4 (24CS302P) E310, AAR-P"
-  },
-  {
-    "id": "csbs-div2-thursday-1715-v2w3x4",
-    "department": "CSBS",
-    "division": "2",
-    "year": "3rd Year",
-    "day": "Thursday",
-    "startTime": "17.15",
-    "endTime": "18.10",
-    "subject": "Compiler Design",
-    "room": "E203",
-    "faculty": "Meera Thapar Khanna",
-    "type": "L",
-    "originalText": "J3J4 (24CSB333T) E203, MTH-L"
-  },
-  {
-    "id": "csbs-div2-friday-0900-w3x4y5",
-    "department": "CSBS",
-    "division": "2",
-    "year": "3rd Year",
-    "day": "Friday",
-    "startTime": "09.00",
-    "endTime": "09.55",
-    "subject": "Conversational Systems / Cloud, Microservices and Application",
-    "room": "E310",
-    "faculty": "Riddhi Thakkar",
-    "type": "L",
-    "originalText": "J3J4 (24CSB301T) E310, RITH-L"
-  },
-  {
-    "id": "csbs-div2-friday-1000-x4y5z6",
-    "department": "CSBS",
-    "division": "2",
-    "year": "3rd Year",
-    "day": "Friday",
-    "startTime": "10.00",
-    "endTime": "10.55",
-    "subject": "Computer Networks",
-    "room": "E310",
-    "faculty": "Punit Gupta",
-    "type": "L",
-    "originalText": "J3J4 (24CS302T) E310, PUGU-L"
-  },
-  {
-    "id": "csbs-div2-friday-1110-y5z6a7",
-    "department": "CSBS",
-    "division": "2",
-    "year": "3rd Year",
-    "day": "Friday",
-    "startTime": "11.10",
-    "endTime": "12.05",
-    "subject": "Design Thinking",
-    "room": "E307",
-    "faculty": "Pooja S",
-    "type": "L",
-    "originalText": "J3J4 (24CSB306T) E307, POSA-L"
-  },
-  {
-    "id": "csbs-div2-friday-1210-z6a7b8",
-    "department": "CSBS",
-    "division": "2",
-    "year": "3rd Year",
-    "day": "Friday",
-    "startTime": "12.10",
-    "endTime": "13.05",
-    "subject": "CD Cell",
-    "room": "F1-304",
-    "faculty": "CD Cell Trainer",
-    "type": "L",
-    "originalText": "J3J4 (CDC) F1-304, CDCT-L"
-  },
-  {
-    "id": "csbs-div1-monday-1000-a1b2c3",
-    "department": "CSBS",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Monday",
-    "startTime": "10.00",
-    "endTime": "10.55",
-    "subject": "BCVS",
-    "room": "F-504",
-    "faculty": "Nidhi mam",
-    "type": "L",
-    "originalText": "10:00-10:55, BCVS, Nidhi mam, F-504"
-  },
-  {
-    "id": "csbs-div1-monday-1110-b2c3d4",
-    "department": "CSBS",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Monday",
-    "startTime": "11.10",
-    "endTime": "12.05",
-    "subject": "DBMS",
-    "room": "F-504",
-    "faculty": "Nishant sir",
-    "type": "L",
-    "originalText": "11:10-12:05, DBMS, Nishant sir, F-504"
-  },
-  {
-    "id": "csbs-div1-monday-1210-c3d4e5",
-    "department": "CSBS",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Monday",
-    "startTime": "12.10",
-    "endTime": "1.05",
-    "subject": "Computer Organization and Architecture",
-    "room": "F-504",
-    "faculty": "Samir sir",
-    "type": "L",
-    "originalText": "12:10-1:05, Computer Organization and Architecture, Samir sir, F-504"
-  },
-  {
-    "id": "csbs-div1-tuesday-0900-d4e5f6",
-    "department": "CSBS",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Tuesday",
-    "startTime": "9.00",
-    "endTime": "9.55",
-    "subject": "BCVS",
-    "room": "F-504",
-    "faculty": "Nidhi mam",
-    "type": "L",
-    "originalText": "9:00-9:55, BCVS, Nidhi mam, F-504"
-  },
-  {
-    "id": "csbs-div1-tuesday-1000-e5f6g7",
-    "department": "CSBS",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Tuesday",
-    "startTime": "10.00",
-    "endTime": "10.55",
-    "subject": "Discrete Mathematics",
-    "room": "F-504",
-    "faculty": "Ankush sir",
-    "type": "L",
-    "originalText": "10:00-10:55, Discrete Mathematics, Ankush sir, F-504"
-  },
-  {
-    "id": "csbs-div1-tuesday-1110-f6g7h8",
-    "department": "CSBS",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Tuesday",
-    "startTime": "11.10",
-    "endTime": "12.05",
-    "subject": "DBMS",
-    "room": "F-504",
-    "faculty": "Nishant sir",
-    "type": "L",
-    "originalText": "11:10-12:05, DBMS, Nishant sir, F-504"
-  },
-  {
-    "id": "csbs-div1-tuesday-1210-g7h8i9",
-    "department": "CSBS",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Tuesday",
-    "startTime": "12.10",
-    "endTime": "1.05",
-    "subject": "COA",
-    "room": "F-504",
-    "faculty": "Samir sir",
-    "type": "L",
-    "originalText": "12:10-1:05, COA, Samir sir, F-504"
-  },
-  {
-    "id": "csbs-div1-tuesday-1410-h8i9j0",
-    "department": "CSBS",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Tuesday",
-    "startTime": "2.10",
-    "endTime": "4.05",
-    "subject": "DBMS lab",
-    "room": "E-216",
-    "faculty": "Nishant sir",
-    "type": "P",
-    "originalText": "2:10-4:05, DBMS lab, J1: E-216"
-  },
-  {
-    "id": "csbs-div1-tuesday-1410-i9j0k1",
-    "department": "CSBS",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Tuesday",
-    "startTime": "2.10",
-    "endTime": "4.05",
-    "subject": "OOPS lab",
-    "room": "E-310",
-    "faculty": "Yogesh sir",
-    "type": "P",
-    "originalText": "2:10-4:05, OOPS lab, J2: E-310"
-  },
-  {
-    "id": "csbs-div1-wednesday-1000-j0k1l2",
-    "department": "CSBS",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Wednesday",
-    "startTime": "10.00",
-    "endTime": "10.55",
-    "subject": "OOPS",
-    "room": "F-504",
-    "faculty": "Yogesh sir",
-    "type": "L",
-    "originalText": "10:00-10:55, OOPS, Yogesh sir, F-504"
-  },
-  {
-    "id": "csbs-div1-wednesday-1110-k1l2m3",
-    "department": "CSBS",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Wednesday",
-    "startTime": "11.10",
-    "endTime": "12.05",
-    "subject": "COA",
-    "room": "F-504",
-    "faculty": "Samir sir",
-    "type": "L",
-    "originalText": "11:10-12:05, COA, Samir sir, F-504"
-  },
-  {
-    "id": "csbs-div1-wednesday-1210-l2m3n4",
-    "department": "CSBS",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Wednesday",
-    "startTime": "12.10",
-    "endTime": "1.05",
-    "subject": "Discrete mathematics",
-    "room": "F-504",
-    "faculty": "Ankush sir",
-    "type": "L",
-    "originalText": "12:10-1:05, Discrete mathematics, Ankush sir, F-504"
-  },
-  {
-    "id": "csbs-div1-thursday-1000-m3n4o5",
-    "department": "CSBS",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Thursday",
-    "startTime": "10.00",
-    "endTime": "10.55",
-    "subject": "OOPS",
-    "room": "F-504",
-    "faculty": "Yogesh sir",
-    "type": "L",
-    "originalText": "10:00-10:55, OOPS, Yogesh sir, F-504"
-  },
-  {
-    "id": "csbs-div1-thursday-1110-n4o5p6",
-    "department": "CSBS",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Thursday",
-    "startTime": "11.10",
-    "endTime": "12.05",
-    "subject": "DISCRETE MATHS",
-    "room": "F-504",
-    "faculty": "Ankush sir",
-    "type": "L",
-    "originalText": "11:10-12:05, DISCRETE MATHS, Ankush sir, F-504"
-  },
-  {
-    "id": "csbs-div1-thursday-1210-o5p6q7",
-    "department": "CSBS",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Thursday",
-    "startTime": "12.10",
-    "endTime": "1.05",
-    "subject": "DBMS",
-    "room": "F-504",
-    "faculty": "Nishant sir",
-    "type": "L",
-    "originalText": "12:10-1:05, DBMS, Nishant sir, F-504"
-  },
-  {
-    "id": "csbs-div1-thursday-1410-p6q7r8",
-    "department": "CSBS",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Thursday",
-    "startTime": "2.10",
-    "endTime": "4.05",
-    "subject": "OOPS lab",
-    "room": "F-203",
-    "faculty": "Yogesh sir",
-    "type": "P",
-    "originalText": "2:10-4:05, OOPS lab, J1: F-203"
-  },
-  {
-    "id": "csbs-div1-thursday-1410-q7r8s9",
-    "department": "CSBS",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Thursday",
-    "startTime": "2.10",
-    "endTime": "4.05",
-    "subject": "DBMS lab",
-    "room": "E-216",
-    "faculty": "Nishant sir",
-    "type": "P",
-    "originalText": "2:10-4:05, DBMS lab, J2: E-216"
-  },
-  {
-    "id": "csbs-div1-friday-0900-r8s9t0",
-    "department": "CSBS",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Friday",
-    "startTime": "9.00",
-    "endTime": "9.55",
-    "subject": "BCVS",
-    "room": "F-504",
-    "faculty": "Nidhi mam",
-    "type": "L",
-    "originalText": "9:00-9:55, BCVS, Nidhi mam, F-504"
-  },
-  {
-    "id": "csbs-div1-friday-1000-s9t0u1",
-    "department": "CSBS",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Friday",
-    "startTime": "10.00",
-    "endTime": "10.55",
-    "subject": "OOPS",
-    "room": "F-504",
-    "faculty": "Yogesh sir",
-    "type": "L",
-    "originalText": "10:00-10:55, OOPS, Yogesh sir, F-504"
-  },
-  {
-    "id": "csbs-div1-friday-1110-t0u1v2",
-    "department": "CSBS",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Friday",
-    "startTime": "11.10",
-    "endTime": "12.05",
-    "subject": "COA",
-    "room": "F-504",
-    "faculty": "Samir sir",
-    "type": "L",
-    "originalText": "11:10-12:05, COA, Samir sir, F-504"
-  },
-  {
-    "id": "csbs-div1-friday-1210-u1v2w3",
-    "department": "CSBS",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Friday",
-    "startTime": "12.10",
-    "endTime": "1.05",
-    "subject": "DISCRETE MATHS",
-    "room": "F-504",
-    "faculty": "Ankush sir",
-    "type": "L",
-    "originalText": "12:10-1:05, DISCRETE MATHS, Ankush sir, F-504"
-  },
-  {
-    "id": "ict-div1-monday-0900-a1b2c3",
-    "department": "ICT",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Monday",
-    "startTime": "9.00",
-    "endTime": "9.55",
-    "subject": "Optimization methods and Algorithms",
-    "room": "F-403",
-    "faculty": "PRAB",
-    "type": "L",
-    "originalText": "H1H2H3 (24IC333T) F-403, PRAB-L, Optimization methods and Algorithms"
-  },
-  {
-    "id": "ict-div1-monday-0900-b2c3d4",
-    "department": "ICT",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Monday",
-    "startTime": "9.00",
-    "endTime": "9.55",
-    "subject": "Data Structures and Algorithms Lab",
-    "room": "E112-113",
-    "faculty": "Rutvij H Jhaveri",
-    "type": "P",
-    "originalText": "H2 (24IC203P) E112-113, RUZ-P"
-  },
-  {
-    "id": "ict-div1-monday-0900-c3d4e5",
-    "department": "ICT",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Monday",
-    "startTime": "9.00",
-    "endTime": "9.55",
-    "subject": "Data Structures and Algorithms Lab",
-    "room": "E112-113",
-    "faculty": "Anand Singh",
-    "type": "P",
-    "originalText": "H1 (24IC203P) E112-113, ANAN-P"
-  },
-  {
-    "id": "ict-div1-monday-1110-d4e5f6",
-    "department": "ICT",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Monday",
-    "startTime": "11.10",
-    "endTime": "12.05",
-    "subject": "Discrete Mathematical Structures",
-    "room": "F1-404",
-    "faculty": "Paawan Sharma",
-    "type": "L",
-    "originalText": "H1H2H3 (24IC201T) F1-404, PWN-L"
-  },
-  {
-    "id": "ict-div1-monday-1210-e5f6g7",
-    "department": "ICT",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Monday",
-    "startTime": "12.10",
-    "endTime": "1.05",
-    "subject": "Electronic Devices and Circuits",
-    "room": "F1-404",
-    "faculty": "G P Pandey",
-    "type": "L",
-    "originalText": "H1H2H3 (24IC202T) F1-404, GPP-L"
-  },
-  {
-    "id": "ict-div1-monday-0210-f6g7h8",
-    "department": "ICT",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Monday",
-    "startTime": "2.10",
-    "endTime": "3.05",
-    "subject": "Data Structure and Algorithms",
-    "room": "F1-404",
-    "faculty": "Rutvij H Jhaveri",
-    "type": "L",
-    "originalText": "H1H2H3 (24IC203T) F1-404, RUZ-L"
-  },
-  {
-    "id": "ict-div1-tuesday-0900-g7h8i9",
-    "department": "ICT",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Tuesday",
-    "startTime": "9.00",
-    "endTime": "9.55",
-    "subject": "Fundamentals of ICT",
-    "room": "F1-404",
-    "faculty": "Kocherlakota Stya Pritam",
-    "type": "L",
-    "originalText": "H1H2H3 (24MA202T) F1-404, KSP-L"
-  },
-  {
-    "id": "ict-div1-tuesday-1000-h8i9j0",
-    "department": "ICT",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Tuesday",
-    "startTime": "10.00",
-    "endTime": "10.55",
-    "subject": "Discrete Mathematical Structures",
-    "room": "F1-404",
-    "faculty": "Paawan Sharma",
-    "type": "L",
-    "originalText": "H1H2H3 (24IC201T) F1-404, PWN-L"
-  },
-  {
-    "id": "ict-div1-tuesday-1110-i9j0k1",
-    "department": "ICT",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Tuesday",
-    "startTime": "11.10",
-    "endTime": "12.05",
-    "subject": "Digital Circuits",
-    "room": "F1-404",
-    "faculty": "Gaurav Bhargava",
-    "type": "L",
-    "originalText": "H1H2H3 (24IC205T) F1-404, GAUR-L"
-  },
-  {
-    "id": "ict-div1-tuesday-1210-j0k1l2",
-    "department": "ICT",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Tuesday",
-    "startTime": "12.10",
-    "endTime": "1.05",
-    "subject": "Data Structure and Algorithms",
-    "room": "F1-404",
-    "faculty": "Rutvij H Jhaveri",
-    "type": "L",
-    "originalText": "H1H2H3 (24IC203T) F1-404, RUZ-L"
-  },
-  {
-    "id": "ict-div1-wednesday-1000-k1l2m3",
-    "department": "ICT",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Wednesday",
-    "startTime": "10.00",
-    "endTime": "10.55",
-    "subject": "Fundamentals of ICT",
-    "room": "F1-404",
-    "faculty": "Kocherlakota Stya Pritam",
-    "type": "L",
-    "originalText": "H1H2H3 (24MA202T) F1-404, KSP-L"
-  },
-  {
-    "id": "ict-div1-wednesday-1110-l2m3n4",
-    "department": "ICT",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Wednesday",
-    "startTime": "11.10",
-    "endTime": "12.05",
-    "subject": "Electronic Devices and Circuits Lab",
-    "room": "E212",
-    "faculty": "G P Pandey",
-    "type": "P",
-    "originalText": "H1 (24IC202P) E212, GPP-P"
-  },
-  {
-    "id": "ict-div1-wednesday-1110-m3n4o5",
-    "department": "ICT",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Wednesday",
-    "startTime": "11.10",
-    "endTime": "12.05",
-    "subject": "Electronic Devices and Circuits Lab",
-    "room": "E212-3",
-    "faculty": "Mahesh Kumar",
-    "type": "P",
-    "originalText": "H2 (24IC202P) E212-3, MAHE-P"
-  },
-  {
-    "id": "ict-div1-wednesday-1110-n4o5p6",
-    "department": "ICT",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Wednesday",
-    "startTime": "11.10",
-    "endTime": "12.05",
-    "subject": "Electronic Devices and Circuits Lab",
-    "room": "E303",
-    "faculty": "Krirtikant Sharma",
-    "type": "P",
-    "originalText": "H3 (24IC202P) E303, KKS-P"
-  },
-  {
-    "id": "ict-div1-wednesday-0210-o5p6q7",
-    "department": "ICT",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Wednesday",
-    "startTime": "2.10",
-    "endTime": "3.05",
-    "subject": "Electronic Devices and Circuits",
-    "room": "F1-404",
-    "faculty": "G P Pandey",
-    "type": "L",
-    "originalText": "H1H2H3 (24IC202T) F1-404, GPP-L"
-  },
-  {
-    "id": "ict-div1-wednesday-0310-p6q7r8",
-    "department": "ICT",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Wednesday",
-    "startTime": "3.10",
-    "endTime": "4.05",
-    "subject": "Data Structure and Algorithms",
-    "room": "F1-404",
-    "faculty": "Rutvij H Jhaveri",
-    "type": "L",
-    "originalText": "H1H2H3 (24IC203T) F1-404, RUZ-L"
-  },
-  {
-    "id": "ict-div1-thursday-1000-q7r8s9",
-    "department": "ICT",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Thursday",
-    "startTime": "10.00",
-    "endTime": "10.55",
-    "subject": "Introduction to Artificial Intelligence",
-    "room": "F1-402",
-    "faculty": "Krirtikant Sharma",
-    "type": "L",
-    "originalText": "H1H2H3 (24IC204T) F1-402, KKS-L"
-  },
-  {
-    "id": "ict-div1-thursday-1110-r8s9t0",
-    "department": "ICT",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Thursday",
-    "startTime": "11.10",
-    "endTime": "12.05",
-    "subject": "Fundamentals of ICT",
-    "room": "F1-404",
-    "faculty": "Kocherlakota Stya Pritam",
-    "type": "L",
-    "originalText": "H1H2H3 (24MA202T) F1-404, KSP-L"
-  },
-  {
-    "id": "ict-div1-thursday-0210-s9t0u1",
-    "department": "ICT",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Thursday",
-    "startTime": "2.10",
-    "endTime": "3.05",
-    "subject": "Electronic Devices and Circuits",
-    "room": "F1-404",
-    "faculty": "G P Pandey",
-    "type": "L",
-    "originalText": "H1H2H3 (24IC202T) F1-404, GPP-L"
-  },
-  {
-    "id": "ict-div1-thursday-0310-t0u1v2",
-    "department": "ICT",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Thursday",
-    "startTime": "3.10",
-    "endTime": "4.05",
-    "subject": "Discrete Mathematical Structures",
-    "room": "F1-404",
-    "faculty": "Paawan Sharma",
-    "type": "L",
-    "originalText": "H1H2H3 (24IC201T) F1-404, PWN-L"
-  },
-  {
-    "id": "ict-div1-friday-1000-u1v2w3",
-    "department": "ICT",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Friday",
-    "startTime": "10.00",
-    "endTime": "10.55",
-    "subject": "Fundamentals of ICT",
-    "room": "F1-402",
-    "faculty": "Kocherlakota Stya Pritam",
-    "type": "L",
-    "originalText": "H1H2H3 (24MA202T) F1-402, KSP-L"
-  },
-  {
-    "id": "ict-div1-friday-1110-v2w3x4",
-    "department": "ICT",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Friday",
-    "startTime": "11.10",
-    "endTime": "12.05",
-    "subject": "Introduction to Artificial Intelligence",
-    "room": "F1-404",
-    "faculty": "Krirtikant Sharma",
-    "type": "L",
-    "originalText": "H1H2H3 (24IC204T) F1-404, KKS-L"
-  },
-  {
-    "id": "ict-div1-friday-1210-w3x4y5",
-    "department": "ICT",
-    "division": "1",
-    "year": "2nd Year",
-    "day": "Friday",
-    "startTime": "12.10",
-    "endTime": "1.05",
-    "subject": "Digital Circuits",
-    "room": "F1-404",
-    "faculty": "Gaurav Bhargava",
-    "type": "L",
-    "originalText": "H1H2H3 (24IC205T) F1-404, GAUR-L"
-  },
-  {
-    "id": "ict-div2-monday-0900-a1b2c3",
-    "department": "ICT",
-    "division": "2",
-    "year": "2nd Year",
-    "day": "Monday",
-    "startTime": "9.00",
-    "endTime": "9.55",
-    "subject": "Fundamentals of ICT",
-    "room": "F1-403",
-    "faculty": "Krirtikant Sharma",
-    "type": "L",
-    "originalText": "H4H5H6 (24IC204T) F1-403, KKS-L"
-  },
-  {
-    "id": "ict-div2-monday-1000-d4e5f6",
-    "department": "ICT",
-    "division": "2",
-    "year": "2nd Year",
-    "day": "Monday",
-    "startTime": "10.00",
-    "endTime": "10.55",
-    "subject": "Data Structure and Algorithms",
-    "room": "F1-403",
-    "faculty": "Kriti Dheerawat",
-    "type": "L",
-    "originalText": "H4H5H6 (24MA202T) F1-403, KD-L"
-  },
-  {
-    "id": "ict-div2-monday-1210-g7h8i9",
-    "department": "ICT",
-    "division": "2",
-    "year": "2nd Year",
-    "day": "Monday",
-    "startTime": "12.10",
-    "endTime": "1.05",
-    "subject": "Data Structures and Algorithms Lab (2024)",
-    "room": "F1-403",
-    "faculty": "Kalgi Gandhi",
-    "type": "L",
-    "originalText": "H4H5H6 (24IC203T) F1-403, KALG-L"
-  },
-  {
-    "id": "ict-div2-monday-0210-j0k1l2",
-    "department": "ICT",
-    "division": "2",
-    "year": "2nd Year",
-    "day": "Monday",
-    "startTime": "2.10",
-    "endTime": "3.05",
-    "subject": "Digital Circuits",
-    "room": "F1-403",
-    "faculty": "Devlina Adhikari",
-    "type": "L",
-    "originalText": "H4H5H6 (24IC202T) F1-403, DEA-L"
-  },
-  {
-    "id": "ict-div2-tuesday-0900-m3n4o5",
-    "department": "ICT",
-    "division": "2",
-    "year": "2nd Year",
-    "day": "Tuesday",
-    "startTime": "9.00",
-    "endTime": "9.55",
-    "subject": "Digital Circuits",
-    "room": "F1-403",
-    "faculty": "Devlina Adhikari",
-    "type": "L",
-    "originalText": "H4H5H6 (24IC202T) F1-403, DEA-L"
-  },
-  {
-    "id": "ict-div2-tuesday-1110-p6q7r8",
-    "department": "ICT",
-    "division": "2",
-    "year": "2nd Year",
-    "day": "Tuesday",
-    "startTime": "11.10",
-    "endTime": "12.05",
-    "subject": "Digital Circuits",
-    "room": "E212",
-    "faculty": "Devlina Adhikari",
-    "type": "P",
-    "originalText": "H6 (24IC202P) E212, DEA-P"
-  },
-  {
-    "id": "ict-div2-tuesday-1110-s9t0u1",
-    "department": "ICT",
-    "division": "2",
-    "year": "2nd Year",
-    "day": "Tuesday",
-    "startTime": "11.10",
-    "endTime": "12.05",
-    "subject": "Electronic Devices and Circuits",
-    "room": "E303",
-    "faculty": "Mahesh Kumar",
-    "type": "P",
-    "originalText": "H5 (24IC202P) E303, MAHE-P"
-  },
-  {
-    "id": "ict-div2-tuesday-1110-v2w3x4",
-    "department": "ICT",
-    "division": "2",
-    "year": "2nd Year",
-    "day": "Tuesday",
-    "startTime": "11.10",
-    "endTime": "12.05",
-    "subject": "Fundamentals of ICT",
-    "room": "E212-3",
-    "faculty": "Krirtikant Sharma",
-    "type": "P",
-    "originalText": "H4 (24IC202P) E212-3, KKS-P"
-  },
-  {
-    "id": "ict-div2-tuesday-0210-y5z6a7",
-    "department": "ICT",
-    "division": "2",
-    "year": "2nd Year",
-    "day": "Tuesday",
-    "startTime": "2.10",
-    "endTime": "3.05",
-    "subject": "Discrete Mathematical Structures",
-    "room": "F1-403",
-    "faculty": "Manish Mandloi",
-    "type": "L",
-    "originalText": "H4H5H6 (24IC201T) F1-403, MAMO-L"
-  },
-  {
-    "id": "ict-div2-tuesday-0310-b8c9d0",
-    "department": "ICT",
-    "division": "2",
-    "year": "2nd Year",
-    "day": "Tuesday",
-    "startTime": "3.10",
-    "endTime": "4.05",
-    "subject": "Digital Circuits",
-    "room": "F1-403",
-    "faculty": "Devlina Adhikari",
-    "type": "L",
-    "originalText": "H4H5H6 (24IC202T) F1-403, DEA-L"
-  },
-  {
-    "id": "ict-div2-tuesday-0415-e1f2g3",
-    "department": "ICT",
-    "division": "2",
-    "year": "2nd Year",
-    "day": "Tuesday",
-    "startTime": "4.15",
-    "endTime": "5.10",
-    "subject": "Data Structure and Algorithms",
-    "room": "F1-403",
-    "faculty": "Kriti Dheerawat",
-    "type": "L",
-    "originalText": "H4H5H6 (24MA202T) F1-403, KD-L"
-  },
-  {
-    "id": "ict-div2-wednesday-1000-h4i5j6",
-    "department": "ICT",
-    "division": "2",
-    "year": "2nd Year",
-    "day": "Wednesday",
-    "startTime": "10.00",
-    "endTime": "10.55",
-    "subject": "Data Structures and Algorithms Lab (2024)",
-    "room": "F1-403",
-    "faculty": "Kalgi Gandhi",
-    "type": "L",
-    "originalText": "H4H5H6 (24IC203T) F1-403, KALG-L"
-  },
-  {
-    "id": "ict-div2-wednesday-1110-k7l8m9",
-    "department": "ICT",
-    "division": "2",
-    "year": "2nd Year",
-    "day": "Wednesday",
-    "startTime": "11.10",
-    "endTime": "12.05",
-    "subject": "Data Structure and Algorithms",
-    "room": "F1-403",
-    "faculty": "Kriti Dheerawat",
-    "type": "L",
-    "originalText": "H4H5H6 (24MA202T) F1-403, KD-L"
-  },
-  {
-    "id": "ict-div2-wednesday-0110-n0o1p2",
-    "department": "ICT",
-    "division": "2",
-    "year": "2nd Year",
-    "day": "Wednesday",
-    "startTime": "1.10",
-    "endTime": "2.05",
-    "subject": "Data Structure and Algorithms Lab",
-    "room": "F1-403",
-    "faculty": "Gaurav Bhargava",
-    "type": "L",
-    "originalText": "H4H5H6 (24IC205T) F1-403, GAUR-L"
-  },
-  {
-    "id": "ict-div2-thursday-1110-q3r4s5",
-    "department": "ICT",
-    "division": "2",
-    "year": "2nd Year",
-    "day": "Thursday",
-    "startTime": "11.10",
-    "endTime": "12.05",
-    "subject": "Discrete Mathematical Structures",
-    "room": "F1-403",
-    "faculty": "Manish Mandloi",
-    "type": "L",
-    "originalText": "H4H5H6 (24IC201T) F1-403, MAMO-L"
-  },
-  {
-    "id": "ict-div2-thursday-0110-t6u7v8",
-    "department": "ICT",
-    "division": "2",
-    "year": "2nd Year",
-    "day": "Thursday",
-    "startTime": "1.10",
-    "endTime": "2.05",
-    "subject": "Fundamentals of ICT",
-    "room": "F1-403",
-    "faculty": "Krirtikant Sharma",
-    "type": "L",
-    "originalText": "H4H5H6 (24IC204T) F1-403, KKS-L"
-  },
-  {
-    "id": "ict-div2-thursday-0210-w9x0y1",
-    "department": "ICT",
-    "division": "2",
-    "year": "2nd Year",
-    "day": "Thursday",
-    "startTime": "2.10",
-    "endTime": "3.05",
-    "subject": "Data Structures and Algorithms Lab (2024)",
-    "room": "F1-403",
-    "faculty": "Kalgi Gandhi",
-    "type": "L",
-    "originalText": "H4H5H6 (24IC203T) F1-403, KALG-L"
-  },
-  {
-    "id": "ict-div2-friday-0900-z2a3b4",
-    "department": "ICT",
-    "division": "2",
-    "year": "2nd Year",
-    "day": "Friday",
-    "startTime": "9.00",
-    "endTime": "9.55",
-    "subject": "Discrete Mathematical Structures",
-    "room": "F1-403",
-    "faculty": "Manish Mandloi",
-    "type": "L",
-    "originalText": "H4H5H6 (24IC201T) F1-403, MAMO-L"
-  },
-  {
-    "id": "ict-div2-friday-1000-c5d6e7",
-    "department": "ICT",
-    "division": "2",
-    "year": "2nd Year",
-    "day": "Friday",
-    "startTime": "10.00",
-    "endTime": "10.55",
-    "subject": "Data Structure and Algorithms",
-    "room": "F1-403",
-    "faculty": "Kriti Dheerawat",
-    "type": "L",
-    "originalText": "H4H5H6 (24MA202T) F1-403, KD-L"
-  },
-  {
-    "id": "ict-div2-friday-1110-f8g9h0",
-    "department": "ICT",
-    "division": "2",
-    "year": "2nd Year",
-    "day": "Friday",
-    "startTime": "11.10",
-    "endTime": "12.05",
-    "subject": "Digital Circuits Lab",
-    "room": "E112-113",
-    "faculty": "Ayushi Mathur",
-    "type": "P",
-    "originalText": "H6 (24IC203P) E112-113, AYMA-P"
-  },
-  {
-    "id": "ict-div2-friday-1110-i1j2k3",
-    "department": "ICT",
-    "division": "2",
-    "year": "2nd Year",
-    "day": "Friday",
-    "startTime": "11.10",
-    "endTime": "12.05",
-    "subject": "Digital Circuits Laboratory",
-    "room": "E112-113",
-    "faculty": "Bhaumik Thakkar",
-    "type": "P",
-    "originalText": "H5 (24IC203P) E112-113, BHT-P"
-  },
-  {
-    "id": "ict-div2-friday-1110-l4m5n6",
-    "department": "ICT",
-    "division": "2",
-    "year": "2nd Year",
-    "day": "Friday",
-    "startTime": "11.10",
-    "endTime": "12.05",
-    "subject": "Introduction to Artificial Intelligence",
-    "room": "E112-113",
-    "faculty": "Anand Singh",
-    "type": "P",
-    "originalText": "H4 (24IC203P) E112-113, ANAN-P"
-  },
-  {
-    "id": "ict-div2-friday-0210-o7p8q9",
-    "department": "ICT",
-    "division": "2",
-    "year": "2nd Year",
-    "day": "Friday",
-    "startTime": "2.10",
-    "endTime": "3.05",
-    "subject": "Data Structure and Algorithms Lab",
-    "room": "F1-403",
-    "faculty": "Gaurav Bhargava",
-    "type": "L",
-    "originalText": "H4H5H6 (24IC205T) F1-403, GAUR-L"
-  },
-  {
-    "id": "ict-div3-monday-0900-x9a2b1",
-    "department": "ICT",
-    "division": "3",
-    "year": "2nd Year",
-    "day": "Monday",
-    "startTime": "9.00",
-    "endTime": "9.55",
-    "subject": "Electronic Devices and Circuits",
-    "room": "F1-404",
-    "faculty": "Nisarg Patel",
-    "type": "L",
-    "originalText": "H7H8H9 (24IC203T) F1-404, NIP-L"
-  },
-  {
-    "id": "ict-div3-monday-1000-c4d5e6",
-    "department": "ICT",
-    "division": "3",
-    "year": "2nd Year",
-    "day": "Monday",
-    "startTime": "10.00",
-    "endTime": "10.55",
-    "subject": "Data Structures and Algorithms Lab (2024)",
-    "room": "F1-404",
-    "faculty": "Gaurav Bhargava",
-    "type": "L",
-    "originalText": "H7H8H9 (24IC205T) F1-404, GAUR-L"
-  },
-  {
-    "id": "ict-div3-monday-1310-f7g8h9",
-    "department": "ICT",
-    "division": "3",
-    "year": "2nd Year",
-    "day": "Monday",
-    "startTime": "1.10",
-    "endTime": "2.05",
-    "subject": "Introduction to Artificial Intelligence",
-    "room": "F1-402",
-    "faculty": "Anand Singh",
-    "type": "L",
-    "originalText": "H7H8H9 (24IC202T) F1-402, ANAN-L"
-  },
-  {
-    "id": "ict-div3-monday-1410-i0j1k2",
-    "department": "ICT",
-    "division": "3",
-    "year": "2nd Year",
-    "day": "Monday",
-    "startTime": "2.10",
-    "endTime": "3.05",
-    "subject": "Data Structure and Algorithms",
-    "room": "F1-402",
-    "faculty": "Kriti Dheerawat",
-    "type": "L",
-    "originalText": "H7H8H9 (24MA202T) F1-402, KD-L"
-  },
-  {
-    "id": "ict-div3-tuesday-0900-l3m4n5",
-    "department": "ICT",
-    "division": "3",
-    "year": "2nd Year",
-    "day": "Tuesday",
-    "startTime": "9.00",
-    "endTime": "9.55",
-    "subject": "Digital Circuits Lab",
-    "room": "E303",
-    "faculty": "Arpan Desai",
-    "type": "P",
-    "originalText": "H8 (24IC202P) E303, ARPA-P"
-  },
-  {
-    "id": "ict-div3-tuesday-0900-o6p7q8",
-    "department": "ICT",
-    "division": "3",
-    "year": "2nd Year",
-    "day": "Tuesday",
-    "startTime": "9.00",
-    "endTime": "9.55",
-    "subject": "Discrete Mathematical Structures",
-    "room": "E212",
-    "faculty": "Rutvij H Jhaveri",
-    "type": "P",
-    "originalText": "H9 (24IC203P) E212, RUZ-P"
-  },
-  {
-    "id": "ict-div3-tuesday-1110-r9s0t1",
-    "department": "ICT",
-    "division": "3",
-    "year": "2nd Year",
-    "day": "Tuesday",
-    "startTime": "11.10",
-    "endTime": "12.05",
-    "subject": "Data Structure and Algorithms Lab",
-    "room": "F1-402",
-    "faculty": "Deepak Sahu",
-    "type": "L",
-    "originalText": "H7H8H9 (24IC201T) F1-402, DESA-L"
-  },
-  {
-    "id": "ict-div3-tuesday-1310-u2v3w4",
-    "department": "ICT",
-    "division": "3",
-    "year": "2nd Year",
-    "day": "Tuesday",
-    "startTime": "1.10",
-    "endTime": "2.05",
-    "subject": "Data Structures and Algorithms Lab (2024)",
-    "room": "F1-402",
-    "faculty": "Gaurav Bhargava",
-    "type": "L",
-    "originalText": "H7H8H9 (24IC205T) F1-402, GAUR-L"
-  },
-  {
-    "id": "ict-div3-tuesday-1410-x5y6z7",
-    "department": "ICT",
-    "division": "3",
-    "year": "2nd Year",
-    "day": "Tuesday",
-    "startTime": "2.10",
-    "endTime": "3.05",
-    "subject": "Fundamentals of ICT",
-    "room": "F1-402",
-    "faculty": "Krirtikant Sharma",
-    "type": "L",
-    "originalText": "H7H8H9 (24IC204T) F1-402, KKS-L"
-  },
-  {
-    "id": "ict-div3-tuesday-1510-a8b9c0",
-    "department": "ICT",
-    "division": "3",
-    "year": "2nd Year",
-    "day": "Tuesday",
-    "startTime": "3.10",
-    "endTime": "4.05",
-    "subject": "Data Structure and Algorithms",
-    "room": "F-403",
-    "faculty": "Kriti Dheerawat",
-    "type": "L",
-    "originalText": "H7H8H9 (24MA202T) F-403, KD-L"
-  },
-  {
-    "id": "ict-div3-wednesday-0900-d1e2f3",
-    "department": "ICT",
-    "division": "3",
-    "year": "2nd Year",
-    "day": "Wednesday",
-    "startTime": "9.00",
-    "endTime": "9.55",
-    "subject": "Fundamentals of ICT",
-    "room": "E303",
-    "faculty": "Krirtikant Sharma",
-    "type": "P",
-    "originalText": "H9 (24IC202P) E303, KKS-P"
-  },
-  {
-    "id": "ict-div3-wednesday-0900-g4h5i6",
-    "department": "ICT",
-    "division": "3",
-    "year": "2nd Year",
-    "day": "Wednesday",
-    "startTime": "9.00",
-    "endTime": "9.55",
-    "subject": "Introduction to Artificial Intelligence",
-    "room": "E212",
-    "faculty": "Anand Singh",
-    "type": "P",
-    "originalText": "H7 (24IC203P) E212, ANAN-P"
-  },
-  {
-    "id": "ict-div3-wednesday-1000-j7k8l9",
-    "department": "ICT",
-    "division": "3",
-    "year": "2nd Year",
-    "day": "Wednesday",
-    "startTime": "10.00",
-    "endTime": "10.55",
-    "subject": "Introduction to Artificial Intelligence",
-    "room": "F1-404",
-    "faculty": "Anand Singh",
-    "type": "L",
-    "originalText": "H7H8H9 (24IC202T) F1-404, ANAN-L"
-  },
-  {
-    "id": "ict-div3-wednesday-1110-m0n1o2",
-    "department": "ICT",
-    "division": "3",
-    "year": "2nd Year",
-    "day": "Wednesday",
-    "startTime": "11.10",
-    "endTime": "12.05",
-    "subject": "Data Structure and Algorithms Lab",
-    "room": "F1-402",
-    "faculty": "Deepak Sahu",
-    "type": "L",
-    "originalText": "H7H8H9 (24IC201T) F1-402, DESA-L"
-  },
-  {
-    "id": "ict-div3-wednesday-1510-p3q4r5",
-    "department": "ICT",
-    "division": "3",
-    "year": "2nd Year",
-    "day": "Wednesday",
-    "startTime": "3.10",
-    "endTime": "4.05",
-    "subject": "Data Structure and Algorithms",
-    "room": "F-404",
-    "faculty": "Kriti Dheerawat",
-    "type": "L",
-    "originalText": "H7H8H9 (24MA202T) F-404, KD-L"
-  },
-  {
-    "id": "ict-div3-wednesday-1615-s6t7u8",
-    "department": "ICT",
-    "division": "3",
-    "year": "2nd Year",
-    "day": "Wednesday",
-    "startTime": "4.15",
-    "endTime": "5.10",
-    "subject": "Fundamentals of ICT",
-    "room": "F1-403",
-    "faculty": "Krirtikant Sharma",
-    "type": "L",
-    "originalText": "H7H8H9 (24IC204T) F1-403, KKS-L"
-  },
-  {
-    "id": "ict-div3-thursday-0900-v9w0x1",
-    "department": "ICT",
-    "division": "3",
-    "year": "2nd Year",
-    "day": "Thursday",
-    "startTime": "9.00",
-    "endTime": "9.55",
-    "subject": "Electronic Devices and Circuits",
-    "room": "F1-403",
-    "faculty": "Nisarg Patel",
-    "type": "L",
-    "originalText": "H7H8H9 (24IC203T) F1-403, NIP-L"
-  },
-  {
-    "id": "ict-div3-thursday-1000-y2z3a4",
-    "department": "ICT",
-    "division": "3",
-    "year": "2nd Year",
-    "day": "Thursday",
-    "startTime": "10.00",
-    "endTime": "10.55",
-    "subject": "Data Structure and Algorithms Lab",
-    "room": "F1-404",
-    "faculty": "Deepak Sahu",
-    "type": "L",
-    "originalText": "H7H8H9 (24IC201T) F1-404, DESA-L"
-  },
-  {
-    "id": "ict-div3-thursday-1110-b5c6d7",
-    "department": "ICT",
-    "division": "3",
-    "year": "2nd Year",
-    "day": "Thursday",
-    "startTime": "11.10",
-    "endTime": "12.05",
-    "subject": "Introduction to Artificial Intelligence",
-    "room": "E212",
-    "faculty": "Anand Singh",
-    "type": "P",
-    "originalText": "H8 (24IC203P) E212, ANAN-P"
-  },
-  {
-    "id": "ict-div3-thursday-1110-e8f9g0",
-    "department": "ICT",
-    "division": "3",
-    "year": "2nd Year",
-    "day": "Thursday",
-    "startTime": "11.10",
-    "endTime": "12.05",
-    "subject": "Digital Circuits",
-    "room": "E303",
-    "faculty": "Devlina Adhikari",
-    "type": "P",
-    "originalText": "H7 (24IC202P) E303, DEA-P"
-  },
-  {
-    "id": "ict-div3-friday-0900-h1i2j3",
-    "department": "ICT",
-    "division": "3",
-    "year": "2nd Year",
-    "day": "Friday",
-    "startTime": "9.00",
-    "endTime": "9.55",
-    "subject": "Introduction to Artificial Intelligence",
-    "room": "F-402",
-    "faculty": "Anand Singh",
-    "type": "L",
-    "originalText": "H7H8H9 (24IC202T) F-402, ANAN-L"
-  },
-  {
-    "id": "ict-div3-friday-1000-k4l5m6",
-    "department": "ICT",
-    "division": "3",
-    "year": "2nd Year",
-    "day": "Friday",
-    "startTime": "10.00",
-    "endTime": "10.55",
-    "subject": "Electronic Devices and Circuits",
-    "room": "F-402",
-    "faculty": "Nisarg Patel",
-    "type": "L",
-    "originalText": "H7H8H9 (24IC203T) F-402, NIP-L"
-  },
-  {
-    "id": "ict-div3-friday-1210-n7o8p9",
-    "department": "ICT",
-    "division": "3",
-    "year": "2nd Year",
-    "day": "Friday",
-    "startTime": "12.10",
-    "endTime": "1.05",
-    "subject": "Data Structure and Algorithms",
-    "room": "F1-402",
-    "faculty": "Kriti Dheerawat",
-    "type": "L",
-    "originalText": "H7H8H9 (24MA202T) F1-402, KD-L"
-  },
-  {
-    "id": "ict-div1-monday-1000-d4e5f6",
-    "department": "ICT",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Monday",
-    "startTime": "10.00",
-    "endTime": "10.55",
-    "subject": "RF Engineering",
-    "room": "F-403",
-    "faculty": "VPT",
-    "type": "L",
-    "originalText": "H1H2H3 (24IC303T) F-403, VPT-L, RF Engineering"
-  },
-  {
-    "id": "ict-div1-monday-1110-g7h8i9",
-    "department": "ICT",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Monday",
-    "startTime": "11.10",
-    "endTime": "1.05",
-    "subject": "Theory of Computation & Compiler Design Lab",
-    "room": "E112-113",
-    "faculty": "NSR, RABH, KKS",
-    "type": "P",
-    "originalText": "H1H2H3 (24IC301P) E112-113, NSR-P, RABH-P, KKS-P, Theory of Computation & Compiler Design Lab"
-  },
-  {
-    "id": "ict-div1-monday-0210-j0k1l2",
-    "department": "ICT",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Monday",
-    "startTime": "2.10",
-    "endTime": "3.05",
-    "subject": "CDC Training",
-    "room": "F-404",
-    "faculty": "CDCT",
-    "type": "L",
-    "originalText": "H1H2H3 (22CDC005) F-404, CDCT-L, CDC Training"
-  },
-  {
-    "id": "ict-div1-monday-0310-m3n4o5",
-    "department": "ICT",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Monday",
-    "startTime": "3.10",
-    "endTime": "4.05",
-    "subject": "Engineering Economics",
-    "room": "F-404",
-    "faculty": "ICTNF2",
-    "type": "L",
-    "originalText": "H1H2H3 (24HS301T) F-404, ICTNF2-L, Engineering Economics"
-  },
-  {
-    "id": "ict-div1-monday-0415-p6q7r8",
-    "department": "ICT",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Monday",
-    "startTime": "4.15",
-    "endTime": "6.10",
-    "subject": "RF Engineering Lab",
-    "room": "E211",
-    "faculty": "VPT",
-    "type": "P",
-    "originalText": "H1 (24IC303P) E211, VPT-P, RF Engineering Lab"
-  },
-  {
-    "id": "ict-div1-tuesday-1000-s9t0u1",
-    "department": "ICT",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Tuesday",
-    "startTime": "10.00",
-    "endTime": "10.55",
-    "subject": "Theory of Computation & Compiler Design",
-    "room": "F-404",
-    "faculty": "NSR",
-    "type": "L",
-    "originalText": "H1H2H3 (24IC301T) F-404, NSR-L, Theory of Computation & Compiler Design"
-  },
-  {
-    "id": "ict-div1-tuesday-1210-v2w3x4",
-    "department": "ICT",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Tuesday",
-    "startTime": "12.10",
-    "endTime": "1.05",
-    "subject": "Engineering Economics",
-    "room": "F1-403",
-    "faculty": "ICTNF2",
-    "type": "L",
-    "originalText": "H1H2H3 (24HS301T) F1-403, ICTNF2-L, Engineering Economics"
-  },
-  {
-    "id": "ict-div1-tuesday-0210-y5z6a7",
-    "department": "ICT",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Tuesday",
-    "startTime": "2.10",
-    "endTime": "3.05",
-    "subject": "CDC Training",
-    "room": "F1-404",
-    "faculty": "CDCT",
-    "type": "L",
-    "originalText": "H1H2H3 (22CDC005) F1-404, CDCT-L, CDC Training"
-  },
-  {
-    "id": "ict-div1-tuesday-0310-b8c9d0",
-    "department": "ICT",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Tuesday",
-    "startTime": "3.10",
-    "endTime": "4.05",
-    "subject": "Digital Signal Processing",
-    "room": "F1-404",
-    "faculty": "MAMO",
-    "type": "L",
-    "originalText": "H1H2H3 (24IC302T) F1-404, MAMO-L, Digital Signal Processing"
-  },
-  {
-    "id": "ict-div1-wednesday-1000-e1f2g3",
-    "department": "ICT",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Wednesday",
-    "startTime": "10.00",
-    "endTime": "10.55",
-    "subject": "Digital Signal Processing",
-    "room": "F1-402",
-    "faculty": "MAMO",
-    "type": "L",
-    "originalText": "H1H2H3 (24IC302T) F1-402, MAMO-L, Digital Signal Processing"
-  },
-  {
-    "id": "ict-div1-wednesday-0110-h4i5j6",
-    "department": "ICT",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Wednesday",
-    "startTime": "1.10",
-    "endTime": "2.05",
-    "subject": "Optimization methods and Algorithms",
-    "room": "F-403",
-    "faculty": "PRAB",
-    "type": "L",
-    "originalText": "H1H2H3 (24IC333T) F-403, PRAB-L, Optimization methods and Algorithms"
-  },
-  {
-    "id": "ict-div1-wednesday-0210-k7l8m9",
-    "department": "ICT",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Wednesday",
-    "startTime": "2.10",
-    "endTime": "3.05",
-    "subject": "RF Engineering",
-    "room": "F-402",
-    "faculty": "VPT",
-    "type": "L",
-    "originalText": "H1H2H3 (24IC303T) F-402, VPT-L, RF Engineering"
-  },
-  {
-    "id": "ict-div1-wednesday-0310-n0o1p2",
-    "department": "ICT",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Wednesday",
-    "startTime": "3.10",
-    "endTime": "4.05",
-    "subject": "Engineering Economics",
-    "room": "F-403",
-    "faculty": "ICTNF2",
-    "type": "L",
-    "originalText": "H1H2H3 (24HS301T) F-403, ICTNF2-L, Engineering Economics"
-  },
-  {
-    "id": "ict-div1-thursday-1000-q3r4s5",
-    "department": "ICT",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Thursday",
-    "startTime": "10.00",
-    "endTime": "10.55",
-    "subject": "Digital Signal Processing",
-    "room": "F-403",
-    "faculty": "MAMO",
-    "type": "L",
-    "originalText": "H1H2H3 (24IC302T) F-403, MAMO-L, Digital Signal Processing"
-  },
-  {
-    "id": "ict-div1-thursday-1110-t6u7v8",
-    "department": "ICT",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Thursday",
-    "startTime": "11.10",
-    "endTime": "12.05",
-    "subject": "Theory of Computation and Compiler Design",
-    "room": "F1-402",
-    "faculty": "NSR",
-    "type": "L",
-    "originalText": "H1H2H3 (24IC301T) F1-402, NSR-L, Theory of Computation and Compiler Design"
-  },
-  {
-    "id": "ict-div1-thursday-0110-w9x0y1",
-    "department": "ICT",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Thursday",
-    "startTime": "1.10",
-    "endTime": "2.05",
-    "subject": "Optimization methods and Algorithms",
-    "room": "F-403",
-    "faculty": "PRAB",
-    "type": "L",
-    "originalText": "H1H2H3 (24IC333T) F-403, PRAB-L, Optimization methods and Algorithms"
-  },
-  {
-    "id": "ict-div1-thursday-0210-z2a3b4",
-    "department": "ICT",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Thursday",
-    "startTime": "2.10",
-    "endTime": "4.05",
-    "subject": "DSP Lab",
-    "room": "E212",
-    "faculty": "MAMO",
-    "type": "P",
-    "originalText": "H1 (24IC302P) E212, MAMO-P, DSP Lab"
-  },
-  {
-    "id": "ict-div1-thursday-0210-c5d6e7",
-    "department": "ICT",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Thursday",
-    "startTime": "2.10",
-    "endTime": "4.05",
-    "subject": "DSP Lab",
-    "room": "E212-3",
-    "faculty": "PRAB",
-    "type": "P",
-    "originalText": "H3 (24IC302P) E212-3, PRAB-P, DSP Lab"
-  },
-  {
-    "id": "ict-div1-thursday-0210-f8g9h0",
-    "department": "ICT",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Thursday",
-    "startTime": "2.10",
-    "endTime": "4.05",
-    "subject": "RF Engineering Lab",
-    "room": "E211",
-    "faculty": "VPT",
-    "type": "P",
-    "originalText": "H2 (24IC303P) E211, VPT-P, RF Engineering Lab"
-  },
-  {
-    "id": "ict-div1-friday-1110-i1j2k3",
-    "department": "ICT",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Friday",
-    "startTime": "11.10",
-    "endTime": "12.05",
-    "subject": "Theory of Computation and Compiler Design",
-    "room": "F1-403",
-    "faculty": "NSR",
-    "type": "L",
-    "originalText": "H1H2H3 (24IC301T) F1-403, NSR-L, Theory of Computation and Compiler Design"
-  },
-  {
-    "id": "ict-div1-friday-0110-l4m5n6",
-    "department": "ICT",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Friday",
-    "startTime": "1.10",
-    "endTime": "2.05",
-    "subject": "RF Engineering",
-    "room": "F1-404",
-    "faculty": "VPT",
-    "type": "L",
-    "originalText": "H1H2H3 (24IC303T) F1-404, VPT-L, RF Engineering"
-  },
-  {
-    "id": "ict-div1-friday-0210-o7p8q9",
-    "department": "ICT",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Friday",
-    "startTime": "2.10",
-    "endTime": "4.05",
-    "subject": "DSP Lab",
-    "room": "E212-3",
-    "faculty": "MAMO",
-    "type": "P",
-    "originalText": "H2 (24IC302P) E212-3, MAMO-P, DSP Lab"
-  },
-  {
-    "id": "ict-div1-friday-0210-r0s1t2",
-    "department": "ICT",
-    "division": "1",
-    "year": "3rd Year",
-    "day": "Friday",
-    "startTime": "2.10",
-    "endTime": "4.05",
-    "subject": "RF Engineering Lab",
-    "room": "E211",
-    "faculty": "VPT",
-    "type": "P",
-    "originalText": "H3 (24IC303P) E211, VPT-P, RF Engineering Lab"
   }
 ]

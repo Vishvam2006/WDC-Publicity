@@ -54,33 +54,60 @@ files.forEach(file => {
     const rows = parseCSV(content).filter(r => r.length > 0 && r.some(c => c));
 
     let department = 'CE';
+    if (file.toLowerCase().includes('information and communication technology') || file.toLowerCase().includes('ict')) {
+        department = 'ICT';
+    } else if (file.toLowerCase().includes('csbs')) {
+        department = 'CSBS';
+    }
+
     let division = '1';
     let year = 'Unknown';
     let semMatch = file.match(/Sem\s*(\d)/i);
+    let ictMatch = file.match(/(\d)_(\d)\.csv$/i);
+
     if (semMatch) {
         const sem = parseInt(semMatch[1]);
-        if (sem === 3) year = '2nd Year';
-        if (sem === 5) year = '3rd Year';
-        if (sem === 7) year = '4th Year';
-        if (sem === 1) year = '1st Year';
+        if (sem === 1 || sem === 2) year = '1st Year';
+        if (sem === 3 || sem === 4) year = '2nd Year';
+        if (sem === 5 || sem === 6) year = '3rd Year';
+        if (sem === 7 || sem === 8) year = '4th Year';
+    } else if (ictMatch) {
+        const sem = parseInt(ictMatch[1]);
+        if (sem === 1 || sem === 2) year = '1st Year';
+        if (sem === 3 || sem === 4) year = '2nd Year';
+        if (sem === 5 || sem === 6) year = '3rd Year';
+        if (sem === 7 || sem === 8) year = '4th Year';
     }
+
     let divMatch = file.match(/Div(?:ison)?(?:_|\s)*(\d+)/i);
     if (divMatch) {
         division = divMatch[1];
+    } else if (ictMatch) {
+        division = ictMatch[2];
     }
 
     const facultyMap = {};
     const subjectMap = {};
     let isLookup = false;
+    let facAbbrIdx = 0, facNameIdx = 2, subAbbrIdx = 5, subNameIdx = 7;
     for (let i = 0; i < rows.length; i++) {
         const row = rows[i];
         if (row[0] && row[0].includes('Faculty Abbr.')) {
             isLookup = true;
+            let tempFacAbbrIdx = row.findIndex(c => c && c.includes('Faculty Abbr.'));
+            let tempFacNameIdx = row.findIndex(c => c && c.includes('Faculty Name'));
+            let tempSubAbbrIdx = row.findIndex(c => c && c.includes('Subject Abbr.'));
+            let tempSubNameIdx = row.findIndex(c => c && c.includes('Subject Name'));
+            
+            if (tempFacAbbrIdx !== -1) facAbbrIdx = tempFacAbbrIdx;
+            if (tempFacNameIdx !== -1) facNameIdx = tempFacNameIdx;
+            if (tempSubAbbrIdx !== -1) subAbbrIdx = tempSubAbbrIdx;
+            if (tempSubNameIdx !== -1) subNameIdx = tempSubNameIdx;
             continue;
         }
         if (isLookup) {
-            if (row[0] && row[2]) facultyMap[row[0]] = row[2];
-            if (row[5] && row[7]) subjectMap[row[5]] = row[7];
+            if (row[facAbbrIdx] && row[facNameIdx]) facultyMap[row[facAbbrIdx]] = row[facNameIdx];
+            if (row[subAbbrIdx] && row[subNameIdx]) subjectMap[row[subAbbrIdx]] = row[subNameIdx];
         }
     }
 
