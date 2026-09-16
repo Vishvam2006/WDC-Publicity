@@ -75,6 +75,8 @@ export default function Dashboard() {
               <option value="15">03:00 PM</option>
               <option value="16">04:00 PM</option>
               <option value="17">05:00 PM</option>
+              <option value="18">06:00 PM</option>
+              <option value="19">07:00 PM</option>
             </select>
           </div>
         </div>
