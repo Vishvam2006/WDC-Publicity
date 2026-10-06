@@ -1,8 +1,11 @@
 import { useState, useEffect } from 'react';
 import timetableData from '../data/timetable.json';
+import { usePublicityTracker } from '../hooks/usePublicityTracker';
+import { CheckCircle, Circle } from 'lucide-react';
 
 export default function Dashboard() {
   const [dayFilter, setDayFilter] = useState('');
+  const { toggleVisited, isVisited } = usePublicityTracker();
   
   useEffect(() => {
     const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
@@ -98,20 +101,58 @@ export default function Dashboard() {
             No classes found for the selected filters.
           </div>
         ) : (
-          filteredClasses.map((c: any, index) => (
-            <div key={index} className="card" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderLeft: '4px solid var(--primary)' }}>
-              <div>
-                <h3 style={{ marginBottom: '0.25rem' }}>{c.subject}</h3>
-                <div style={{ color: '#666', fontSize: '0.9rem' }}>
-                  {c.year} • {c.department} • Div {c.division} • {c.faculty} • {c.room} • {c.type === 'L' ? 'Lecture' : c.type === 'P' ? 'Practical' : c.type === 'T' ? 'Tutorial' : c.type}
+          filteredClasses.map((c: any) => {
+            const classId = `${c.department}-${c.year}-${c.division}-${c.day}-${c.startTime}-${c.subject}`;
+            const visited = isVisited(classId);
+
+            return (
+              <div 
+                key={classId} 
+                className="card" 
+                onClick={() => toggleVisited(classId)}
+                style={{ 
+                  display: 'flex', 
+                  justifyContent: 'space-between', 
+                  alignItems: 'center', 
+                  borderLeft: visited ? '4px solid #10b981' : '4px solid var(--primary)',
+                  opacity: visited ? 0.6 : 1,
+                  transition: 'all 0.2s ease',
+                  cursor: 'pointer'
+                }}
+              >
+                <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      toggleVisited(classId);
+                    }}
+                    style={{
+                      background: 'none',
+                      border: 'none',
+                      cursor: 'pointer',
+                      color: visited ? '#10b981' : '#ccc',
+                      display: 'flex',
+                      alignItems: 'center',
+                      padding: 0
+                    }}
+                    title={visited ? "Mark as unvisited" : "Mark as visited"}
+                  >
+                    {visited ? <CheckCircle size={28} /> : <Circle size={28} />}
+                  </button>
+                  <div style={{ textDecoration: visited ? 'line-through' : 'none' }}>
+                    <h3 style={{ marginBottom: '0.25rem', color: visited ? '#888' : 'inherit' }}>{c.subject}</h3>
+                    <div style={{ color: '#666', fontSize: '0.9rem', textDecoration: 'none' }}>
+                      {c.year} • {c.department} • Div {c.division} • {c.faculty} • {c.room} • {c.type === 'L' ? 'Lecture' : c.type === 'P' ? 'Practical' : c.type === 'T' ? 'Tutorial' : c.type}
+                    </div>
+                  </div>
+                </div>
+                <div style={{ textAlign: 'right', textDecoration: visited ? 'line-through' : 'none' }}>
+                  <div style={{ fontWeight: 'bold', color: visited ? '#888' : 'inherit' }}>{c.startTime} - {c.endTime}</div>
+                  <div style={{ color: '#666', fontSize: '0.85rem' }}>{c.day}</div>
                 </div>
               </div>
-              <div style={{ textAlign: 'right' }}>
-                <div style={{ fontWeight: 'bold' }}>{c.startTime} - {c.endTime}</div>
-                <div style={{ color: '#666', fontSize: '0.85rem' }}>{c.day}</div>
-              </div>
-            </div>
-          ))
+            );
+          })
         )}
       </div>
     </div>
